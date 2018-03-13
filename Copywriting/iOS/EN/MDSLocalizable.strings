@@ -7,26 +7,26 @@
 */
 
 //Errors
-"wrong_password_warning" = "Password Incorrect";
-"wrong_unkown_warning" = "Unknown Error";
+"wrong_password_warning" = "Password incorrect";
+"wrong_unkown_warning" = "Unknown error";
 
 "keystore_json_version_unsupported" = "Keystore version-%d is unsupported";
-"keystore_json_address_invalid" = "Invalid Address-%@";
-"keystore_json_kdf_invalid" = "Invalid KDF Parameter";
-"keystore_json_cipher_invalid" = "Invalid cipher Parameter";
-"keystore_json_mac_invalid" = "Invalid mac Parameter";
-"keystore_json_scrypt_invalid" = "Invalid scrypt Parameter";
-"keystore_json_other_invalid" = "AES Error";
-"keystore_json_mnemonic_invalid" = "Invalid Mnemonic";
-"keystore_json_backup_error" = "Keystore Backup Error";
+"keystore_json_address_invalid" = "Invalid address-%@";
+"keystore_json_kdf_invalid" = "Invalid KDF parameter";
+"keystore_json_cipher_invalid" = "Invalid cipher parameter";
+"keystore_json_mac_invalid" = "Invalid mac parameter";
+"keystore_json_scrypt_invalid" = "Invalid scrypt parameter";
+"keystore_json_other_invalid" = "AES error";
+"keystore_json_mnemonic_invalid" = "Invalid mnemonic";
+"keystore_json_backup_error" = "Keystore backup error";
 
-"private_key_invalid" = "Invalid Private Key";
+"private_key_invalid" = "Invalid private key";
 "private_key_backup_error" = "Unable to back up private key";
 
-"mnemonic_phrase_invalid" = "Invalid Mnemonic";
-"mnemonic_mismatch_invalid" = "Mnemonic Mismatch";
-"mnemonic_backup_error" = "Mnemonic Backup Error";
-"mnemonic_path_error" = "Wrong Mnemonic Path Format";
+"mnemonic_phrase_invalid" = "Invalid mnemonic";
+"mnemonic_mismatch_invalid" = "Mnemonic mismatch";
+"mnemonic_backup_error" = "Mnemonic backup error";
+"mnemonic_path_error" = "Wrong mnemonic path format";
 
 "account_create_failed" = "Failed to create account";
 "account_restore_failed" = "Failed to restore account";
@@ -36,8 +36,8 @@
 
 "network_unable_to_connect" = "Unable to connect the network, please try again.";
 "network_server_timeout" = "Gateway timeout error，please try again.";
-"network_error_unkown" = "Unknown network error, please try again";
-"network_error_data_format" = "Invalid Data Format";
+"network_error_unkown" = "Unknown network error, please try again.";
+"network_error_data_format" = "Invalid data format";
 
 "network_error_device_unregister" = "Device register failed";
 // Date
@@ -49,10 +49,10 @@
 "prompt" = "Prompt";
 "setting" = "Setting";
 "i_know" = "Got it";
-"next" = "Next Step";
+"next" = "Next";
 "search" = "Search";
 "submit" = "Submit";
-"select_wallet"="Select Wallet";
+"select_wallet"="Select wallet";
 "copy" = "Copy";
 "copied" = "Copied";
 "paste"="Paste";
@@ -60,13 +60,13 @@
 "add"="Add";
 "added"="Added";
 "edit"="Edit";
-"discover_new_version"="Discover New Version";
+"discover_new_version"="Discover new version";
 "upgrade"="Got it";
 "retry"="Retry";
 
 // 权限
-"take_photo"="Take Photo";
-"photo_album"="Select from Album";
+"take_photo"="Take photo";
+"photo_album"="Select from album";
 "camera_not_supported"="Current device does not support camera";
 "photo_library_not_supported"="Current device does not support album";
 "camera_permission_authorize" = "Camera access disabled, go and set.";
@@ -74,103 +74,103 @@
 "contacts_permission_authorize" = "Contacts access disabled, go and set.";
 
 // 页面无数据
-"empty_data_prompt" = "Empty Data";
-"empty_data_publicity"="No Public Information";
-"empty_data_transaction"="No Transaction Record";
-"empty_data_trasfer"="No Transfer Record";
-"empty_data_contacts"="No Contacts to Show";
-"empty_data_contacts_know"="No Known Contacts";
-"empty_data_candy"="No Collection Record";
-"empty_data_search"="No Search Result";
+"empty_data_prompt" = "Empty data";
+"empty_data_publicity"="No public information";
+"empty_data_transaction"="No transaction record";
+"empty_data_trasfer"="No transfer record";
+"empty_data_contacts"="No contacts to show";
+"empty_data_contacts_know"="No known contacts";
+"empty_data_candy"="No collection record";
+"empty_data_search"="No search result";
 
 //多钱包选择页面
 "wallet_create_or_import_prompt"="Please create or import wallet";
-"wallet_create_or_import_type"="ETH Wallet";
+"wallet_create_or_import_type"="ETH wallet";
 
 // 导入钱包
-"wallet_import_title"="Import Wallet";
+"wallet_import_title"="Import wallet";
 "wallet_import_keystore_recommend"="Recommend";
 
-"wallet_import_keystore_title"="Import by Keystore";
-"wallet_import_privatekey_title"="Import by Private Key";
-"wallet_import_mnemonic_phrase_title"="Import by Mnemonic";
+"wallet_import_keystore_title"="Import by keystore";
+"wallet_import_privatekey_title"="Import by private key";
+"wallet_import_mnemonic_phrase_title"="Import by mnemonic";
 
 // Keystore导入
-"wallet_import_keystore_text_placeholder"="Paste Keystore Content";
-"wallet_import_keystore_password_title"="Keystore Password";
-"wallet_import_keystore_password_placeholder"="Enter Keystore Password";
-"wallet_import_keystore_nickname_title"="Wallet Name";
-"wallet_import_keystore_nickname_placeholder"="Set Wallet Name";
+"wallet_import_keystore_text_placeholder"="Paste keystore content";
+"wallet_import_keystore_password_title"="Keystore password";
+"wallet_import_keystore_password_placeholder"="Enter keystore password";
+"wallet_import_keystore_nickname_title"="Wallet name";
+"wallet_import_keystore_nickname_placeholder"="Set wallet name";
 // 私钥导入
-"wallet_import_privatekey_privatekey_title"="Private Key";
-"wallet_import_privatekey_privatekey_placeholder"="Paste Private Key";
-"wallet_import_privatekey_nickname_title"="Wallet Name";
-"wallet_import_privatekey_nickname_placeholder"="Set Wallet Name";
-"wallet_import_privatekey_password_title"="Transaction Password";
-"wallet_import_privatekey_password_placeholder"="Set transaction password,at least 8 characters";
-"wallet_import_privatekey_repeat_password_title"="Repeat Transaction Password";
-"wallet_import_privatekey_repeat_password_placeholder"="Enter Transaction Password Again";
+"wallet_import_privatekey_privatekey_title"="Private key";
+"wallet_import_privatekey_privatekey_placeholder"="Paste private key";
+"wallet_import_privatekey_nickname_title"="Wallet name";
+"wallet_import_privatekey_nickname_placeholder"="Set wallet name";
+"wallet_import_privatekey_password_title"="Transaction password";
+"wallet_import_privatekey_password_placeholder"="Set transaction password, at least 8 characters";
+"wallet_import_privatekey_repeat_password_title"="Repeat transaction password";
+"wallet_import_privatekey_repeat_password_placeholder"="Enter transaction password again";
 // 助记词导入
-"wallet_import_mnemonic_phrase_input_label"="Mnemonic Words";
+"wallet_import_mnemonic_phrase_input_label"="Mnemonic words";
 "wallet_import_mnemonic_phrase_placeholder"="Please use space to separate the mnemonic words";
 "wallet_import_mnemonic_phrase_path_title"="Path";
-"wallet_import_mnemonic_phrase_custom_path"="m/44'/60'/0'/0/0 Your Custom Path";
-"wallet_import_mnemonic_phrase_nickname_title"="Wallet Name";
-"wallet_import_mnemonic_phrase_nickname_placeholder"="Set Wallet Name";
-"wallet_import_mnemonic_phrase_password_title"="Transaction Password";
+"wallet_import_mnemonic_phrase_custom_path"="m/44'/60'/0'/0/0 your custom path";
+"wallet_import_mnemonic_phrase_nickname_title"="Wallet name";
+"wallet_import_mnemonic_phrase_nickname_placeholder"="Set wallet name";
+"wallet_import_mnemonic_phrase_password_title"="Transaction password";
 "wallet_import_mnemonic_phrase_password_placeholder"=" Set transaction password, at least 8 characters";
-"wallet_import_mnemonic_phrase_repeat_password_title"="Repeat Transaction Password ";
-"wallet_import_mnemonic_phrase_repeat_password_placeholder"=" Enter Transaction Password Again ";
+"wallet_import_mnemonic_phrase_repeat_password_title"="Repeat transaction password ";
+"wallet_import_mnemonic_phrase_repeat_password_placeholder"=" Enter transaction password again";
 
 //创建钱包
-"wallet_name"="Wallet Name";
-"wallet_name_placeholder"="Set Wallet Name";
-"wallet_password"="Transaction Password";
-"wallet_password_placeholder"=" Set wallet password,at least 8 characters";
-"wallet_repeat_password"="Repeat Transaction password";
-"wallet_repeat_password_placeholder"=" Enter Transaction Password Again";
+"wallet_name"="Wallet name";
+"wallet_name_placeholder"="Set wallet name";
+"wallet_password"="Transaction password";
+"wallet_password_placeholder"="Set wallet password, at least 8 characters";
+"wallet_repeat_password"="Repeat transaction password";
+"wallet_repeat_password_placeholder"="Enter transaction password again";
 "conditions_prompt_normal" = "I have read and agree with the ";
-"conditions_prompt_active" = "privacy clause";
-"terms_of_service" = "privacy clause";
+"conditions_prompt_active" = "Privacy Clause";
+"terms_of_service" = "Privacy Clause";
 "password_strength_low" = "L";
 "password_strength_high" = "H";
-"password_save_warning_title" = "Confirm Wallet Password";
+"password_save_warning_title" = "Confirm wallet password";
 "password_save_warning_message" = "We can’t recover the password, please backup cautiously.";
 
-"create_wallet_success_title"= "New Wallet Create successfully";
+"create_wallet_success_title"= "New wallet create successfully";
 "create_wallet_success_backup_prompt"= "Please copy and store the Keystore to a safe offline place, once forgotten, it cannot be recovered.";
-"create_wallet_success_copy_prompt"= "Please Copy and Store the keystore";
-"create_wallet_success_backup_completed"= "Keystore Backup Completed";
+"create_wallet_success_copy_prompt"= "Please copy and store the keystore";
+"create_wallet_success_backup_completed"= "Keystore backup completed";
 "disclaimer_warning_title" = "Disclaimer";
 "disclaimer_warning_message" = "Please make sure backup the wallet into a safe place, MediShares does not assume any loss of the wallet theft, password forgetting and other assets loos.";
 //管理钱包
-"manage_wallet" = "Manage Wallets";
-"create_wallet" = "Create Wallet";
-"import_wallet" = "Import Wallet";
+"manage_wallet" = "Manage wallets";
+"create_wallet" = "Create wallet";
+"import_wallet" = "Import wallet";
 
-"manage_wallet_address"="Wallet Address";
+"manage_wallet_address"="Wallet address";
 "manage_wallet_name"="Wallet name";
-"manage_wallet_password"="Wallt Password";
-"manage_wallet_backup_keystore"="Export Keystore";
-"manage_wallet_backup_privatekey_important"="important";
-"manage_wallet_backup_privatekey"="Export Private Key";
+"manage_wallet_password"="Wallt password";
+"manage_wallet_backup_keystore"="Export keystore";
+"manage_wallet_backup_privatekey_important"="Important";
+"manage_wallet_backup_privatekey"="Export private key";
 "manage_wallet_backup_mnemonic_phrase"="Export memorizing word";
 "remove_wallet"="Delete wallet";
 "account_remove_warning_message" = "Caution! This operation cannot be revoked!";
 // 修改钱包名称
-"wallet_nickname_update"="Change Wallet Name";
-"wallet_nickname_too_short" = "At least one character.";
+"wallet_nickname_update"="Change wallet name";
+"wallet_nickname_too_short" = "At least one character";
 "wallet_nickname_update_completed" = "Succeed";
 // 修改钱包密码
-"wallet_password_update"="Change Password";
-"wallet_password_update_completed" = "Succee";
+"wallet_password_update"="Change password";
+"wallet_password_update_completed" = "Success";
 
-"wallet_password_old_password_title"="Current Password";
-"wallet_password_new_password_title"="New Password";
-"wallet_password_repeat_password_title"="Repeat New Password";
+"wallet_password_old_password_title"="Current password";
+"wallet_password_new_password_title"="New password";
+"wallet_password_repeat_password_title"="Repeat new password";
 
 "wallet_password_old_password_placeholder"="Enter current password";
-"wallet_password_new_password_placeholder"="Set new password, at least 8 character ";
+"wallet_password_new_password_placeholder"="Set new password, at least 8 characters";
 "wallet_password_repeat_password_placeholder"="Repeat new password";
 
 // 备份私钥
@@ -178,8 +178,8 @@
 "wallet_backup_privatekey_prompt"= "Please copy and store the Private Key to a safe offline place, once forgotten, it cannot be recovered.";
 // 备份助记词
 "wallet_backup_mnemonic_phrase_write_down" = "I have written down";
-"wallet_backup_mnemonic_phrase_write_down_prompt"= "Please write down your mnemonic correctly and keep in a safe place, once forgotten, it cannot be recovered. ";
-"wallet_backup_mnemonic_phrase_completed" = "Mnemonic backup completed ";
+"wallet_backup_mnemonic_phrase_write_down_prompt"= "Please write down your mnemonic correctly and keep in a safe place, once forgotten, it cannot be recovered.";
+"wallet_backup_mnemonic_phrase_completed" = "Mnemonic backup completed";
 "wallet_backup_mnemonic_phrase_prompt"= "Please choose mnemonic words in order and make sure your mnemonic was correct written, once forgotten, it cannot be recovered.";
 "wallet_backup_mnemonic_phrase_remove_prompt" = "Confirmed! Do you want to remove the mnemonic from MediShares? ";
 
@@ -188,38 +188,38 @@
 // 转账菜单
 "transaction_menu_contacts"="Contacts";
 "transaction_menu_account_address"="Wallet address";
-"transaction_menu_scan_qrcode"="Scan QR Code";
+"transaction_menu_scan_qrcode"="Scan QR code";
 
-"recently_transfer"="Transaction Records";
+"recently_transfer"="Transaction records";
 // 交易
 "transaction_title" = "%@ Transfer";
 "slow" = "Slow";
 "fast" = "Fast";
-"transaction_account_invalid" = "Invalid Transaction Account";
-"transaction_nonce_invalid" = "Invalid nonce Transaction";
-"transaction_tx_fee" = "Mining Fee %@ ETH";
+"transaction_account_invalid" = "Invalid transaction account";
+"transaction_nonce_invalid" = "Invalid nonce transaction";
+"transaction_tx_fee" = "Mining fee %@ ETH";
 "transaction_account_balance" = "Balance %@ %@";
 
-"transaction_to_address_placeholder" = "Receiver’s Address";
+"transaction_to_address_placeholder" = "Receiver’s address";
 "transaction_to_address_checking_security"="Checking address security";
 
 "transaction_to_value_placeholder" = "Amount";
 "transaction_to_balace_low" = "The balance is not enough";
 
 "transaction_to_advance_setting" = "Advanced";
-"transaction_to_advance_setting_gas_limit" = "Custom Gas Limit";
-"transaction_to_advance_setting_gas_price" = "Custom Gas Price";
-"transaction_to_advance_setting_hex_data" = "data";
+"transaction_to_advance_setting_gas_limit" = "Custom gas limit";
+"transaction_to_advance_setting_gas_price" = "Custom gas price";
+"transaction_to_advance_setting_hex_data" = "Data";
 
-"transaction_to_gas_limit_invalid" = "Gas Limit no Less Than %@";
-"transaction_to_gas_price_invalid" = "Gas Price no Less Than%@gwei";
-"transaction_to_hex_data_invalid" = "Invalid Hexadecimal Data";
-"transaction_to_address_null" = "Please enter the receiver’s address.";
-"transaction_to_value_null" = "Please enter the amount.";
-"transaction_add_remark_hint" = "Please write the memo.";
+"transaction_to_gas_limit_invalid" = "Gas limit no Less than %@";
+"transaction_to_gas_price_invalid" = "Gas price no Less than %@gwei";
+"transaction_to_hex_data_invalid" = "Invalid hexadecimal data";
+"transaction_to_address_null" = "Please enter the receiver’s address";
+"transaction_to_value_null" = "Please enter the amount";
+"transaction_add_remark_hint" = "Please write the memo";
 
 // 确认转账信息
-"transaction_confirm_title"="Confirm Transfer";
+"transaction_confirm_title"="Confirm transfer";
 "transaction_confirm_send"="Confirm";
 
 // 交易完成
@@ -230,20 +230,20 @@
 "transaction_complete_remark_add"="Add comment";
 
 //交易记录
-"recently_transaction_records"="Transaction Records";
+"recently_transaction_records"="Transaction records";
 "transfer"="Transfer";
 "transfer_to_address"="Transfer-%@";
 "receipt_to_address"="Receive-%@";
 "receipt"="Receive";
 "confirmed_count"="Confirming %d/%d";
-"wait_to_processing"="Waiting for Blockchain confirm";
-"transfer_status_success"="Transfer Success";
-"transfer_status_fail"="Transfer Fail";
+"wait_to_processing"="Waiting for blockchain confirm";
+"transfer_status_success"="Transfer success";
+"transfer_status_fail"="Transfer fail";
 "transfer_eth_amount"="%@%@ ETH";
 
 // 交易详情
-"transaction_detail_title"="Transaction Record";
-"transaction_etherscan_query"="Transaction Inquiry";
+"transaction_detail_title"="Transaction record";
+"transaction_etherscan_query"="Transaction inquiry";
 "transaction_detail_status_title"="Transaction status";
 "transaction_detail_from_address_title"="Transfer";
 "transaction_detail_to_address_title"="Remittedd";
@@ -252,65 +252,65 @@
 "transaction_detail_remark_title"="Comment";
 "transaction_detail_tx_hash_title"="Transaction number";
 "transaction_detail_block_height_title"="Block";
-"transaction_detail_query_title"=" Etherscan Transaction Detail";
+"transaction_detail_query_title"=" Etherscan transaction detail";
 
 //二维码 & 扫描二维码
-"account_address"="Wallet Address";
-"account_address_qr_title"="QR Code ";
+"account_address"="Wallet address";
+"account_address_qr_title"="QR code ";
 "copy_account_address"="Copy";
-"scaning_qrcode" = "Scan QR Code ";
-"scan_failed" = "QR Code Scanning Failed";
+"scaning_qrcode" = "Scan QR code";
+"scan_failed" = "QR code scanning failed";
 
 //资产
-"home_active_account_address" = "Wallet Address";
-"home_add_new_asset" = "New Assets";
-"home_total_asset_title" = "Total Assets";
+"home_active_account_address" = "Wallet address";
+"home_add_new_asset" = "New assets";
+"home_total_asset_title" = "Total assets";
 "cny_symbol"="￥";
 "estimate"="≈";
 "asset_placeholder"="-";
 
 // TabBar
-"wallet"="Wallet";
+"wallet"="Wallets";
 "insurance"="DApps";
 "mine"="Me";
 // 我
 "mine_login_hint"="Sign in";
-"mine_medishares_account"="MediShares Account";
-"mine_medishares_transcations"="Transaction Records";
+"mine_medishares_account"="MediShares account";
+"mine_medishares_transcations"="Transaction records";
 "mine_medishares_contacts"="Contacts";
-"mine_medishares_candy"="Collect Candies";
-"mine_medishares_wechat_group"="Add Wechat Group";
-"mine_medishares_recommend"="Invite Friends";
+"mine_medishares_candy"="Collect candies";
+"mine_medishares_wechat_group"="Join Wechat group";
+"mine_medishares_recommend"="Invite friends";
 "mine_medishares_suggestion"="Feedbacks";
 "mine_medishares_about"="About MediShares";
 "mine_medishares_setting"="Settings";
 // 注册或登录
 "login"="Sign in";
 "register"="Sign up";
-"email_format_error"="Incorrect Email Format ";
+"email_format_error"="Incorrect email format";
 
 "verify_code_unreceived"="Didn’t received？";
-"verify_code_send_again"="Send Again";
+"verify_code_send_again"="Send again";
 "verify_code_send_again_timeout"="Resend after %ds ";
 
-"mobile_format_error"="Incorrect Phone Number Format ";
+"mobile_format_error"="Incorrect phone number format";
 
-"register_acccount_title"="Sign Up for MediShares Account";
-"register_acccount_with_email"="Sign Up by Email ";
-"register_acccount_with_mobile"="Sign Up by Phone Number ";
+"register_acccount_title"="Sign up for MediShares account";
+"register_acccount_with_email"="Sign up by email ";
+"register_acccount_with_mobile"="Sign up by phone number ";
 "register_account_switch_email"=" Or sign up by phone number";
 "register_account_switch_mobile"="Or sign up by email ";
 
-"login_acccount_title"=" Log in MediShares Account";
-"login_acccount_with_email"="Login with Email ";
-"login_acccount_with_mobile"="Login with Phone Number";
+"login_acccount_title"=" Login MediShares account";
+"login_acccount_with_email"="Login with email ";
+"login_acccount_with_mobile"="Login with phone number";
 "login_account_switch_email"="Or login with phone number";
 "login_account_switch_mobile"="Or login with email";
 
-"login_success"="Login Success";
+"login_success"="Login success";
 
 // 选择国家和地区
-"country_code_title"="Select Country and Region";
+"country_code_title"="Select country and region";
 
 // MediShares账户-实名
 "medishares_account_page_security_title"="Security";
@@ -319,30 +319,30 @@
 "medishares_account_page_insurance_title"="Insurance";
 "medishares_account_page_insurance_subtitle"= "Complete identity verification, the first step to join smart contract mutual aid.";
 
-"medishares_account_page_convenient_title"="Convenient and Efficient";
+"medishares_account_page_convenient_title"="Convenient and efficient";
 "medishares_account_page_convenient_subtitle"="Exclusive sign for identity verification. Transfer efficiently and conveniently.";
 
-"bind_kyc_status_default"="Identity Verification";
+"bind_kyc_status_default"="Identity verification";
 "bind_kyc_status_process"="Your identity information has submitted and we will process it as soon as possible.";
-"bind_kyc_status_success"="Verification Completed (%@)";
+"bind_kyc_status_success"="Verification completed (%@)";
 "bind_kyc_status_fail"="Verification failed, please submit your information again.";
 
 // MediShares账户-信息
-"user_detail_title"="My Account";
+"user_detail_title"="My account";
 
 "user_photo_title"="Photo";
-"user_email_title"="Email Address";
+"user_email_title"="Email address";
 "user_mobile_title"="Phone number";
-"user_wallet_address_title"="Public Wallet";
+"user_wallet_address_title"="Public wallet";
 "user_name_title"="Name";
-"user_credential_type_title"="ID Type";
+"user_credential_type_title"="ID type";
 "user_credential_number_title"="ID number";
 
-"user_add_email_address"="Add Email Address";
-"user_add_mobile_number"="Add Phone Number";
-"user_add_wallet_address"="Binding Public Wallet";
+"user_add_email_address"="Add email address";
+"user_add_mobile_number"="Add phone number";
+"user_add_wallet_address"="Binding public wallet";
 
-"user_idcard"="ID Card";
+"user_idcard"="ID card";
 "user_passport"="Passport";
 
 "user_logout"="Logout";
@@ -351,37 +351,37 @@
 "user_update_success"="Updated";
 
 // MediShares账户-添加邮箱或更改邮箱
-"user_update_email_address"="Email Update";
+"user_update_email_address"="Email update";
 "user_update_email_checked"="Verified";
 
-"user_add_email_subtitle"="Add email to login with email.";
-"user_update_email_subtitle"="Update email to loin in with new email.";
+"user_add_email_subtitle"="Add email to login with email";
+"user_update_email_subtitle"="Update email to loin in with new email";
 
-"user_update_email_verify"="Email Verification";
-"user_update_email_verify_placeholder"=" Have sent 6 character verification code (6 digits) to your email.";
+"user_update_email_verify"="Email verification";
+"user_update_email_verify_placeholder"="Have sent 6 characters verification code (6 digits) to your email";
 
 "user_update_email_placeholder"="Enter email address";
-"user_update_email_code_placeholder"="Enter Verification Code (6 digits)";
+"user_update_email_code_placeholder"="Enter verification code (6 digits)";
 
 // MediShares账户-添加手机号或更改手机号
-"user_update_mobile_number"="Update Phone Number";
+"user_update_mobile_number"="Update phone number";
 "user_update_mobile_checked"="Verified";
 
-"user_add_mobile_subtitle"="Add phone number to login with phone number.";
-"user_update_mobile_subtitle"="Update phone number to login with new phone number.";
+"user_add_mobile_subtitle"="Add phone number to login with phone number";
+"user_update_mobile_subtitle"="Update phone number to login with new phone number";
 
-"user_update_mobile_sms_verify"="SMS Verification";
-"user_update_mobile_sms_placeholder"="Have messaged verification code (6 digits) to you.";
+"user_update_mobile_sms_verify"="SMS verification";
+"user_update_mobile_sms_placeholder"="Have messaged verification code (6 digits) to you";
 
 "user_update_mobile_placeholder"="Enter phone number";
-"user_update_mobile_code_placeholder"="Enter Verification Code (6 digits)";
+"user_update_mobile_code_placeholder"="Enter verification code (6 digits)";
 
 // MediShares账户-绑定钱包地址
-"user_update_wallet_address"="Change Wallet Address ";
-"user_unbind_wallet_address"="Remove Binding";
-"user_unbind_wallet_address_success"="Binding Removed ";
+"user_update_wallet_address"="Change wallet address ";
+"user_unbind_wallet_address"="Remove binding";
+"user_unbind_wallet_address_success"="Binding removed ";
 
-"bind_account_page_title"="Bind Wallet Address";
+"bind_account_page_title"="Bind wallet address";
 "bind_account_page_subtitle"="Choose a wallet address";
 "bind_account_confirm"="Confirm";
 "bind_account_complete_title"="Completed";
@@ -392,36 +392,36 @@
 "bind_kyc_page_subtitle"="Fill in your information to complete identity verification.";
 "bind_kyc_submit"="Submit";
 "bind_kyc_name_placeholder"="Enter your real name ";
-"bind_kyc_identity_type_placeholder"="ID Type";
+"bind_kyc_identity_type_placeholder"="ID type";
 "bind_kyc_identity_placeholder"="Please enter ID type";
-"bind_kyc_identity_photo_prompt"="Click to submit ID Photo";
-"bind_kyc_complete_title"="Submission Completed";
-"bind_kyc_complete_message"=" Your identity information has submitted and we will process it as soon as possible ";
+"bind_kyc_identity_photo_prompt"="Click to submit ID photo";
+"bind_kyc_complete_title"="Submission completed";
+"bind_kyc_complete_message"="Your identity information has submitted and we will process it as soon as possible.";
 
 // 联系人列表
-"someone_you_might_know"="Contacts You May Know";
-"contact_added_success"="Contacts Added ";
+"someone_you_might_know"="Contacts you may know";
+"contact_added_success"="Contacts added";
 "manual_add_contact_title"="Create new contacts";
 "qrcode_add_contact_title"="Scan and add wallet address";
 
 "contact_name_title"="Name";
 "contact_name_placeholder"="Enter contact name";
 
-"contact_account_address_title"="ETH Beneficiary wallet address";
-"contact_account_address_placeholder"="Enter or Paste Wallet Address ";
+"contact_account_address_title"="ETH beneficiary wallet address";
+"contact_account_address_placeholder"="Enter or paste wallet address";
 
 // 添加联系人
-"contact_add_title"="Add Contacts";
+"contact_add_title"="Add contacts";
 
-"contact_error_exists_address"="Existing Wallet Address";
-"contact_error_invalid_address"="In correct Wallet Address";
+"contact_error_exists_address"="Existing wallet address";
+"contact_error_invalid_address"="In correct wallet address";
 
 // 联系人信息
-"contact_detail_title"="Contact Information";
+"contact_detail_title"="Contact information";
 
 // 编辑联系人
-"contact_edit_title"="Edit Contact";
-"contact_edit_remove"="Delete Contact";
+"contact_edit_title"="Edit contact";
+"contact_edit_remove"="Delete contact";
 "contact_edit_remove_waring_prompt"="Are you sure you want to delete the contact?";
 
 // 关于
@@ -441,10 +441,10 @@
 "medium_content"="https://medium.com/@MediShares";
 
 // 关注微信公众号
-"medishares_wechat_description"="Sincerely invite you to join MediShares Wechat group,give us your opinion and suggestion to help us improve our products.";
-"medishares_wechat_focus"="Join group should add wechat ID：";
+"medishares_wechat_description"="Sincerely invite you to join MediShares Wechat group, give us your opinion and suggestion to help us improve our products.";
+"medishares_wechat_focus"="Join group should add Wechat ID：";
 "medishares_wechat_public"="MDSjiangzuo";
-"medishares_wechat_public_copy"="Copy";
+"medishares_wechat_public_copy"="Copy Wechat ID";
 
 // 设置（语言、货币单位）
 "medishares_setting_title"="Settings";
@@ -452,16 +452,16 @@
 "medishares_setting_unlock_touchid"="Touch ID";
 "medishares_setting_unlock_password"="Passlock";
 "medishares_setting_language"="Language";
-"medishares_setting_currency"="Currency Unit";
-"medishares_setting_section_legal_tender"="Legal Tender";
+"medishares_setting_currency"="Currency unit";
+"medishares_setting_section_legal_tender"="Legal tender";
 "medishares_setting_section_virtual_currency"="Cryptocurrency";
 
 // 意见反馈
 "medishares_suggestion_text_title"="Your feedbacks";
-"medishares_suggestion_text_placeholder"="Please write down your feedbacks and thank for your suggestion.";
-"medishares_suggestion_email_title"="Your Email";
-"medishares_suggestion_email_placeholder"="Please enter your email address.";
-"medishares_suggestion_submit_success"="Submit Successfully";
+"medishares_suggestion_text_placeholder"="Please write down your feedbacks and thank for your suggestion";
+"medishares_suggestion_email_title"="Your email";
+"medishares_suggestion_email_placeholder"="Please enter your email address";
+"medishares_suggestion_submit_success"="Submitted successfully";
 
 
 // Unlock
@@ -469,8 +469,8 @@
 "unlock_face_id"="Face ID";
 "unlock_confirm"="Confirm";
 "unlock_touch_id_prompt"="Use touch to login";
-"unlock_face_id_prompt"="Click and Use Face ID";
-"unlock_password_input_placeholder"="Enter Wallet Password";
+"unlock_face_id_prompt"="Click and use Face ID";
+"unlock_password_input_placeholder"="Enter wallet password";
 "unlock_touch_id_enable"="Use Touch ID";
 "unlock_face_id_enable"="Use Face ID";
 "unlock_password_enable"="Use PassLock";
@@ -481,12 +481,12 @@
 "candy_collected"="Collected";
 "candy_collect_unenable"="Unable to collect";
 
-"candy_record_state_checking"="Under Verifying";
+"candy_record_state_checking"="Under verifying";
 "candy_record_state_checked_success"="Verified";
 "candy_record_state_checked_fail"="Verification failed";
 "candy_record_state_release"="Sent";
 
 // 交易记录
-"transaction_records_title"="Transaction Records";
+"transaction_records_title"="Transaction records";
 "currency_type"="Currency";
 "unlimited"="unlimited";

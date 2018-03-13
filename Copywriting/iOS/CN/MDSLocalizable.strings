@@ -268,13 +268,13 @@
 "insurance"="应用";
 "mine"="我";
 // 我
-"mine_login_hint"="立即登录";
+"mine_login_hint"="登录";
 "mine_medishares_account"="MediShares 账号";
 "mine_medishares_transcations"="交易记录";
 "mine_medishares_contacts"="联系人";
 "mine_medishares_candy"="领糖果";
 "mine_medishares_wechat_group"="加入官方微信群";
-"mine_medishares_recommend"="邀请好友赢MDS";
+"mine_medishares_recommend"="邀请好友赢 MDS";
 "mine_medishares_suggestion"="意见反馈";
 "mine_medishares_about"="关于 MediShares";
 "mine_medishares_setting"="设置";
