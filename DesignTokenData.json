@@ -29,6 +29,10 @@
 					{
 						"name": "red",
 						"value": "#ff3b30"
+					},
+					{
+						"name": "pink",
+						"value": "#ff2d55"
 					}
 				]
 			}
@@ -95,6 +99,10 @@
 					{
 						"name": "red_darker",
 						"value": "#d9211e"
+					},
+					{
+						"name": "pink_darker",
+						"value": "#d91c45"
 					}
 				]
 			}
