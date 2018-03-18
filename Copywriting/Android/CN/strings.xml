@@ -459,7 +459,7 @@
     <string name="install_fail">安装失败</string>
     <string name="download_success_open">下载完成后点击打开</string>
     <string name="start_downloading">开始下载，请稍等</string>
-    <string name="please_load_over_wifi">请在 Wi-Fi 环境下下载</string>
+    <string name="please_load_over_wifi">请在 Wi-Fi 环境下载</string>
 
     <!--DApp-->
     <string name="guarantee_contract">保障合约</string>

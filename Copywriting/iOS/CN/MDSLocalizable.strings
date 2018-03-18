@@ -346,7 +346,7 @@
 "user_update_success"="修改成功";
 
 // MediShares账户-添加邮箱或更改邮箱
-"user_update_email_address"="更新邮箱";
+"user_update_email_address"="更换邮箱";
 "user_update_email_checked"="已验证";
 
 "user_add_email_subtitle"="添加邮箱后，也可使用邮箱登录";
@@ -358,7 +358,7 @@
 "user_update_email_placeholder"="填写您的邮箱";
 "user_update_email_code_placeholder"="填写 6 位验证码";
 // MediShares账户-添加手机号或更改手机号
-"user_update_mobile_number"="更新手机号";
+"user_update_mobile_number"="更换手机号";
 "user_update_mobile_checked"="已验证";
 
 "user_add_mobile_subtitle"="添加手机号后，也可使用手机号登录";
@@ -385,7 +385,7 @@
 "bind_kyc_submit"="提交审核";
 "bind_kyc_name_placeholder"="填写您的真实姓名";
 "bind_kyc_identity_type_placeholder"="证件类型";
-"bind_kyc_identity_placeholder"="请填写证件类型";
+"bind_kyc_identity_placeholder"="请选择证件类型";
 "bind_kyc_identity_photo_prompt"="手持证件拍照";
 "bind_kyc_complete_title"="提交完成";
 "bind_kyc_complete_message"="您的身份信息已提交，我们会尽快审核并返回结果，请耐心等待。";

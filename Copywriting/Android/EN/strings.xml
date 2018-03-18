@@ -6,30 +6,30 @@
 
     <!--多钱包选择页面-->
     <string name="wallet_create_or_import_prompt">Please create or import wallet</string>
-    <string name="wallet_create_or_import_type">ETH wallet</string>
+    <string name="wallet_create_or_import_type">ETH Wallet</string>
 
     <!--导入钱包-->
-    <string name="wallet_import_keystore_title">Import by keystore</string>
-    <string name="wallet_import_privatekey_title">Import by private key</string>
-    <string name="wallet_import_mnemonic_phrase_title">Import by mnemonic</string>
+    <string name="wallet_import_keystore_title">Import by Keystore</string>
+    <string name="wallet_import_privatekey_title">Import by Private Key</string>
+    <string name="wallet_import_mnemonic_phrase_title">Import by Mnemonic</string>
 
     <!--keystore导入-->
     <string name="keystore">Keystore</string>
     <string name="wallet_import_keystore_text_placeholder">Paste keystore content</string>
-    <string name="wallet_import_keystore_password_title">Keystore password</string>
+    <string name="wallet_import_keystore_password_title">Keystore Password</string>
     <string name="wallet_import_keystore_password_placeholder">Enter keystore password</string>
     <string name="wallet_import_keystore_nickname_placeholder">Set wallet name</string>
-    <string name="copy_walleKeystore">Copy keystore</string>
-    <string name="keystore_backup_completed">Keystore backup completed</string>
+    <string name="copy_walleKeystore">Copy Keystore</string>
+    <string name="keystore_backup_completed">Keystore Backup Completed</string>
 
     <!--私钥导入-->
-    <string name="wallet_import_privatekey_privatekey_title">Private key</string>
+    <string name="wallet_import_privatekey_privatekey_title">Private Key</string>
     <string name="wallet_import_privatekey_privatekey_placeholder">Paste private key</string>
-    <string name="copy_privateKey">Copy private key</string>
-    <string name="restore_private_key_failed">Restore private key failed</string>
+    <string name="copy_privateKey">Copy Private Key</string>
+    <string name="restore_private_key_failed">Restore Private Key Failed</string>
 
     <!--助记词-->
-    <string name="wallet_mnemonic_title">Mnemonic words</string>
+    <string name="wallet_mnemonic_title">Mnemonic Words</string>
     <string name="wallet_import_mnemonic_phrase_placeholder">Please use space to separate the mnemonic words</string>
     <string name="wallet_import_mnemonic_phrase_path_title">Path</string>
     <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx, Metamask (ETH)</string>
@@ -38,16 +38,16 @@
 
     <!--创建钱包-->
     <string name="input_walletname">Enter wallet name</string>
-    <string name="password_save_warning_title">Confirm wallet password</string>
+    <string name="password_save_warning_title">Confirm Wallet Password</string>
     <string name="password_save_warning_message">We can’t recover the password, please backup cautiously!</string>
     <string name="wallet_password_placeholder">Set wallet password, at least 8 characters</string>
-    <string name="wallet_repeat_password">Repeat wallet password</string>
+    <string name="wallet_repeat_password">Repeat Wallet Password</string>
     <string name="wallet_repeat_password_placeholder">Enter wallet password again</string>
     <string name="conditions_prompt_normal">I have read and agree with the </string>
     <string name="conditions_prompt_active">Privacy Clause</string>
     <string name="password_strength_low">L</string>
     <string name="password_strength_high">H</string>
-    <string name="create_wallet_success_title">New wallet create successfully</string>
+    <string name="create_wallet_success_title">New Wallet Create Successfully</string>
     <string name="create_wallet_success_backup_prompt">Please copy and store the Keystore to a safe offline place, once forgotten, it cannot be recovered.</string>
     <string name="disclaimer_warning_title">Disclaimer</string>
     <string name="create_wallet_success_copy_prompt">Please copy and store the keystore</string>
@@ -60,33 +60,33 @@
     <string name="create_wallet_warming">Notice: The created wallet binds with the MediShares account.\n  • Could only be imported via the MDS wallet.\n • Could be protected by asset-secured products with the maximum compensation of 100000MDS.\n  • Supports multiple security verification.</string>
 
     <!--管理钱包-->
-    <string name="select_wallet">Select wallet</string>
-    <string name="manage_wallet">Manage wallets</string>
-    <string name="create_wallet">Create wallet</string>
-    <string name="import_wallet">Import wallet</string>
-    <string name="manage_wallet_address">Wallet address</string>
-    <string name="manage_wallet_name">Wallet name</string>
-    <string name="manage_wallet_password">Wallt password</string>
-    <string name="manage_wallet_backup_keystore">Export keystore</string>
-    <string name="manage_wallet_backup_privatekey">Export private key</string>
-    <string name="manage_wallet_backup_mnemonic_phrase">Export memorizing word</string>
-    <string name="remove_wallet">Delete wallet</string>
+    <string name="select_wallet">Select Wallet</string>
+    <string name="manage_wallet">Manage Wallets</string>
+    <string name="create_wallet">Create Wallet</string>
+    <string name="import_wallet">Import Wallet</string>
+    <string name="manage_wallet_address">Wallet Address</string>
+    <string name="manage_wallet_name">Wallet Name</string>
+    <string name="manage_wallet_password">Wallt Password</string>
+    <string name="manage_wallet_backup_keystore">Export Keystore</string>
+    <string name="manage_wallet_backup_privatekey">Export Private Key</string>
+    <string name="manage_wallet_backup_mnemonic_phrase">Export Memorizing Words</string>
+    <string name="remove_wallet">Delete Wallet</string>
     <string name="wallet_address">Address: </string>
     <string name="save_wallet_failed">Save wallet failed</string>
     <string name="rename_wallet_failed">Rename wallet failed </string>
     <string name="delete_wallet_failed">Delete wallet failed</string>
 
     <!--修改钱包名称-->
-    <string name="wallet_nickname_update">Change wallet name</string>
+    <string name="wallet_nickname_update">Change Wallet Name</string>
     <string name="wallet_nickname_update_completed">Succeed</string>
-    <string name="wallet_password_update">Change password</string>
+    <string name="wallet_password_update">Change Password</string>
     <string name="wallet_password_update_failed">Failed</string>
     <string name="wallet_password_update_completed">Succeed</string>
-    <string name="wallet_password_old_password_title">Current password</string>
+    <string name="wallet_password_old_password_title">Current Password</string>
     <string name="wallet_password_old_password_placeholder">Enter current password</string>
-    <string name="wallet_password_new_password_title">New password</string>
+    <string name="wallet_password_new_password_title">New Password</string>
     <string name="wallet_password_new_password_placeholder">Set new password, at least 8 characters</string>
-    <string name="wallet_password_repeat_password_title">Repeat new password</string>
+    <string name="wallet_password_repeat_password_title">Repeat New Password</string>
     <string name="wallet_password_repeat_password_placeholder">Repeat new password</string>
 
     <!--备份私钥-->
@@ -94,15 +94,15 @@
 
     <!--备份助记词-->
     <string name="wallet_backup_mnemonic_phrase_write_down">I have written down</string>
-    <string name="wallet_backup_mnemonic_phrase_completed">Mnemonic backup completed</string>
+    <string name="wallet_backup_mnemonic_phrase_completed">Mnemonic Backup Completed</string>
     <string name="wallet_backup_mnemonic_phrase_write_down_prompt">Please write down your mnemonic correctly and keep in a safe place, once forgotten, it cannot be recovered. </string>
     <string name="wallet_backup_mnemonic_phrase_prompt">Please choose mnemonic words in order and make sure your mnemonic was correct written, once forgotten, it cannot be recovered.</string>
 
     <!--转账菜单-->
-    <string name="transaction_menu_contacts">Send to contacts</string>
-    <string name="transaction_menu_account_address">Send to wallet address</string>
-    <string name="transaction_menu_scan_qrcode">Scan QR code</string>
-    <string name="transaction_recently_records">Transaction records</string>
+    <string name="transaction_menu_contacts">Send to Contacts</string>
+    <string name="transaction_menu_account_address">Send to Wallet Address</string>
+    <string name="transaction_menu_scan_qrcode">Scan QR Code</string>
+    <string name="transaction_recently_records">Transaction Records</string>
     <string name="contact_address_incorrect">Contact address incorrect, please try other method.</string>
 
     <!--交易-->
@@ -112,13 +112,13 @@
     <string name="transaction_to_address_checking_security">Checking address security</string>
     <string name="transaction_to_value_placeholder">Amount</string>
     <string name="transaction_to_advance_setting">Advanced</string>
-    <string name="transaction_to_advance_setting_gas_limit">Custom gas limit</string>
-    <string name="transaction_to_advance_setting_gas_price">Custom gas price</string>
+    <string name="transaction_to_advance_setting_gas_limit">Custom Gas Limit</string>
+    <string name="transaction_to_advance_setting_gas_price">Custom Gas Price</string>
     <string name="transaction_to_advance_setting_hex_data">Data</string>
     <string name="transaction_confirm_send">Confirm</string>
     <string name="transaction_add_remark_hint">Please write the memo</string>
     <string name="pasted">Pasted</string>
-    <string name="authenticate_immediately">Authenticate immediately</string>
+    <string name="authenticate_immediately">Authenticate Immediately</string>
     <string name="token_tranfer">%s Send</string>
     <string name="gas_price_is_low_8">Gas price is too low，recommend to be greater than 8 gwei</string>
     <string name="gas_price_is_up_100">Gas price is too high, recommend to be less than 100 gwei</string>
@@ -129,101 +129,101 @@
     <string name="yestoday">Yesterday&#160;</string>
     <string name="transfer">Send-</string>
     <string name="collection">Receive-</string>
-    <string name="current_asset">Current asset %s %s</string>
+    <string name="current_asset">Current Asset %s %s</string>
     <string name="gas_cost">Gas %s ETH</string>
     <string name="please_enter_ammount">Please enter amount</string>
 
     <!--交易完成-->
-    <string name="transaction_complete_status_title">Transaction status</string>
+    <string name="transaction_complete_status_title">Transaction Status</string>
     <string name="transaction_complete_to_address_title">Remittedd</string>
     <string name="transaction_complete_remark_title">Comment</string>
     <string name="transaction_complete_remark_add">Add comment</string>
 
     <!--确认转账信息-->
-    <string name="transaction_confirm_title">Confirm transfer</string>
+    <string name="transaction_confirm_title">Confirm Transfer</string>
 
     <!--交易详情-->
-    <string name="transaction_detail_title">Transaction record</string>
+    <string name="transaction_detail_title">Transaction Record</string>
     <string name="transaction_detail_block_height_title">Block</string>
-    <string name="transaction_detail_tx_hash_title">Transaction number</string>
-    <string name="transaction_detail_tx_time_title">Transaction time</string>
-    <string name="transaction_detail_tx_fee_title">Gas fee</string>
+    <string name="transaction_detail_tx_hash_title">Transaction Number</string>
+    <string name="transaction_detail_tx_time_title">Transaction Time</string>
+    <string name="transaction_detail_tx_fee_title">Gas Fee</string>
     <string name="transaction_detail_from_address_title">Transfer</string>
 
     <!--资产-->
-    <string name="home_total_asset_title">Total assets（≈%s）</string>
-    <string name="home_add_new_asset">Add assets</string>
+    <string name="home_total_asset_title">Total Assets（≈%s）</string>
+    <string name="home_add_new_asset">Add Assets</string>
 
     <!--我-->
-    <string name="mine_medishares_account">MediShares account</string>
-    <string name="mine_medishares_transcations">Transaction records</string>
+    <string name="mine_medishares_account">MediShares Account</string>
+    <string name="mine_medishares_transcations">Transaction Records</string>
     <string name="mine_medishares_contacts">Contacts</string>
-    <string name="mine_medishares_wechat_group">Join Wechat group</string>
-    <string name="mine_medishares_recommend">Invite friends</string>
+    <string name="mine_medishares_wechat_group">Join Wechat Group</string>
+    <string name="mine_medishares_recommend">Invite Friends</string>
     <string name="mine_medishares_suggestion">Feedbacks</string>
     <string name="mine_medishares_about">About MediShares</string>
     <string name="mine_medishares_setting">Settings</string>
-    <string name="mine_medishares_candy">Collect candies</string>
-    <string name="recommond_to_friends">Refer MDS to friends</string>
-    <string name="mds_app_download">MDS app download</string>
+    <string name="mine_medishares_candy">Collect Candies</string>
+    <string name="recommond_to_friends">Refer MDS to Friends</string>
+    <string name="mds_app_download">MDS App Download</string>
 
     <!--注册或登录-->
-    <string name="register_acccount_title">Sign up for MediShares account</string>
-    <string name="register_acccount_with_email">Sign up by email</string>
-    <string name="register_acccount_with_mobile">Sign up by phone number</string>
-    <string name="register_account_switch_email">Or sign up by phone number</string>
-    <string name="register_account_switch_mobile">Or sign up by email</string>
-    <string name="login_acccount_title">Login MediShares account</string>
-    <string name="login_acccount_with_email">Login with email</string>
-    <string name="login_acccount_with_mobile">Login with phone number</string>
-    <string name="login_account_switch_email">Or login with phone number</string>
-    <string name="login_account_switch_mobile">Or login with email</string>
+    <string name="register_acccount_title">Sign Up for MediShares Account</string>
+    <string name="register_acccount_with_email">Sign Up by Email</string>
+    <string name="register_acccount_with_mobile">Sign Up by Phone Number</string>
+    <string name="register_account_switch_email">Or Sign Up by Phone Number</string>
+    <string name="register_account_switch_mobile">Or Sign Up by Email</string>
+    <string name="login_acccount_title">Login MediShares Account</string>
+    <string name="login_acccount_with_email">Login by Email</string>
+    <string name="login_acccount_with_mobile">Login by Phone Number</string>
+    <string name="login_account_switch_email">Or Login by Phone Number</string>
+    <string name="login_account_switch_mobile">Or Login by Email</string>
     <string name="verify_code_unreceived">Didn’t received？</string>
     <string name="verify_code_send_again">Send again</string>
-    <string name="sign_in">Sign in</string>
+    <string name="sign_in">Sign In</string>
     <string name="login">Login</string>
     <string name="edit_email_error">Email is error</string>
     <string name="verify_code_send_again_timeout">Resend after %d\'s</string>
     <string name="edit_verification_code">Edit code</string>
     <string name="please_input_email_true">Please input email</string>
     <string name="please_input_phone_true">Please input phone</string>
-    <string name="verify_phone_number">Verify phone number</string>
+    <string name="verify_phone_number">Verify Phone Number</string>
 
     <!--选择国家和地区-->
-    <string name="country_code_title">Select country and region</string>
+    <string name="country_code_title">Select Country and Region</string>
 
     <!--MediShares账户-实名-->
     <string name="medishares_account_page_security_title">Security</string>
     <string name="medishares_account_page_security_subtitle">MediShares secures your identity information.</string>
     <string name="medishares_account_page_insurance_title">Insurance</string>
     <string name="medishares_account_page_insurance_subtitle">Complete identity verification, the first step to join smart contract mutual aid.</string>
-    <string name="medishares_account_page_convenient_title">Convenient and efficient</string>
+    <string name="medishares_account_page_convenient_title">Convenient and Efficient</string>
     <string name="medishares_account_page_convenient_subtitle">Exclusive sign for identity verification. Transfer efficiently and conveniently.</string>
-    <string name="bind_kyc_status_default">Identity verification</string>
+    <string name="bind_kyc_status_default">Identity Verification</string>
     <string name="bind_kyc_status_process">Your identity information has submitted and we will process it as soon as possible.</string>
     <string name="bind_kyc_status_success">Verification completed(%s)</string>
     <string name="bind_kyc_page_subtitle">Fill in your information to complete identity verification.</string>
     <string name="bind_kyc_page_title">Verification</string>
     <string name="bind_kyc_submit">Submit</string>
     <string name="bind_kyc_name_placeholder">Enter your real name</string>
-    <string name="bind_kyc_identity_photo_prompt">Click to submit ID photo</string>
+    <string name="bind_kyc_identity_photo_prompt">Click to Submit ID Photo</string>
     <string name="make_sure_your_entire_head_and_certificate">Please make sure your entire head and certificate information are clearly showed in the photo.</string>
     <string name="identity_verification_failed">Your identity verification failed, please submit again.</string>
     <string name="enter_idcard">Enter IdCard</string>
-    <string name="bind_kyc_complete_title">Submission completed</string>
-    <string name="identity_verification">Identity verification：%s</string>
+    <string name="bind_kyc_complete_title">Submission Completed</string>
+    <string name="identity_verification">Identity Verification：%s</string>
 
     <!--MediShares账户-信息-->
-    <string name="user_detail_title">My account</string>
-    <string name="user_add_email_address">Add email address</string>
-    <string name="user_add_mobile_number">Add phone number</string>
-    <string name="user_idcard">ID card</string>
+    <string name="user_detail_title">My Account</string>
+    <string name="user_add_email_address">Add Email Address</string>
+    <string name="user_add_mobile_number">Add Phone Number</string>
+    <string name="user_idcard">ID Card</string>
     <string name="user_passport">Passport</string>
     <string name="user_logout">Logout</string>
     <string name="user_name_title">Name</string>
-    <string name="user_credential_type_title">ID type</string>
-    <string name="user_email_title">Email address</string>
-    <string name="user_mobile_title">Phone number</string>
+    <string name="user_credential_type_title">ID Type</string>
+    <string name="user_email_title">Email Address</string>
+    <string name="user_mobile_title">Phone Number</string>
     <string name="user_update_success">Updated</string>
     <string name="user_photo_title">Photo</string>
     <string name="sure_exit_account">Are you sure you want to exit the account?</string>
@@ -232,49 +232,49 @@
     <string name="user_update_email_checked">Verified</string>
     <string name="user_add_email_subtitle">Add email to login with email</string>
     <string name="user_update_email_subtitle">Update email to loin in with new email</string>
-    <string name="user_update_email_verify">Email verification</string>
+    <string name="user_update_email_verify">Email Verification</string>
     <string name="user_update_email_verify_placeholder">Have sent 6 characters verification code (6 digits) to your email.</string>
     <string name="user_update_mobile_sms_placeholder">Have messaged verification code (6 digits) to you.</string>
     <string name="user_update_email_placeholder">Enter email address</string>
     <string name="user_add_mobile_subtitle">Add phone number to login with phone number.</string>
-    <string name="user_update_email_address">Email update</string>
-    <string name="user_update_mobile_number">Update phone number</string>
-    <string name="enter_new_email">Enter new email</string>
-    <string name="enter_new_phone">Enter new Phone</string>
+    <string name="user_update_email_address">Change Email</string>
+    <string name="user_update_mobile_number">Change Number</string>
+    <string name="enter_new_email">Enter new email address</string>
+    <string name="enter_new_phone">Enter new phone number</string>
 
     <!--MediShares账户-绑定钱包地址-->
-    <string name="user_update_wallet_address">Change wallet address</string>
-    <string name="user_unbind_wallet_address">Remove binding</string>
-    <string name="bind_account_page_title">Bind public address</string>
+    <string name="user_update_wallet_address">Change Wallet Address</string>
+    <string name="user_unbind_wallet_address">Remove Binding</string>
+    <string name="bind_account_page_title">Public Address</string>
     <string name="bind_account_page_subtitle">Choose a wallet address</string>
     <string name="bind_account_confirm">Confirm</string>
     <string name="bind_account_complete_message">Your ETH address has been bound with your MediShares account successfully.</string>
     <string name="bind_kyc_complete_message">Your identity information has submitted and we will process it as soon as possible.</string>
-    <string name="please_select_wallet">Please select wallet</string>
-    <string name="binding_success">Binding success</string>
+    <string name="please_select_wallet">Please Select Wallet</string>
+    <string name="binding_success">Binding Success</string>
     <string name="unbind_bindaddress">Are you sure you want to unbind the address?</string>
     <string name="add_wallet_address">Add wallet address</string>
 
     <!--联系人列表-->
-    <string name="someone_you_might_know">Contacts you may know</string>
-    <string name="manual_add_contact_title">Create new contacts</string>
-    <string name="qrcode_add_contact_title">Scan and add wallet address</string>
+    <string name="someone_you_might_know">Contacts You May Know</string>
+    <string name="manual_add_contact_title">Create New Contact</string>
+    <string name="qrcode_add_contact_title">Scan and Add Wallet Address</string>
     <string name="contact_name_placeholder">Enter contact name</string>
-    <string name="contact_account_address_title">ETH beneficiary wallet address</string>
+    <string name="contact_account_address_title">ETH Beneficiary Wallet Address</string>
     <string name="contact_account_address_placeholder">Enter or paste wallet address</string>
-    <string name="select_contact">Select contacts</string>
+    <string name="select_contact">Select Contact</string>
 
     <!--添加联系人-->
-    <string name="contact_add_title">Add contacts</string>
-    <string name="contact_detail_title">Contact information</string>
+    <string name="contact_add_title">Add Contact</string>
+    <string name="contact_detail_title">Contact Information</string>
     <string name="sava_contacts_failed">Save contacts failed</string>
     <string name="update_contacts_failed">Update contacts failed</string>
     <string name="already_added_contact">Already added the contact with the same address.</string>
 
     <!--联系人信息-->
     <string name="already_add">Added</string>
-    <string name="contact_edit_title">Edit contact</string>
-    <string name="contact_edit_remove">Delete contact</string>
+    <string name="contact_edit_title">Edit Contact</string>
+    <string name="contact_edit_remove">Delete Contact</string>
     <string name="contact_edit_remove_failed">Delete contact failed</string>
     <string name="contact_edit_remove_waring_prompt">Are you sure you want to delete the contact?</string>
 
@@ -301,22 +301,22 @@
 
     <!--设置（语言、货币单位）-->
     <string name="medishares_setting_language">Language</string>
-    <string name="medishares_setting_currency">Currency unit</string>
-    <string name="medishares_setting_section_legal_tender">Legal tender</string>
+    <string name="medishares_setting_currency">Currency Unit</string>
+    <string name="medishares_setting_section_legal_tender">Legal Tender</string>
     <string name="medishares_setting_section_virtual_currency">Cryptocurrency</string>
     <string name="medishares_setting_unlock_touchid">Touch ID</string>
 
     <!--意见反馈-->
-    <string name="medishares_suggestion_text_title">Your feedbacks</string>
-    <string name="medishares_suggestion_email_title">Your email</string>
+    <string name="medishares_suggestion_text_title">Your Feedbacks</string>
+    <string name="medishares_suggestion_email_title">Your Email</string>
     <string name="medishares_suggestion_text_placeholder">Please write down your feedbacks and thank for your suggestion</string>
     <string name="medishares_suggestion_email_placeholder">Please enter your email address and we could contact you later</string>
-    <string name="feedback_submitted">Feedback submitted</string>
+    <string name="feedback_submitted">Feedback Submitted</string>
 
     <!--Unlock-->
     <string name="unlock_touch_id_enable">Use Touch ID</string>
     <string name="unlock_password_enable">Use PassLock</string>
-    <string name="unlock_touch_id_prompt">Use touch to login</string>
+    <string name="unlock_touch_id_prompt">Use Touch to Login</string>
     <string name="unlock_password_input_placeholder">Enter wallet password</string>
     <string name="unlock_enable_touch_id">Enable Touch ID</string>
     <string name="unlock_walletpassword">PassLock</string>
@@ -327,15 +327,15 @@
     <string name="place_fingerprint_to_recognize">Place your fingerprint on the sensor to recognize the existing fingerprint.</string>
 
     <!--领糖果-->
-    <string name="candy_recently_collect">Collection record</string>
+    <string name="candy_recently_collect">Collection Record</string>
     <string name="candy_collected">Collected</string>
     <string name="candy_collect">Collect</string>
-    <string name="candy_collect_unenable">Unable to collect</string>
-    <string name="user_credential_number_title">ID number</string>
+    <string name="candy_collect_unenable">Unable to Collect</string>
+    <string name="user_credential_number_title">ID Number</string>
     <string name="candy_record_state_release">Sent</string>
-    <string name="candy_record_state_checking">Under verifying</string>
+    <string name="candy_record_state_checking">Under Verifying</string>
     <string name="candy_record_state_checked_success">Verified</string>
-    <string name="candy_record_state_checked_fail">Verification failed</string>
+    <string name="candy_record_state_checked_fail">Verification Failed</string>
     <string name="candy_record_state_cancellation">Invalid</string>
 
     <!--其他-->
@@ -375,22 +375,22 @@
 
     <!--二维码 & 扫描二维码-->
     <string name="copy_account_address">Copy the address</string>
-    <string name="account_address_qr_title">QR code</string>
-    <string name="scan_qr_failed">Scan QR code failed</string>
-    <string name="wrong_qr_code">Wrong QR code</string>
+    <string name="account_address_qr_title">QR Code</string>
+    <string name="scan_qr_failed">Scan QR Code failed</string>
+    <string name="wrong_qr_code">Wrong QR Code</string>
 
     <!--交易记录-->
-    <string name="tranfer">tranfer</string>
+    <string name="tranfer">Tranfer</string>
     <string name="currency_type">Currency</string>
     <string name="receipt">Receive</string>
-    <string name="transfer_status_fail">Transfer fail</string>
-    <string name="transfer_status_success">Transfer success</string>
+    <string name="transfer_status_fail">Transfer Fail</string>
+    <string name="transfer_status_success">Transfer Success</string>
     <string name="wait_to_processing">Waiting for blockchain confirm…</string>
-    <string name="unlimited">unlimited</string>
+    <string name="unlimited">Unlimited</string>
     <string name="_2f_percent">%.2f%%</string>
     <string name="load_more">Loading more…</string>
     <string name="load_more_empty_data">No more…</string>
-    <string name="check_etherscan_transation">Check Etherscan transaction details</string>
+    <string name="check_etherscan_transation">Check Etherscan Transaction Details</string>
 
     <!--页面无数据-->
     <string name="empty_data_prompt">Empty data</string>
@@ -462,6 +462,6 @@
     <string name="unable_find_version">Unable to find the version.</string>
 
     <!--DApp-->
-    <string name="guarantee_contract">Guarantee contract</string>
-    <string name="electronic_certificates">Electronic certificates</string>
+    <string name="guarantee_contract">Guarantee Contract</string>
+    <string name="electronic_certificates">Electronic Certificates</string>
 </resources>
