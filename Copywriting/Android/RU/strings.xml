@@ -1,0 +1,1305 @@
+<resources>
+    <string name="app_name">Math Wallet</string>
+    <string name="wallet">Кошельки</string>
+    <string name="position">Портфолио</string>
+    <string name="dapp">DApps</string>
+    <string name="profile">Профиль</string>
+
+    <!--多钱包选择页面-->
+    <string name="wallet_create_or_import_prompt">Создайте или импортируйте кошелек</string>
+    <string name="eth_wallet">ETH Кошелек</string>
+    <string name="neo_wallet">NEO Кошелек</string>
+    <string name="eos_wallet">EOS Кошелек</string>
+    <string name="bos_wallet">BOS Кошелек</string>
+    <string name="enu_wallet">ENU Кошелек</string>
+    <string name="esn_wallet">ESN Кошелек</string>
+    <string name="nas_wallet">NAS Кошелек</string>
+    <string name="telos_wallet">TELOS Кошелек</string>
+    <string name="eos_force_wallet">EOS FORCE Кошелек</string>
+    <string name="eos_force_fee_wallet">EOS FORCE Кошелек</string>
+    <string name="btc_wallet">BTC Кошелек</string>
+    <string name="choose_wallet_type">Выберите тип кошелька</string>
+    <string name="create_eth_wallet_prompt">• Поддерживает только резервное копирование и экспорт Keystore, импорт стороннего кошелька невозможен.\n• Предусмотрен криптографический контракт защиты. (Максимальное значение: 100,000 MDS) Поддерживается многократная проверка безопасности.\n• При поддержке Math Wallet</string>
+    <string name="create_eth_wallet_other_support_prompt">• Импорт через keystore, приватный ключ или мнемоническую фразу других кошельков.</string>
+    <string name="create_eth_wallet_support_prompt">• Поддерживает резервную копию и экспорт Keystore, Приватного ключа и мнемонической фразы</string>
+    <string name="create_wallet_warming">• Может быть импортирован только через кошелек MDS.\n • Может присоединиться к контракту криптографической защиты.\n • Поддерживается многократная проверка безопасности.</string>
+    <string name="switch_wallet">Выберите кошелек</string>
+
+    <string name="detect_no_face">Поместите свое лицо в рамку</string>
+    <string name="detect_face_in">Поместите свое лицо в рамку</string>
+    <string name="detect_zoom_in">Пожалуйста, поднесите свой телефон ближе</string>
+    <string name="detect_zoom_out">Пожалуйста, держите свой телефон подальше</string>
+    <string name="detect_head_up">Приподнимите голову</string>
+    <string name="detect_head_down">Слегка опустите голову</string>
+    <string name="detect_head_left">Слегка поверните голову вправо</string>
+    <string name="detect_head_right">Слегка поверните голову влево</string>
+    <string name="detect_occ_face">Не видно лицо</string>
+    <string name="detect_low_light">Пожалуйста, попробуйте в более ярком помещении</string>
+    <string name="detect_keep">Пожалуйста, оставайтесь неподвижными</string>
+    <string name="detect_standard">Поместите ваше лицо в кадр</string>
+    <string name="detect_timeout">Ошибка Проверки Подлинности</string>
+    <string name="liveness_eye">Моргните глазами</string>
+    <string name="liveness_eye_left">Подмигните своим левым глазом</string>
+    <string name="liveness_eye_right">Подмигните своим правым глазом</string>
+    <string name="liveness_mouth">Откройте свой рот</string>
+    <string name="liveness_head_left">Слегка поверните голову влево</string>
+    <string name="liveness_head_right">Слегка поверните голову вправо</string>
+    <string name="liveness_head_left_right">Покачайте головой</string>
+    <string name="liveness_head_up">Осторожно поднимите голову</string>
+    <string name="liveness_head_down">Осторожно опустите голову</string>
+    <string name="liveness_good">Отлично!</string>
+
+    <!--导入钱包-->
+    <string name="import_privatekey">Импортировать приватный ключ</string>
+    <string name="account_is_existing">Account already exists, whether to cover？</string>
+    <string name="wallet_import_keystore_title">Импортировать через Keystore</string>
+    <string name="wallet_import_privatekey_title">Импортировать через приватный ключ</string>
+    <string name="wallet_import_mnemonic_phrase_title">Импортировать через мнемоническую фразу</string>
+
+    <!--keystore导入-->
+    <string name="keystore">Keystore</string>
+    <string name="wallet_import_keystore_text_placeholder">Вставьте содержимое keystore</string>
+    <string name="wallet_import_keystore_password_title">Пароль от Keystore</string>
+    <string name="wallet_import_keystore_password_placeholder">Вставьте пароль от Keystore</string>
+    <string name="wallet_import_keystore_nickname_placeholder">Задайте имя кошелька</string>
+    <string name="copy_walleKeystore">Копировать Keystore</string>
+    <string name="copy_wallePrivateKey">Копировать приватный ключ</string>
+
+    <string name="keystore_backup_completed">Резервная копия Keystore выполнена</string>
+
+    <!--私钥导入-->
+    <string name="wallet_import_privatekey_privatekey_title">Приватный ключ</string>
+    <string name="wallet_import_privatekey_privatekey_placeholder">Вставьте приватный ключ</string>
+    <string name="copy_privateKey">Копировать приватный ключ</string>
+
+    <!--助记词-->
+    <string name="wallet_mnemonic_title">Мнемоническая фраза</string>
+    <string name="wallet_import_mnemonic_phrase_placeholder">Пожалуйста, используйте пробел, чтобы отделить слова</string>
+    <string name="wallet_import_mnemonic_phrase_path_title">Path</string>
+    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx,Metamask(ETH)</string>
+    <string name="eth_mnpath2">m/44\'/60\'/0\'/0 Ledger(ETH)</string>
+    <string name="eth_mnpath3">m/44\'/60\'/1\'/0/Your Custom Path</string>
+
+    <!--创建钱包-->
+    <string name="create_wallet_success_title">Кошелек успешно создан</string>
+    <string name="input_walletname">Вставьте имя кошелька</string>
+    <string name="password_save_warning_title">Подтвердите пароль кошелька</string>
+    <string name="password_save_warning_message">Мы не сможем восстановить пароль, пожалуйста, сделайте резервную копию!</string>
+    <string name="wallet_password_placeholder">At least 8 characters,contain letters,Numbers</string>
+    <string name="wallet_repeat_password">Мы не сможем восстановить пароль, пожалуйста, сделайте резервную копию!</string>
+    <string name="wallet_repeat_password_placeholder">Введите пароль кошелька еще раз</string>
+    <string name="conditions_prompt_normal">Я прочитал и согласен с</string>
+    <string name="conditions_prompt_active">&#160;Политикой конфиденциальности</string>
+    <string name="password_strength_low">L</string>
+    <string name="password_strength_high">H</string>
+    <string name="create_wallet_success_backup_prompt_only">Пожалуйста, скопируйте и храните Keystore в безопасном месте в Offline режиме, если вы его потеряете, вы не сможете его востановить. Его можно импортировать только в кошелек MDS.</string>
+    <string name="create_wallet_success_backup_prompt">Пожалуйста, скопируйте и храните Keystore в безопасном месте в Offline режиме, если вы его потеряете, вы не сможете его востановить.</string>
+    <string name="create_neo_wallet_success_backup_prompt">Пожалуйста, скопируйте и сохраните зашифрованный пароль в безопасном offline месте, если его забыли, его невозможно восстановить.</string>
+    <string name="Investors">Инвесторы</string>
+    <string name="fenbushi_capital">Fenbushi Capital</string>
+    <string name="Danhua_capital">Danhua Capital</string>
+    <string name="disclaimer_warning_title">Оговорка</string>
+    <string name="create_wallet_success_copy_prompt">Пожалуйста, скопируйте и сохраните Keystore</string>
+    <string name="create_wallet_success_copy_privateKey_prompt">Пожалуйста, скопируйте и создайте резервную копию содержимого WIF</string>
+    <string name="create_wallet_success_copy_eos_privateKey_prompt">Пожалуйста, скопируйте и сделайте резервную копию содержимого приватного ключа</string>
+    <string name="disclaimer_warning_message">Пожалуйста, убедитесь, что резервная копия кошелька в безопасном месте, Math Wallet не несет никакой ответственности в случае кражи кошелька, утери пароля и утраченных активов!</string>
+    <string name="disclaimer_privatekey_warning_message">Мы не будем нести ответственность за любые потери средств, если вы потеряли ваш приватный ключ.</string>
+    <string name="wallet_is_already_existing">Кошелек уже существует, пожалуйста, не импортируйте его еще раз.</string>
+    <string name="delete_wallet_caution">Внимание! Вы уверены, что хотите удалить кошелек?</string>
+    <string name="input_walletpassword">Введите пароль кошелька</string>
+    <string name="the_account_name_is_taken">Имя кошелька не может повторяться</string>
+    <string name="the_name_is_taken">Название кошелька уже занято</string>
+    <string name="password_is_too_weak">Пароль слишком слабый</string>
+    <string name="nodes_of_community">BP Community</string>
+
+    <!--管理钱包-->
+    <string name="select_wallet">Выберите кошелек</string>
+    <string name="select_eth_wallet">Выберите ETH Кошелек</string>
+    <string name="select_eos_wallet">Выберите EOS Кошелек</string>
+    <string name="select_neo_wallet">Выберите NEO Кошелек</string>
+    <string name="select_ont_wallet">Выберите ONT Кошелек</string>
+    <string name="select_btc_wallet">Выберите BTC Кошелек</string>
+    <string name="select_esn_wallet">Выберите ESN Кошелек</string>
+    <string name="manage_wallet">Управление кошельками</string>
+    <string name="create_wallet">Создать кошелек</string>
+    <string name="create_maizi_wallet">Создать Премиум Кошелек</string>
+    <string name="eos_owner">Owner</string>
+    <string name="eos_active">Active</string>
+    <string name="import_wallet">Импортировать кошелек</string>
+    <string name="ethereum_point">Ethereum</string>
+    <string name="neo_point">NEO</string>
+    <string name="manage_wallet_address">Адрес Кошелька</string>
+    <string name="manage_wallet_name">Имя Кошелька</string>
+    <string name="manage_wallet_password">Пароль Кошелька</string>
+    <string name="manage_wallet_backup_keystore">Экспорт Keystore</string>
+    <string name="manage_wallet_backup_privatekey">Экспортрировать приватный ключ</string>
+    <string name="manage_wallet_backup_mnemonic_phrase">Экспортировать мнемоническую фразу</string>
+    <string name="remove_wallet">Удалить Кошелек</string>
+    <string name="wallet_address">Адрес：</string>
+    <string name="save_wallet_failed">Не удалось создать кошелек</string>
+    <string name="rename_wallet_failed">Не удалось переименовать кошелек</string>
+    <string name="delete_wallet_failed">Не удалось удалить кошелек</string>
+
+    <!--修改钱包名称-->
+    <string name="wallet_nickname_update">Изменить Имя Кошелька</string>
+    <string name="wallet_nickname_update_completed">Успешно Обновлено</string>
+    <string name="wallet_password_update">Изменить Пароль</string>
+    <string name="wallet_password_update_failed">Провал</string>
+    <string name="wallet_password_update_completed">Успешно Обновлено</string>
+    <string name="wallet_password_old_password_title">Текущий пароль</string>
+    <string name="wallet_password_old_password_placeholder">Введите текущий пароль</string>
+    <string name="wallet_password_new_password_title">Новый пароль</string>
+    <string name="wallet_password_new_password_placeholder">Не менее 8 символов</string>
+    <string name="wallet_password_repeat_password_title">Повторите новый пароль</string>
+    <string name="wallet_password_repeat_password_placeholder">Повторите новый пароль</string>
+
+    <!--备份私钥-->
+    <string name="wallet_backup_privatekey_prompt">Пожалуйста, скопируйте и храните Приватный Ключ в безопасном месте в Offline режиме, если вы его потеряете, вы не сможете его востановить.</string>
+
+    <!--备份助记词-->
+    <string name="wallet_backup_mnemonic_phrase_write_down">Я записал</string>
+    <string name="wallet_backup_mnemonic_phrase_completed">Подтвердить</string>
+    <string name="wallet_backup_mnemonic_phrase_write_down_prompt">Пожалуйста, запишите свою мнемонику правильно и храните в надежном месте, если вы ее потеряете, её невозможно восстановить.</string>
+    <string name="wallet_backup_mnemonic_phrase_prompt">Пожалуйста, выбирайте мнемонические слова по порядку и убедитесь, что ваша мнемоника была написана правильно, если вы ее потеряете, её невозможно восстановить.</string>
+
+    <!--转账菜单-->
+    <string name="transaction_menu_contacts">Контакты</string>
+    <string name="transaction_menu_account_address">Адрес Кошелька</string>
+    <string name="transaction_menu_scan_qrcode">Сканировать QR-Код</string>
+    <string name="transaction_recently_records">Журнал Транзакций</string>
+    <string name="contact_address_incorrect">Неправильный публичный ключ контакта , пожалуйста, попробуйте другой метод.</string>
+
+    <!--交易-->
+    <string name="exchange">Обмен</string>
+    <string name="coming_soon">Скоро будет</string>
+    <string name="developing">Нет торговых пар </string>
+    <string name="slow">Медленно</string>
+    <string name="fast">Быстро</string>
+    <string name="veryslow">Очень Медленно</string>
+    <string name="normal">Обычно</string>
+    <string name="veryfast">Очень Быстро</string>
+    <string name="transfer_overtime">Контракт с задержкой транзакции</string>
+    <string name="transfer_overtime_detail">Упаковать менее чем за час, в противном случае 5MDS Компенсация.</string>
+    <string name="free">Бесплатно</string>
+    <string name="transaction_to_address_placeholder">Адрес получателя</string>
+    <string name="transaction_to_address_checking_security">Проверить защиту адреса</string>
+    <string name="transaction_to_value_placeholder">Количество</string>
+    <string name="recharge_money">Количество %s ~ %s</string>
+    <string name="transaction_to_advance_setting">Дополнительно</string>
+    <string name="transaction_to_advance_setting_gas_limit">Пользовательский лимит газа</string>
+    <string name="transaction_to_advance_setting_gas_price">Пользовательская цена газа</string>
+    <string name="transaction_to_advance_setting_hex_data">Данные</string>
+    <string name="transaction_confirm_send">Подтвердить</string>
+    <string name="transaction_add_remark_hint">Написать необязательное сообщение</string>
+    <string name="pasted">Вставлено</string>
+    <string name="authenticate_immediately">Аутентифицировать немедленно</string>
+    <string name="token_tranfer">Отправить %s</string>
+    <string name="gas_price_is_low_8">Цена на газ слишком низкая ， рекомендуется повысить более 8 gwei</string>
+    <string name="gas_price_is_up_100">Цена газа слишком высока, рекомендуемая цена ниже 100 gwei</string>
+    <string name="gas_price_is_null">Цена газа равна нулю</string>
+    <string name="gas_limit_is_null">Лимит газа равен нулю</string>
+    <string name="insufficient_balance">Недостаточный баланс</string>
+    <string name="insufficient_eth_balance">У вас недостаточно Eth</string>
+    <string name="insufficient_eos_balance">У вас недостаточно EOS</string>
+    <string name="insufficient_nas_balance">У вас недостаточно NAS</string>
+    <string name="gas_should_be_more_than_25200">Лимит газа должен быть больше чем 25200</string>
+    <string name="gas_should_be_more_than_60000">Лимит газа должен быть больше чем 60000</string>
+    <string name="gas_should_be_more_than">Лимит газа должен быть больше чем%s</string>
+
+    <string name="today">Сегодня&#160;</string>
+    <string name="yestoday">Вчера&#160;</string>
+    <string name="transfer">Отправить-</string>
+    <string name="collection">Получить-</string>
+    <string name="current_asset">Текущие средства %s %s</string>
+    <string name="gas_cost">Газ %s ETH %s</string>
+
+    <string name="esn_gas_cost">Газ %s ESN %s</string>
+    <string name="nas_gas_cost">Газ %s NAS %s</string>
+    <string name="invalid_data">Неверные данные</string>
+    <string name="address_cant_be_yourself">Получатель не может быть самим собой</string>
+
+    <string name="please_enter_ammount">Пожалуйста, введите сумму</string>
+    <string name="open_face_module_to_keep_safe">Пройдите распознавание лица для обеспечения безопасности транзакции.</string>
+    <string name="recharge_money_is_low">Пополнение баланса не должно быть больше, чем %s</string>
+    <string name="recharge_money_is_high">Пополнение баланса не должно быть меньше, чем %s</string>
+    <string name="please_create_eos_wallet">Пожалуйста, сначала создайте кошелек eos.</string>
+
+    <!--交易完成-->
+    <string name="transaction_complete_status_title">Статус Транзакции</string>
+    <string name="transaction_complete_to_address_title">Получатель</string>
+    <string name="transaction_complete_remark_title">Memo</string>
+    <string name="transaction_complete_remark_add">Добавить Memo</string>
+
+    <!--确认转账信息-->
+    <string name="transaction_confirm_title">Подтвердить транзакцию</string>
+
+    <!--交易详情-->
+    <string name="transaction_detail_title">Запись Транзакции</string>
+    <string name="transaction_detail_block_height_title">Блок</string>
+    <string name="transaction_detail_tx_hash_title">Номер транзакции</string>
+    <string name="transaction_detail_tx_time_title">Время транзакции</string>
+    <string name="transaction_detail_tx_fee_title">Комиссия</string>
+    <string name="transaction_detail_from_address_title">Отправить</string>
+    <string name="eos_mapping">Отображение</string>
+    <string name="transaction_detail_re_transfer">Отправить повторно</string>
+    <string name="overtime_pay">Компенсация тайм-аута</string>
+
+    <!--资产-->
+    <string name="home_total_asset_title">Общий баланс（≈%s）</string>
+    <string name="home_add_new_asset">Добавить актив</string>
+    <string name="neo_claim_failer">%s Claim Failed</string>
+    <string name="neo_claim_success">%s Claimed!</string>
+    <string name="auto_search">Автопоиск</string>
+
+    <!--我-->
+    <string name="mine_medishares_account">Math Аккаунт</string>
+    <string name="mine_medishares_transcations">Транзакции</string>
+    <string name="mine_medishares_contacts">Адресная книга</string>
+    <string name="mine_medishares_wechat_group">Присоединиться в группу Wechat</string>
+    <string name="mine_medishares_recommend">Пригласить</string>
+    <string name="mine_medishares_suggestion">Поддержка</string>
+    <string name="mine_medishares_feekback">Обратная связь</string>
+    <string name="mine_medishares_about">О приложении</string>
+    <string name="mine_medishares_setting">Настройки</string>
+    <string name="mine_medishares_candy">Облачный Кошелек</string>
+    <string name="mds_app_download">Загрузка приложения MDS</string>
+    <string name="token_price">Посмотреть награды за приглашения</string>
+
+    <!--注册或登录-->
+    <string name="register_acccount_title">Зарегистрировать Math Аккаунт</string>
+    <string name="register_acccount_with_email">Зарегистрироваться по электронной почте</string>
+    <string name="register_acccount_with_mobile">Зарегистрируйться по номеру телефона</string>
+    <string name="register_account_switch_email">Или зарегистрируйтесь по номеру телефона</string>
+    <string name="register_account_switch_mobile">Или зарегистрируйтесь по электронной почте</string>
+    <string name="login_acccount_title">Войти в Math</string>
+    <string name="login_acccount_with_email">Войти по электронной почте</string>
+    <string name="login_acccount_with_mobile">Войти по номеру телефона</string>
+    <string name="login_account_switch_email">Или войти по номеру телефона</string>
+    <string name="login_account_switch_mobile">Или войти по электронной почте</string>
+    <string name="verify_code_unreceived">Не получили？</string>
+    <string name="check_your_spam_box">Не получили письмо? Пожалуйста, проверьте ваш ящик для спама</string>
+    <string name="verify_code_send_again">Отправить повторно</string>
+    <string name="sign_in">зарегистрироваться</string>
+    <string name="login">Войти</string>
+    <string name="edit_email_error">Ошибка электронной почты</string>
+    <string name="verify_code_send_again_timeout">Отправить повторно после %d\'s</string>
+    <string name="edit_verification_code">Изменить код</string>
+    <string name="please_input_email_true">Введите адрес электронной почты</string>
+    <string name="please_input_phone_true">Пожалуйста, введите телефон</string>
+    <string name="verify_phone_number">Подтвердите номер телефона</string>
+
+    <!--选择国家和地区-->
+    <string name="country_code_title">Выберите страну и регион</string>
+
+    <!--MediShares账户-实名-->
+    <string name="medishares_account_page_security_title">Безопасный</string>
+    <string name="medishares_account_page_security_subtitle">IPFS + Шифрование, защитит ваши идентификационные данные.</string>
+    <string name="medishares_account_page_insurance_title">Застрахованный</string>
+    <string name="medishares_account_page_insurance_subtitle">Полная проверка личности - первый шаг к заключению взаимного договора.</string>
+    <string name="medishares_account_page_convenient_title">Удобный</string>
+    <string name="medishares_account_page_convenient_subtitle">Ваши друзья могут найти ваш публичный ключ через мобильный.</string>
+    <string name="bind_kyc_status_default">Проверка личности</string>
+    <string name="bind_kyc_status_process">Ваша идентификационная информация отправлена, и мы обработаем ее как можно скорее.</string>
+    <string name="bind_kyc_status_success">Проверка завершена (%s)</string>
+    <string name="bind_kyc_page_subtitle">Введите свои данные для завершения проверки личности.</string>
+    <string name="bind_kyc_page_title">Проверка</string>
+    <string name="bind_kyc_submit">Отправить</string>
+    <string name="bind_kyc_name_placeholder">Введите свое настоящее имя</string>
+    <string name="bind_kyc_identity_photo_prompt">Нажмите, чтобы отправить удостоверение личности с фотографией</string>
+    <string name="make_sure_your_entire_head_and_certificate">entire certificate information are clearly</string>
+    <string name="identity_verification_failed">Не удалось подтвердить вашу личность, пожалуйста, отправьте снова.</string>
+    <string name="enter_idcard">Введите номер документа</string>
+    <string name="bind_kyc_complete_title">Отправка завершена</string>
+    <string name="identity_verification">Подтверждение личности：%s</string>
+    <string name="please_choose_cardtype">Пожалуйста,выберите тип документа</string>
+
+    <!--MediShares账户-信息-->
+    <string name="user_detail_title">Мой Аккаунт</string>
+    <string name="user_add_email_address">Добавить адрес электронной почты</string>
+    <string name="user_add_mobile_number">Добавить номер телефона</string>
+    <string name="user_idcard">ID-карта</string>
+    <string name="user_passport">Паспорт</string>
+    <string name="user_logout">Выйти</string>
+    <string name="user_name_title">Имя</string>
+    <string name="user_credential_type_title">Вид документа</string>
+    <string name="user_email_title">Адрес Электронной Почты</string>
+    <string name="user_mobile_title">Номер телефона</string>
+    <string name="user_update_success">Обновлено</string>
+    <string name="user_photo_title">Фото</string>
+    <string name="sure_exit_account">Вы уверены, что хотите выйти из аккаунта?</string>
+    <string name="user_driverlicense">Водительское удостоверение</string>
+
+    <!--MediShares账户-添加邮箱或更改邮箱-->
+    <string name="user_update_email_checked">Проверенный</string>
+    <string name="user_add_email_subtitle">Добавить адрес электронной почты для входа через электронную почту</string>
+    <string name="user_update_email_subtitle">Обновить электронную почту для входа в систему с новой электронной почтой</string>
+    <string name="user_update_email_verify">Подтверждение адреса электронной почты</string>
+    <string name="user_update_email_verify_placeholder">Отправили 6-значный код подтверждения (6 цифр) на вашу электронную почту.</string>
+    <string name="user_update_mobile_sms_placeholder">Отправили вам код подтверждения (6 цифр).</string>
+    <string name="user_update_email_placeholder">Введите адрес электронной почты</string>
+    <string name="user_add_mobile_subtitle">Добавить номер телефона для входа через номер телефона.</string>
+    <string name="user_update_email_address">Изменить электронную почту</string>
+    <string name="user_update_mobile_number">Изменить номер телефона</string>
+    <string name="enter_new_email">Введите адрес новой электронной почты</string>
+    <string name="enter_new_phone">Введите новый номер телефона</string>
+
+    <!--MediShares账户-绑定钱包地址-->
+    <string name="user_update_wallet_address">Изменить Адрес Кошелька</string>
+    <string name="user_update_wallet">Изменить Кошелек</string>
+    <string name="user_unbind_wallet_address">Удалить Привязку</string>
+    <string name="bind_account_page_title">Публичный Адрес</string>
+    <string name="bind_eth_account_page_subtitle">Выберите адрес кошелька ETH</string>
+    <string name="bind_eos_account_page_subtitle">Выберите аккаунт EOS</string>
+    <string name="bind_neo_account_page_subtitle">Выберите адрес кошелька NEO</string>
+    <string name="bind_account_confirm">Подтверждить</string>
+    <string name="bind_account_complete_message">Адрес кошелька ETH успешно связан с вашей учетной записью Math.</string>
+    <string name="bind_kyc_complete_message">Ваша идентификационная информация отправлена, и мы обработаем ее как можно скорее.</string>
+    <string name="please_select_wallet">Пожалуйста выберите кошелек</string>
+    <string name="binding_success">Завершен</string>
+    <string name="binding_failure">Сбой привязки</string>
+    <string name="unbind_bindaddress">Вы уверены, что хотите отменить привязку адреса кошелька?</string>
+    <string name="add_wallet_address">Добавить адрес кошелька</string>
+    <string name="bind_now">Связать Сейчас</string>
+
+    <!--联系人列表-->
+    <string name="someone_you_might_know">Контакты, которые вы можете знать</string>
+    <string name="manual_add_contact_title">Создание Новых Контактов</string>
+    <string name="qrcode_add_contact_title">Сканирование и добавление адреса кошелька</string>
+    <string name="contact_name_placeholder">Введите имя контакта</string>
+    <string name="contact_account_eth_address_title">ETH адрес кошелька получателя</string>
+    <string name="contact_account_esn_address_title">ESN Beneficiary Wallet Address</string>
+    <string name="contact_account_eos_address_title">EOS аккаунт получателя</string>
+    <string name="contact_account_bos_address_title">BOS аккаунт получателя</string>
+    <string name="contact_account_enu_address_title">ENU аккаунт получателя</string>
+    <string name="contact_account_telos_address_title">TELOS аккаунт получателя</string>
+    <string name="contact_account_neo_address_title">NEO адрес кошелька получателя</string>
+    <string name="contact_account_eosforce_address_title">EOS FORCE аккаунт получателя</string>
+    <string name="contact_account_btc_address_title">BTC адрес кошелька получателя</string>
+    <string name="contact_account_trx_address_title">TRX адрес кошелька получателя</string>
+    <string name="contact_account_nas_address_title">NAS адрес кошелька получателя</string>
+    <string name="contact_account_eth_address_placeholder">Введите или вставьте адрес ETH кошелька</string>
+    <string name="contact_account_eos_address_placeholder">Введите или вставьте аккаунт EOS</string>
+    <string name="contact_account_bos_address_placeholder">Введите или вставьте аккаунт BOS</string>
+    <string name="contact_account_enu_address_placeholder">Введите или вставьте аккаунт ENU</string>
+    <string name="contact_account_esn_address_placeholder">Введите или вставьте аккаунт ESN</string>
+    <string name="contact_account_telos_address_placeholder">Введите или вставьте аккаунт TELOS</string>
+    <string name="contact_account_neo_address_placeholder">Введите или вставьте адрес NEO кошелька</string>
+    <string name="contact_account_ont_address_placeholder">Введите или вставьте адрес ONT кошелька</string>
+    <string name="contact_account_eosforce_address_placeholder">Введите или вставьте аккаунт EOS FORCE</string>
+    <string name="contact_account_btc_address_placeholder">Введите или вставьте адрес BTC кошелька</string>
+    <string name="contact_account_trx_address_placeholder">Введите или вставьте адрес TRX кошелька</string>
+    <string name="contact_account_nas_address_placeholder">Введите или вставьте адрес NAS кошелька</string>
+
+    <string name="select_contact">Выберите контакт</string>
+    <string name="my_wallet">Мой кошелек</string>
+
+    <!--添加联系人-->
+    <string name="contact_add_title">Добавить контакт</string>
+    <string name="contact_detail_title">Контактная информация</string>
+    <string name="sava_contacts_failed">Ошибка сохранения контакта</string>
+    <string name="update_contacts_failed">Ошибка обновления контакта</string>
+    <string name="already_added_eth_contact">Уже добавлен контакт с тем же адресом кошелька ETH.</string>
+    <string name="already_added_eos_contact">Уже добавлен контакт с той же учетной записью EOS.</string>
+    <string name="already_added_neo_contact">Уже добавлен контакт с тем же адресом кошелька NEO.</string>
+    <string name="please_input_name">Пожалуйста, введите имя </string>
+
+    <!--联系人信息-->
+    <string name="already_add">Добавить</string>
+    <string name="contact_edit_title">Редактировать Контакт</string>
+    <string name="contact_edit_remove">Удалить контакт</string>
+    <string name="contact_edit_remove_failed">Ошибка при удалении контакта</string>
+    <string name="contact_edit_remove_waring_prompt">Вы уверены, что хотите удалить контакт?</string>
+
+    <!--关于-->
+    <string name="about_version_code">Версия %s</string>
+    <string name="about_version_description">Math Wallet это самый мощный и безопасный универсальный крипто кошелек, который позволяет хранить всё: BTC, ETH/ERC20, EOS токены, поддерживает cross-chain обмен токенами и multi-chain магазин dApp.</string>
+    <string name="website_title">Вебсайт: </string>
+    <string name="github_title">GitHub: </string>
+    <string name="twitter_title">Twitter: </string>
+    <string name="telegram_title">Telegram: </string>
+    <string name="medium_title">Блог: </string>
+    <string name="Kakao_title">Kakao: </string>
+    <string name="website_content">https://mathwallet.org</string>
+    <string name="github_content">https://github.com/MediShares</string>
+    <string name="twitter_content">https://twitter.com/MediShares</string>
+    <string name="telegram_content">https://t.me/medishares</string>
+    <string name="medium_content">http://blog.mathwallet.org</string>
+    <string name="medishares_org_made_with_in_singapore">Сделано ❤️ в Сингапуре</string>
+    <string name="kakao_content">https://open.kakao.com/o/g5TSeeM</string>
+
+    <!--关注微信公众号-->
+    <string name="medishares_wechat_description">Искренне приглашаем Вас присоединиться к Math в Wechat-，чтобы присоединиться к нашему чату вы должны добавить wechat ID：MediShares03</string>
+    <string name="medishares_telegram_description">Искренне приглашаем Вас присоединиться к Math в Telegram ：https://t.me/MediSharesEN</string>
+    <string name="medishares_kakao_description">Искренне приглашаем Вас присоединиться к Math в KaKao：https://open.kakao.com/o/g5TSeeM</string>
+    <string name="medishares_wechat_public_copy">Копировать Wechat ID</string>
+    <string name="medishares_wechat_public">MDSjiangzuo</string>
+    <string name="joinwx_notinstall_wx">Убедитесь, что на телефоне установлен WeChat.Пожалуйста, установите WeChat</string>
+    <string name="joinwx_notinstall_tele">Убедитесь, что на телефоне установлен Telegram.Пожалуйста, установитеTelegram</string>
+    <string name="joinwx_notinstall_kakao">бедитесь, что на телефоне установлен KaKao，Или установленная версия не поддерживается</string>
+
+    <!--设置（语言、货币单位）-->
+    <string name="medishares_setting_language">Язык</string>
+    <string name="medishares_setting_currency">Валюта</string>
+    <string name="medishares_setting_section_legal_tender">Валюта</string>
+    <string name="medishares_setting_section_virtual_currency">Криптовалюта</string>
+    <string name="medishares_setting_unlock_touchid">Touch ID</string>
+
+    <!--意见反馈-->
+    <string name="medishares_suggestion_text_title">Ваш отзыв</string>
+    <string name="medishares_suggestion_email_title">Ваша электронная почта</string>
+    <string name="medishares_suggestion_text_placeholder">Спасибо, что нашли время связаться с нами. Мы очень ценим ваши комментарии относительно MDS кошелька.</string>
+    <string name="medishares_suggestion_email_placeholder">Пожалуйста, оставьте свой адрес электронной почты для последующих действий.</string>
+    <string name="feedback_submitted">Отзыв отправлен</string>
+
+    <!--Unlock-->
+    <string name="unlock_touch_id_enable">Использовать Touch ID</string>
+    <string name="unlock_password_enable">Использовать PassLock</string>
+    <string name="unlock_touch_id_prompt">Использовать Touch для входа</string>
+    <string name="unlock_password_input_placeholder">Введите пароль кошелька</string>
+    <string name="unlock_enable_touch_id">Включить Touch ID</string>
+    <string name="unlock_walletpassword">PassLock</string>
+    <string name="unable_to_recognize_fingerprint">Не удается распознать отпечаток пальца, у вас есть %d попыток.</string>
+    <string name="fingerprint_suspended">Сканирование отпечатка пальца приостановлено, повторите попытку позже.</string>
+    <string name="device_locked">Устройство заблокировано, повторите попытку позже. </string>
+    <string name="Mds_touchId">Touch ID от \'MDS\'</string>
+    <string name="place_fingerprint_to_recognize">Поместите отпечаток пальца на датчик.</string>
+
+    <!--领糖果-->
+    <string name="candy_recently_collect">Журнал наград</string>
+    <string name="candy_collect_record">Журнал наград</string>
+    <string name="candy_recharge_record">Депозит</string>
+    <string name="candy_collected">Собранные</string>
+    <string name="candy_withdrawl_collect">Вывести</string>
+    <string name="candy_withdrawl">Вывести награду-</string>
+    <string name="candy_collect">Собрать</string>
+    <string name="candy_collect_unenable">Невозможно собрать</string>
+    <string name="user_credential_number_title">ID номер</string>
+    <string name="candy_record_state_release">Отправить</string>
+    <string name="candy_record_state_checking">Под Проверкой</string>
+    <string name="candy_record_state_checked_success">Проверено</string>
+    <string name="candy_record_state_checked_fail">Ошибка Проверки</string>
+    <string name="candy_record_state_cancellation">Недопустимый</string>
+    <string name="withdrawal">Вывести</string>
+    <string name="my_candy">Мои награды</string>
+    <string name="choose_withdrawal_candy">Выберите кошелек</string>
+    <string name="edit_withdrawal_balance">Количество</string>
+    <string name="least_10_mds">Минимальная сумма вывода: %s %s</string>
+    <string name="all_withdrawal">Все</string>
+    <string name="service_charge">Комиссия</string>
+    <string name="actual_balance">Полученная сумма</string>
+    <string name="no_litte_than_fee">Минимальная сумма вывода: %s %s</string>
+    <string name="no_little_than_fee">Сумма вывода не может быть меньше комиссии</string>
+    <string name="candy_withdrawl_tips">• Из-за медленной скорости передачи токенов Ethereum и экономии затрат на Airdrop транзакция токенов MDS может быть отложена. Пожалуйста, наберитесь терпения, и мы обещаем, что ваши MDS будут в вашем кошельке. Спасибо за Ваше понимание и поддержку!</string>
+
+    <!--其他-->
+    <string name="again_press_to_exit">Еще раз нажмите для выхода</string>
+    <string name="search">Поиск</string>
+    <string name="add">Добавить</string>
+    <string name="paste">Вставить</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="cancle">Отменить</string>
+    <string name="copy">Копировать</string>
+    <string name="done">Выполнено</string>
+    <string name="save">Сохранить</string>
+    <string name="edit">Редактировать</string>
+    <string name="submit">Подтвердить</string>
+    <string name="copied">Скопированный</string>
+    <string name="next">Следующий</string>
+    <string name="prompt">Подсказка</string>
+    <string name="use">Использовать</string>
+    <string name="know">Узнать</string>
+    <string name="success">Успех</string>
+
+    <!--相册-->
+    <string name="alum">Альбом</string>
+    <string name="album_all_image">Все изображения в альбоме</string>
+    <string name="album_check">Проверить</string>
+    <string name="album_check_limit">Вы можете выбрать не более %1$d изображения</string>
+    <string name="album_check_little">Вы не выбрали изображение</string>
+    <string name="album_dialog_permission_failed">Ошибка разрешений</string>
+    <string name="album_dialog_sure">OK</string>
+    <string name="album_menu_finish">Выполнено</string>
+    <string name="album_permission_camera_failed_hint">Не удалось получить разрешение камеры, пожалуйста, авторизуйтесь в настройках перед использованием.</string>
+    <string name="album_permission_storage_failed_hint">Не удалось прочитать фотоальбом, пожалуйста, авторизуйтесь в настройках перед использованием.</string>
+    <string name="album_title_activity_gallery">Изображение</string>
+    <string name="gallery_menu_finish">Выполнено</string>
+
+    <!-- MediShares账户-添加手机号或更改手机号 -->
+    <string name="user_update_mobile_placeholder">Введите номер телефона</string>
+    <string name="user_update_mobile_subtitle">Обновление номера телефона для входа в систему с новым номером телефона .</string>
+
+    <!--二维码 & 扫描二维码-->
+    <string name="copy_wallet_address">Копировать адрес</string>
+    <string name="account_address_qr_title">QR Code</string>
+    <string name="scan_qr_failed">Ошибка сканирования QR-кода</string>
+    <string name="wrong_eth_qr_code">Неправильный QR-код для ETH-адреса</string>
+    <string name="wrong_esn_qr_code">Неправильный QR-код для ESN-адреса</string>
+    <string name="wrong_eos_qr_code">Неправильный QR-код для EOS-аккаунта</string>
+    <string name="wrong_enu_qr_code">Неправильный QR-код для ENU-аккаунта</string>
+    <string name="wrong_bos_qr_code">Неправильный QR-код для BOS-аккаунта</string>
+    <string name="wrong_neo_qr_code">Неправильный QR-код для NEO-адреса</string>
+    <string name="wrong_ont_qr_code">Неправильный QR-код для ONT-адреса</string>
+    <string name="wrong_btc_qr_code">Неправильный QR-код для BTC-адреса</string>
+    <string name="wrong_eos_force_qr_code">Неправильный QR-код для EOS FORCE-адреса</string>
+    <string name="wrong_trx_qr_code">Неправильный QR-код для TRX-адреса</string>
+    <string name="wrong_nas_qr_code">Неправильный QR-код для NAS-адреса</string>
+
+    <!--交易记录-->
+    <string name="recent_transaction_records">Последние транзакции</string>
+    <string name="tranfer">Переводы</string>
+    <string name="eos_map">EOS Mapping</string>
+    <string name="eos_map_success">EOS Mapping Выполнено</string>
+    <string name="refresh_map">Jбновить карту </string>
+    <string name="currency_type">Валюта</string>
+    <string name="receipt">Получить</string>
+    <string name="transfer_status_fail">Ошибка перевода</string>
+    <string name="transfer_status_success">Транзакция выполнена </string>
+    <string name="wait_to_processing">В ожидании подтверждения блокчейна…</string>
+    <string name="unlimited">Неограниченно</string>
+    <string name="_2f_percent">%.2f%%</string>
+    <string name="load_more">Загружаю больше…</string>
+    <string name="load_more_empty_data">Нет больше…</string>
+    <string name="check_etherscan_transation">Проверьте детали транзакции на Etherscan</string>
+    <string name="check_transaction_details">Проверка сведений о транзакции </string>
+    <string name="doublepay_warnning">Такая же транзакция существовала. Пожалуйста, увеличьте цену на газ для замены транзакции и обратите внимание на риск двойной оплаты.</string>
+
+    <!--页面无数据-->
+    <string name="empty_data_prompt">Нет данных. </string>
+    <string name="empty_data_publicity">Нет публичной информации. </string>
+    <string name="empty_data_transaction">Нет записи транзакции. </string>
+    <string name="empty_data_trasfer">Нет записи транзакции. </string>
+    <string name="empty_data_contacts">Нет контактов для отображения. </string>
+    <string name="empty_data_contacts_know">No known contacts. </string>
+    <string name="empty_data_candy">Нет записей</string>
+    <string name="empty_withdraw_data_candy">Нет записей</string>
+    <string name="empty_rechange_data_candy">Нет записей</string>
+    <string name="empty_data_search">Нет результатов поиска. </string>
+
+    <!--error-->
+    <string name="mnemonic_phrase_invalid">Недопустимая Мнемоническая Фраза </string>
+    <string name="nparams_invalid">Ошибка импорта,N слишком большой</string>
+    <string name="private_key_invalid">Недопустимый приватный ключ</string>
+    <string name="mnemonic_path_error">Ошибка Path мнемоники </string>
+    <string name="password_error">Ошибка Пароля</string>
+    <string name="keystore_json_version_unsupported">Версия keystore не поддерживается</string>
+    <string name="Invalid_keystore">Неверный Keystore</string>
+    <string name="Invalid_crypto">Неверный Crypto</string>
+    <string name="Invalid_cipheriv">Неверный Cipheriv</string>
+    <string name="Invalid_iv">Неверный iv</string>
+    <string name="Invalid_ciphertext">Неверный зашифрованный текст</string>
+    <string name="Invalid_wallet_type">Пожалуйста, используйте Keystore, экспортированное из MDS кошелька</string>
+    <string name="incorrect_length_of_mn">Неправильная длина мнемоники</string>
+    <string name="privatekey_error">Ошибка приватного ключа</string>
+    <string name="Invalid_Algorithm">Неверный алгоритм</string>
+    <string name="invalid_parameter">Неверный параметр</string>
+    <string name="confirm_packaging_schedule">Подтверждает %d/12</string>
+    <string name="please_check_network_connection">Проверьте подключение к сети. </string>
+    <string name="parse_error">Ошибка разбора</string>
+    <string name="classtype_conversion_error"> Ошибка преобразования типа класса</string>
+    <string name="connection_failed">Ошибка подключения</string>
+    <string name="ssl_certificate_error">Ошибка SSL сертификата</string>
+    <string name="connect_timeout">Время соединения вышло</string>
+    <string name="unkonw_host_name">Неизвестное Имя Хоста</string>
+    <string name="unable_find_version">Не удается найти версию</string>
+    <string name="password_cannot_be_empty">Пароль не может быть пустым. </string>
+    <string name="code_cannot_be_empty">Проверочный код не может быть пустым</string>
+    <string name="please_enter_the_correct_eth_address">Пожалуйста, введите правильный ETH адрес. </string>
+    <string name="please_enter_the_correct_esn_address">Пожалуйста, введите правильный ESN адрес. </string>
+    <string name="please_enter_the_correct_eos_address">Пожалуйста, введите правильный EOS аккаунт. </string>
+    <string name="please_enter_the_correct_telos_address">Пожалуйста, введите правильный TELOS аккаунт. </string>
+    <string name="please_enter_the_correct_bos_address">Пожалуйста, введите правильный BOS аккаунт. </string>
+    <string name="please_enter_the_correct_enu_address">Пожалуйста, введите правильный ENU аккаунт. </string>
+    <string name="please_enter_the_correct_neo_address">Пожалуйста, введите правильный NEO адрес. </string>
+    <string name="please_enter_the_correct_btc_address">Пожалуйста, введите правильный BTC адрес. </string>
+    <string name="please_enter_the_correct_trx_address">Пожалуйста, введите правильный TRX адрес. </string>
+    <string name="please_enter_the_correct_nas_address">Пожалуйста, введите правильный NAS адрес. </string>
+    <string name="please_enter_the_correct_eos_force_address">Пожалуйста, введите правильный EOS FORCE аккаунт. </string>
+    <string name="please_enter_the_correct_ont_address">Please enter the correct ONT publicKey. </string>
+    <string name="address_cannot_be_empty">Адрес не может быть пустым. </string>
+    <string name="address_unmatched_with_private_key">Address unmatched with private key. </string>
+    <string name="eth_wallet_address_incorrect">Неправильный адрес ETH кошелек. </string>
+    <string name="search_contend_cannot_be_empty">Содержимое поиска не может быть пустым. </string>
+
+    <!--权限-->
+    <string name="request_permission_camera">Запросить Разрешение Камеры</string>
+    <string name="request_permission_qr_warming">Вы отказали в разрешении камеры, которое отключит сканирование QR-кода. Пожалуйста, дайте разрешение.</string>
+    <string name="request_permission_camera_warming">Вы отказали в разрешении камеры, которая отключит фотосъемку. Пожалуйста, дайте разрешение.</string>
+    <string name="request_permission_contact">Запросить разрешение для доступа к контактам</string>
+    <string name="request_permission_phone">Запросить разрешение на звонки</string>
+    <string name="request_permission_contact_warming">Вы отказали в разрешении на доступ к контактам, что ограничит доступ к контактам. Пожалуйста, дайте разрешение.</string>
+    <string name="request_permission_telephone_warming">Вы отказали в разрешении совершать звонки, что ограничит вас от совершения звонков. Пожалуйста, дайте разрешение.</string>
+    <string name="request_permission_sd">Запросить разрешение на доступ к SD-карте </string>
+    <string name="request_permission_sd_warming">Вы отказали в разрешении доступа к SD-карте, что ограничит обновление. Пожалуйста, дайте разрешение.</string>
+
+    <string name="units">UNITS</string>
+    <string name="gwei">GWEI</string>
+    <string name="eth">ETH</string>
+    <string name="eos">EOS</string>
+    <string name="cn_86">+86</string>
+    <string name="china">Китай</string>
+    <string name="cost_money">-%s %s</string>
+    <string name="collect_money">+%s %s</string>
+    <string name="Eth">%s ETH</string>
+    <string name="show_unit">≈ %s%s</string>
+
+    <!--版本更新-->
+    <string name="update_reminding">Обновление напоминаний</string>
+    <string name="download_service_lock">Сервис загрузки отключен, пожалуйста, запустите его</string>
+    <string name="no_sdcard">SD-карта не найдена, не удалось обновить</string>
+    <string name="install_fail">Установка Не Удалась</string>
+    <string name="download_success_open">После завершения загрузки нажмите кнопку Открыть. </string>
+    <string name="start_downloading">Начинаем загрузку, подождите немного</string>
+    <string name="please_load_over_wifi">Пожалуйста, загрузите через Wi-Fi</string>
+    <string name="load_over_4g">Вы используете мобильные данные. Вы уверены, что хотите продолжить?</string>
+    <string name="update">Обновление</string>
+    <string name="this_is_the_lastest_version">Это последняя версия.</string>
+
+    <!--DApp-->
+    <string name="guarantee_contract">Гарантийный контракт</string>
+    <string name="electronic_certificates">Электронный сертификаты</string>
+    <string name="user_is_expired">Срок действия пользователя истек, пожалуйста, войдите снова</string>
+    <string name="join_guarantee">Гарантия Присоединения</string>
+    <string name="please_join_with_mds_wallet">Извините, мы поддерживаем только премиум кошелек.Чтобы присоединиться к Crypto Protect Contract, пожалуйста, создайте премиум с помощью MATH кошелька.</string>
+
+    <!--time-->
+    <string name="mins_ago">%d минут назад</string>
+    <string name="hours_ago">%d часов назад</string>
+    <string name="days_ago">%d дней назад</string>
+    <string name="just_now">Сейчас</string>
+    <string name="months_ago">%d месяцев назад</string>
+
+    <!--节点设置-->
+    <string name="set_point">Настройка Ноды</string>
+    <string name="add_custom_point">Добавить Ноду</string>
+    <string name="input_point_address">Введите действительный адрес Ноды</string>
+    <string name="point_mainnet">• Текущая сеть: $mainnet</string>
+    <string name="not_success_point_address">Недопустимый адрес Ноды</string>
+    <string name="already_add_point">Неверный адрес Ноды</string>
+    <string name="submit_new_token">Порекомендуйте нам свой токен</string>
+
+    <!--Claim GAS-->
+    <string name="create_neo_wallet">Create NEO Wallet</string>
+    <string name="getTransaction_error">Fail to load transaction log</string>
+    <string name="neo_wallet_unclaim_amount">Заявка %1$s GAS</string>
+    <string name="claimed_gas_successfully">Заявка была удовлетворена!</string>
+    <string name="claimed_gas_time_notEnough">Вы можете претендовать на GAS раз каждые 5 минут!</string>
+    <string name="claimed_gas_notEnough">Заявленного GAS недостаточно！</string>
+
+    <!--EncryptedText-->
+    <string name="encryptedtext">EncryptedText</string>
+    <string name="wallet_import_encryptedtext_text_placeholder">Вставить&#160;EncryptedText&#160;Содержимое</string>
+    <string name="wallet_import_encryptedtext_password_title">EncryptedText&#160;Пароль</string>
+    <string name="wallet_import_encryptedtext_password_placeholder">Введите пароль для EncryptedText</string>
+    <string name="wallet_import_encryptedtext_title">Импортировать через EncryptedText</string>
+    <string name="manage_neo_wallet_password">Пароль кошелька</string>
+    <string name="create_neo_wallet_success_backup_encrypted_prompt">Пожалуйста, скопируйте и сохраните зашифрованный пароль в безопасном offline месте, если его забыли, его невозможно восстановить. Его можно импортировать только через MDS Wallet.</string>
+    <string name="neo_encryptedtext_backup_completed">Успешное резервное копирование зашифрованного пароля</string>
+    <string name="neo_disclaimer_warning_message">Мы не будем нести ответственность за любые потери средств, если вы потеряли ваш пароль.</string>
+    <string name="create_neo_wallet_success_copy_prompt">Скопируйте и сохраните зашифрованный текст</string>
+    <string name="check_neoscan_transation">Детали транзакции на NeoScan</string>
+    <string name="check_nasscan_transation">Детали транзакции на NasScan</string>
+    <string name="neo_gas_notenough">У вас должено быть 0,0000000001 GAS для отправки токена</string>
+
+    <string name="input_point_address_notvalid">Пожалуйста, введите правильный веб-адрес</string>
+    <string name="please_input_validens">Пожалуйста, введите правильный ENS！</string>
+    <string name="copy_link">Копировать ссылку</string>
+    <string name="refresh">Обновить</string>
+    <string name="tranfer_checkcontract_tips">Пожалуйста, увеличьте плату за GAS выше нормы.</string>
+    <string name="share_link">Поделиться</string>
+
+    <!--dapp交易-->
+    <string name="unable_to_parse_personal_message">Не удается проанализировать личное сообщение</string>
+    <string name="invalid_address">Недействительный адрес</string>
+    <string name="invalid_message_length">Недопустимая Длина Сообщения</string>
+    <string name="invalid_messae_data">Недопустимые Данные Сообщения</string>
+    <string name="this_webpage_is_requesting_your_signature">Эта веб-страница запрашивает вашу подпись</string>
+    <string name="not_able_to_publish">Не удалось опубликовать транзакцию</string>
+    <string name="eos_status_tips">Токены EOS ERC-20 недоступны для отправки или получения на кошелек в настоящее время, так как они находятся на этапе перехода на EOS Mainnet.</string>
+    <string name="verify_code_or">&#160;Or&#160;</string>
+    <string name="verify_code_voice_code">Голосовой код</string>
+
+    <!--持仓-->
+    <string name="position_total_assets">Обзор</string>
+    <string name="position_medishares_wallet">Math Wallet</string>
+    <string name="position_rank_list">Рейтинг</string>
+    <string name="position_holding_assets">Портфолио（≈%s）</string>
+    <string name="position_one_day">1Д</string>
+    <string name="position_one_week">1H</string>
+    <string name="position_one_month">1M</string>
+    <string name="position_asset_persen">Токен·Процент</string>
+    <string name="position_amount_price">Количество·Объем</string>
+    <string name="position_sync">Синхронизация портфеля из %s</string>
+    <string name="position_sync_fail">Обновление информации о портфеле с %s</string>
+    <string name="position_rankList_day">День</string>
+    <string name="position_rankList_week">Неделя</string>
+    <string name="position_rankList_month">Месяц</string>
+    <string name="position_rankList_headerSlogan">Рейтинг роста портфеля</string>
+    <string name="position_rankList_update">Обновить</string>
+    <string name="position_rankList_rankNick">Ранг·Имя пользователя</string>
+    <string name="position_rankList_growMoney">Сумма прироста</string>
+    <string name="position_rankList_growPersent">Процент</string>
+    <string name="position_rankList_joinRace">ПРИСОЕДИНИТЬСЯ СЕЙЧАС</string>
+    <string name="position_ranklist_anonymousId">Анонимный пользователь</string>
+    <string name="position_joinRace_nickName">Имя пользователя</string>
+    <string name="position_joinRace_SetNickName">Укажите ваше имя пользователя</string>
+    <string name="position_joinRace_anonymous">Анонимно</string>
+    <string name="position_joinRace_RaceManifesto">Советы для вашего портфолио</string>
+    <string name="position_joinRace_setRaceManifesto">Скажи что-нибудь миру!</string>
+    <string name="position_joinRace_joinRace">Присоединиться</string>
+    <string name="position_joinRace_updatePosition">Синхронизировать данные портфеля</string>
+    <string name="position_joinRace_quitRace">Выйти из рейтинга</string>
+    <string name="position_position_detail">Детали портфолио</string>
+    <string name="position_bind_exchangeId">Связать Биржевой Аккаунт</string>
+    <string name="position_exchange_hasBind">Связанный аккаунт</string>
+    <string name="position_share_save_success">Успешно сохранено</string>
+    <string name="position_exchange_support">Поддерживаемые Биржевые Аккаунты</string>
+    <string name="position_exchange_unbind">Удалить аккаунт</string>
+    <string name="position_exchange_bind">Связать сейчас</string>
+    <string name="position_Amount_bind">Ссылка</string>
+    <string name="position_Amount_amount">Аккаун</string>
+    <string name="position_Amount_Slogan">Импортировать информацию о ключах API из Биржи</string>
+    <string name="position_Amount_Description">• Ключи API и другая информация будет храниться только на вашем устройстве в зашифрованном формате；\n• мы не передаем информацию третьим лицам；\n• пожалуйста, держите ваш ключи API в безопасности, мы не несем ответственности за любые потери из-за каких-либо злоупотреблений пользователя;</string>
+    <string name="position_Amount_tech">• Нажмите здесь чтобы узнать как получить ключ API от бирж</string>
+    <string name="position_share_description">Самый безопасный кошелек для ваших Cryptoassets</string>
+    <string name="position_position_record">Запись транзакций</string>
+    <string name="position_exchange_unbind_message">Your portfolio data will be deleted from this device and you need to bind your account again to visit your data next time.</string>
+    <string name="position_exited">Exited</string>
+    <string name="position_share_wechat">Поделиться с друзьями.</string>
+    <string name="position_share_friends">Поделиться в WeChat Moments.</string>
+    <string name="position_save">Сохранить в альбом.</string>
+
+    <!--创建 EOS 账户-->
+    <string name="create_eos_account">Создать EOS Аккаунт</string>
+    <string name="create_bos_account">Создать BOS Аккаунт</string>
+    <string name="create_enu_account">Создать ENU Аккаунт</string>
+    <string name="create_telos_account">Создать TELOS Аккаунт</string>
+    <string name="import_eos_account">Импортировать EOS Аккаунт</string>
+    <string name="import_bos_account">Импортировать BOS Аккаунт</string>
+    <string name="import_enu_account">Импортировать ENU Аккаунт</string>
+    <string name="import_telos_account">Импортировать TELOS Аккаунт</string>
+    <string name="choose_eos_account">Выберите EOS аккаунт</string>
+    <string name="choose_enu_account">Выберите ENU аккаунт</string>
+    <string name="choose_telos_account">Выберите TELOS аккаунт</string>
+    <string name="create_eos_force_account">Создать EOS FORCE Аккаунт</string>
+    <string name="import_eos_force_account">Импортировать EOS FORCE Аккаунт</string>
+    <string name="choose_eos_force_account">Выберите EOS FORCE Аккаунт</string>
+    <string name="eos_account">EOS Аккаунт</string>
+    <string name="bos_account">BOS Аккаунт</string>
+    <string name="enu_account">ENU Аккаунт</string>
+    <string name="telos_account">TELOS Аккаунт</string>
+    <string name="eos_force_account">EOS FORCE Аккаунт</string>
+    <string name="eos_force">EOS FORCE</string>
+    <string name="eos_account_input_placeholder">Задать EOS Аккаунт</string>
+    <string name="eos_account_input_warning">• Должно быть 12 символов.\n• Может содержать только следующие символы: «1–5», строчные буквы «a-z».</string>
+    <string name="eos_account_node">EOS Community Chains</string>
+    <string name="eos_account_node_select_placeholder">Выберите EOS Community Chains</string>
+    <string name="password">Пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="eos_account_password_repeat_input_placeholder">Введите пароль еще раз</string>
+    <string name="eos_account_create_warning_exist">Учетная запись EOS занята.</string>
+    <string name="bos_account_create_warning_exist">Учетная запись BOS занята.</string>
+    <string name="eos_account_create_warning_fail">Не удалось создать учетную запись EOS.</string>
+    <string name="restore_private_key_success">Успешное восстановление приватного ключа</string>
+    <string name="create_eos_wallet_success_title">Новая Учетная Запись Создана Успешно</string>
+    <string name="create_bos_wallet_success_title">Новая Учетная Запись Создана Успешно</string>
+    <string name="create_enu_wallet_success_title">Новая Учетная Запись Создана Успешно</string>
+    <string name="create_eosforce_wallet_success_title">Новая Учетная Запись Создана Успешно</string>
+    <string name="create_telos_wallet_success_title">Новая Учетная Запись Создана Успешно</string>
+    <string name="create_eos_wallet_success_backup_prompt">Пожалуйста, скопируйте и сохраните приватный ключ в безопасном месте, после того, как его потеряете, вы не сможете его восстановить.</string>
+
+    <string name="modify_account_password">Изменить пароль</string>
+    <string name="account_show">Аккаунт: %s</string>
+    <string name="manage_account">Управление аккаунтом</string>
+    <string name="remove_account">Удалить аккаунт</string>
+    <string name="account_name">Имя аккаунта</string>
+    <string name="account_passord">Пароль аккаунта</string>
+    <string name="remove_key">Удалить ключ</string>
+    <string name="manage_key">Управление ключами</string>
+    <string name="copy_account_address">Копировать аккаунт</string>
+    <string name="eos_account_qrcode">QR-код учетной записи EOS</string>
+    <string name="bos_account_qrcode">QR-код учетной записи BOS</string>
+    <string name="enu_account_qrcode">QR-код учетной записи ENU</string>
+    <string name="telos_account_qrcode">QR-код учетной записи TELOS</string>
+    <string name="eos_force_account_qrcode">QR-код учетной записи EOS FORCE</string>
+    <string name="not_query_to_the_eos_account">Учетная запись EOS не найдена.</string>
+    <string name="not_query_to_the_bos_account">Учетная запись BOS не найдена.</string>
+    <string name="not_query_to_the_enu_account">Учетная запись ENU не найдена.</string>
+    <string name="not_query_to_the_telos_account">Учетная запись TELOS не найдена.</string>
+    <string name="not_query_to_the_eos_force_account">Учетная запись EOS FORCE не найдена.</string>
+
+    <string name="account_name_format_error">Неверное имя аккаунта！</string>
+    <string name="how_to_get_invite_code">Где я могу получить его?</string>
+    <string name="invitation_code">Код приглашения</string>
+    <string name="eos_account_code_input_placeholder">Введите ваш EOS код приглашения сюда EOS invitation code here</string>
+    <string name="bos_account_code_input_placeholder">Введите ваш BOS код приглашения сюда EOS invitation code here</string>
+    <string name="enu_account_code_input_placeholder">Введите ваш ENU код приглашения сюда EOS invitation code here</string>
+    <string name="telos_account_code_input_placeholder">Введите ваш TELOS код приглашения сюда EOS invitation code here</string>
+    <string name="eos_account_input_warming_placeholder">12 символов ， с \'1 ~ 5\' и \'a ~ z\'</string>
+    <string name="eos_force_account_input_warming_placeholder">1-12 символов，с \'1~5\' и \'a~z\'</string>
+    <string name="eos_account_password">Пароль учетной записи</string>
+    <string name="eos_accountname_placeholder">Добавить учетную запись получателя</string>
+    <string name="most_256_charter">Максимум 256 символов</string>
+    <string name="meno_most_256_charter">Memo может содержать до 256 символов</string>
+    <string name="add_note">Добавить memo</string>
+    <string name="send_to_eosaccount">EOS Аккаунт</string>
+    <string name="send_to_bosaccount">BOS Аккаунт</string>
+    <string name="send_to_enuaccount">ENU Аккаунт</string>
+    <string name="send_to_telosaccount">TELOS Аккаунт</string>
+    <string name="send_to_eos_force_account">EOS FORCE Аккаунт</string>
+    <string name="send_eosaccount">Отправить</string>
+    <string name="receiver_eosaccount">Получатель</string>
+
+    <string name="eos_account_create_by_friends_title">Запросить учетную запись EOS у друга</string>
+    <string name="eos_force_account_create_by_friends_title" translatable="false">Запросить учетную запись EOS FORCE у друга</string>
+    <string name="enu_account_create_by_friends_title">Запросить учетную запись ENU у друга</string>
+    <string name="telos_account_create_by_friends_title">Запросить учетную запись TELOS у друга</string>
+    <string name="bos_account_create_by_friends_title">Запросить учетную запись BOS у друга</string>
+    <string name="eos_account_create_by_friends_publickey_title">Открытый ключ</string>
+    <string name="eos_account_create_by_friends_publickey_prompt">Пожалуйста, скопируйте открытый ключ своему другу, чтобы создать учетную запись EOS.</string>
+    <string name="account_create_by_friends_publickey_prompt">Пожалуйста, скопируйте открытый ключ своему другу, чтобы создать учетную запись %s.</string>
+    <string name="eos_account_create_by_friends_privatekey_title">Приватный ключ</string>
+    <string name="eos_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись EOS в свой кошелек после создания учетной записи EOS вашим другом.</string>
+    <string name="eos_force_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись EOS FORCE в свой кошелек после создания учетной записи EOS вашим другом.</string>
+    <string name="enu_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись ENU в свой кошелек после создания учетной записи ENU вашим другом.</string>
+    <string name="bos_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись BOS в свой кошелек после создания учетной записи BOS вашим другом.</string>
+    <string name="telos_account_create_by_friends_privatekey_prompt">Пожалуйста, храните ваш секретный ключ в тайне и не отправляйте его никому, включая вашего друга. Вам понадобится приватный ключ, чтобы добавить учетную запись TELOS в свой кошелек после создания учетной записи TELOS вашим другом.</string>
+    <string name="eos_main_net">EOS Mainnet</string>
+    <string name="eos_force_fee_cost">Комиссия 0.01 EOSC</string>
+    <string name="eos_not_eos_force_warming">Примечание:передачи между EOS FORCE и EOS не поддерживаются, поскольку они являются различными цепями.</string>
+    <string name="eos_not_bos_warming">Примечание:передачи между BOS и EOS не поддерживаются, поскольку они являются различными цепями.</string>
+    <string name="eos_not_enu_warming">Примечание:передачи между ENU и EOS не поддерживаются, поскольку они являются различными цепями.</string>
+    <string name="eos_not_telos_warming">Примечание:передачи между TELOS и EOS не поддерживаются, поскольку они являются различными цепями.</string>
+    <string name="ont_wallet">Кошелек ONT</string>
+    <string name="create_ont_wallet_success_backup_prompt">Пожалуйста, скопируйте и храните Приватный Ключ в безопасном месте в Offline режиме, если вы его потеряете, вы не сможете его востановить.</string>
+    <string name="wallet_import_wif_phrase_title">Импортировать через WIF</string>
+    <string name="wallet_import_wif_wif_title">WIF</string>
+    <string name="wallet_import_wif_wif_placeholder">Вставьте WIF</string>
+    <string name="contact_account_ont_address_title">Адрес кошелька ONT</string>
+    <string name="ong_wallet_unclaim_amount">Claim&#160;%1$s&#160;ONG</string>
+    <string name="ont_gas_notenough">У вас должно быть 0,01 ONG для отправки токена</string>
+    <string name="manage_wallet_backup_wif">WIF 백업</string>
+    <string name="eos_ram">RAM</string>
+    <string name="eos_net">Net</string>
+    <string name="eos_ram_used">Используется</string>
+    <string name="eos_ram_quota">Всего</string>
+    <string name="eos_buy_ram">Купить RAM</string>
+    <string name="eos_sell_ram">Продать RAM</string>
+    <string name="eos_resource_ram_buy_placeholder">Введите сумму</string>
+    <string name="eos_resource_ram_sell_placeholder">Введите сумму</string>
+    <string name="eos_resource_ram_buy">Купить</string>
+    <string name="eos_resource_ram_sell">Продать</string>
+    <string name="eos_resource_ram_price_trend">EOS RAM Exchange</string>
+    <string name="eos_resource_eos_balance">Доступно %s EOS</string>
+    <string name="bos_resource_eos_balance">Доступно %s BOS</string>
+    <string name="enu_resource_eos_balance">Доступно %s ENU</string>
+    <string name="telos_resource_eos_balance">Доступно %s TLOS</string>
+    <string name="eos_resource_ram_sell_kb_balance">Доступно %s KB</string>
+    <string name="eos_resource_ram_price_trade">Цена RAM: %s EOS/KB</string>
+    <string name="bos_resource_ram_price_trade">Цена RAM: %s BOS/KB</string>
+    <string name="enu_resource_ram_price_trade">Цена RAM: %s ENU/KB</string>
+    <string name="telos_resource_ram_price_trade">Цена RAM: %s TLOS/KB</string>
+    <string name="eos_resource_ram_available_value">Доступно RAM ≈ %s EOS</string>
+    <string name="bos_resource_ram_available_value">Доступно RAM ≈ %s BOS</string>
+    <string name="enu_resource_ram_available_value">Доступно RAM ≈ %s ENU</string>
+    <string name="telos_resource_ram_available_value">Доступно RAM ≈ %s TLOS</string>
+    <string name="eos_resource_ram_input_value_zero">Введенная сумма не может быть \'0\'</string>
+    <string name="eos_resource_stake">Stake</string>
+    <string name="eos_resource_refund">Refund</string>
+    <string name="eos_resource_net_stake">Net Stake</string>
+    <string name="eos_resource_net_refund">Net Refund</string>
+    <string name="eos_resource_cpu_stake">CPU Stake</string>
+    <string name="eos_resource_cpu_refund">CPU Refund</string>
+    <string name="eos_resource_used_title">Используется</string>
+    <string name="eos_resource_limit_title">Предел</string>
+    <string name="eos_balance_liquid">Ликвидный</string>
+    <string name="eos_balance_staked">Staked</string>
+    <string name="eos_balance_refunding">Refunding</string>
+    <string name="eos_resource_net_stake_placeholder">Введите сумму для Stake</string>
+    <string name="eos_resource_net_refund_placeholder">Введите сумму для Refund</string>
+    <string name="eos_resource_cpu_stake_placeholder">Введите сумму для Stake</string>
+    <string name="eos_resource_cpu_refund_placeholder">Введите сумму для Refund</string>
+    <string name="eos_resource_net_staked_total">Staked Net %s</string>
+    <string name="eos_resource_cpu_staked_total">Staked CPU %s</string>
+    <string name="eos_resource_net_refund_balance_low">Сумма для Unstake Net не может превышать staked сумму</string>
+    <string name="eos_resource_cpu_refund_balance_low">Сумма для Unstake CPU не может превышать staked сумму</string>
+    <string name="btc_create_address">generate new address</string>
+    <string name="btc_fee_unit">sat/B</string>
+    <string name="exchange_must_edit_meno">exchange_must_edit_meno</string>
+    <string name="account_not_exist">Учетная запись не существует</string>
+    <string name="transaction_expired">Срок действия транзакции истек, повторите попытку.</string>
+    <string name="ram_is_not_enough">У учетной записи недостаточно RAM, пожалуйста приобретите RAM.</string>
+    <string name="net_is_not_enough">На аккаунте не хватает NET для поддержки операции, пожалуйста сделайте Stake ресурсов вручную, или обратитесь за помощью к друзьям.</string>
+    <string name="cpu_is_not_enough">На аккаунте не хватает CPU для поддержки операции, пожалуйста сделайте Stake ресурсов вручную, или обратитесь за помощью к друзьям.</string>
+    <string name="transfer_must_greater_0">Сумма перевода должна быть больше 0</string>
+    <string name="custom_node">Пользовательская %s Нода</string>
+    <string name="check_ontExplorer_transation">Детали Транзакции OntExplorer</string>
+    <string name="claim_approved">Claim Approved</string>
+    <string name="tips_owner_active">Подсказка： \n• Разрешения Owner: Owner владеет учетной записью, правами управляющего аккаунта, управляет активными и другими аккаунтами;\n • Active разрешения: Active и другие разрешения, служат для отправки, голосования и т.д.\n• Weight threshold: The weight threshold is the minimum weight requirement for using permission;\n• Weight: The weight standard of public key. The higher the number, the higher the weight;\n• Permission change should starts from small to large, such as Active first and then Owner;\n• When changing permissions, please ensure that the new public key or account name is accurate;\n• Before changing permissions, please make sure the assets has been properly managed.</string>
+    <string name="manager_permission">Управление Разрешениями</string>
+    <string name="backup_privatekey">Сделать резервную копию приватного ключа</string>
+    <string name="delete_auth">Удалить Разрешения</string>
+    <string name="permission_threshold">Threshold %d</string>
+    <string name="threshold">Threshold</string>
+    <string name="submit_update_auth">Внести Изменения</string>
+    <string name="weight">Weight %d</string>
+    <string name="weight_is_not_1"> В настоящее время поддерживает только изменения разрешений с порогом веса 1</string>
+    <string name="permission">%s%s Разрешнение</string>
+    <string name="update_permission">Обновить %s</string>
+    <string name="add_permission">Add Permission</string>
+    <string name="update_permission_title">Update Permission</string>
+    <string name="add_auto">Добавить %s</string>
+    <string name="reInport_owner_auth">Разрешение Owner-а учетной записи было изменено, пожалуйста, импортируйте снова, используя закрытый ключ Owner!</string>
+    <string name="fee_of_updateauth">Плата За Изменение Разрешений: 0.1000 EOSC</string>
+    <string name="ont_cost">Gas %s ONG&#160;%s</string>
+    <string name="wallet_import_wif_title">Импортировать через WIF</string>
+    <string name="copy_wif">Копировать WIF</string>
+    <string name="restore_wif_success">Восстановление WIF успешно</string>
+    <string name="map">Map</string>
+    <string name="map_to_value_placeholder">Введите сумму</string>
+    <string name="ont_map">ONT Mapping</string>
+    <string name="neo_asset">Current Asset %1s ONT</string>
+    <string name="neo_map_tips">• The main network was launched on June 30, 2018. The mapping began on July 9, 2018 (UTC) and will end on October 1, 2018 (UTC). When all NEP-5 ONTs are mapped, only could map integer amount. Large amount ONT mapping.\n Since NEO and ONT use the same public/private key pair system, your NEO wallet activeAddress, private key, WIF Is the corresponding ONT wallet activeAddress, private key, WIF.\n Please restore your private key and WIF of NEO wallet and ONT wallet .</string>
+    <string name="wallet_import_privatekey_wif_placeholder">Вставить WIF</string>
+    <string name="ong_withdraw_tips">ONG комиссия： 0.01 ONG</string>
+
+    <string name="whitelist_wallet">Biz.Wallet</string>
+    <string name="create_ent_whitelist_wallet">Создать Business кошелек</string>
+    <string name="whitelist">Белый список</string>
+    <string name="loading_whitelist">Нажмите «Обновить» в правом верхнем углу, чтобы получить белый список.</string>
+    <string name="empty_whitelist">Нет белого списка контактов</string>
+    <string name="about_whitelist_wallet_tv">• кошелек предназначен для таких организаций, как Token Fund, получить более подробную информацию.</string>
+    <string name="whitelist_invite_code_hint">Пожалуйста,вставьте код приглашения</string>
+    <string name="not_in_whitelist">Текущий activeAddress не является activeAddress вашего белого списка</string>
+    <string name="transaction_notification">Уведомление о транзакции</string>
+    <string name="newsletter">Новости</string>
+    <string name="math_news">Новости MathWallet</string>
+    <string name="news_flash">Твиты</string>
+    <string name="news_news">Новости</string>
+    <string name="strategy">Обучение</string>
+    <string name="wechat">WeChat</string>
+    <string name="wechat_friends">Moments</string>
+    <string name="download">Установить</string>
+    <string name="save_pic">Сохранить фото</string>
+    <string name="newsletter_share_text1">Зарегистрируйтесь, чтобы получить 10 MDS, пригласите друзей, чтобы получить еще 10 MDS.</string>
+    <string name="newsletter_share_text2">Ваши ворота в мир блокчейна</string>
+    <string name="btc_address_type">Тип адреса</string>
+    <string name="btc_segWit_type">SegWit</string>
+    <string name="btc_cost">Gas %s  %s  %s</string>
+
+    <string name="red_name_input">Получить Red Packet !!!</string>
+    <string name="red_open_desc">Отправиь you a red packet.</string>
+    <string name="red_alert_remain">Red Packets уже забрали.</string>
+    <string name="red_alert_expire">Red packet уже закончился</string>
+
+    <string name="disclaimer">Оговорка</string>
+    <string name="choose_btc_address_type">Выберите тип адреса</string>
+    <string name="error_change_output">Ошибка определения смены адреса</string>
+    <string name="input">Входящие</string>
+    <string name="output">Исходящие</string>
+    <string name="time">Время</string>
+    <string name="transaction_detail_tx_hash">Транзакция №</string>
+    <string name="check_blockChainExplorer_transation">BLOCKCHAIN</string>
+    <string name="transfer_wait_confirm">Была подтверждена</string>
+    <string name="btc_normal_type">Нормальный</string>
+
+    <string name="newsletter_search_history">История поиска</string>
+    <string name="newsletter_search_top">Топ поиска</string>
+    <string name="newsletter_search_empty">Нет результатов, попробуйте использовать другие слова.</string>
+
+    <string name="createing_eos_wallet_success_title">Создание EOS аккаунта</string>
+    <string name="locked">Заморожен</string>
+    <string name="dapps_contract">Contracts-Actions</string>
+    <string name="dapps_contract_args">Поля</string>
+    <string name="dapps_trasnfer_to">Remitted</string>
+    <string name="dapps_transfer_meno">Memo</string>
+    <string name="dapps_contract_fee">Комиссия</string>
+    <string name="scan">Сканировать</string>
+    <string name="eos_simplewallet_login">%s Авторизоваться</string>
+    <string name="eos_simple_login_prompt">Вы используете аккаунт \"%s\" авторизоваться \"%s\",пожалуйста, убедитесь, что вы являетесь владельцем учетной записи.</string>
+    <string name="simplewallet_confirm">Подтвердите авторизацию</string>
+    <string name="please_change_eoswallet">Пожалуйста, переключитесь на кошелек EOS и попробуйте снова.</string>
+
+    <string name="mds_exchange_trade_buy_name">Купить %s</string>
+    <string name="mds_exchange_trade_sell_name">Продать %s</string>
+    <string name="mds_exchange_trade_avaiable_amount">Доступно %s %s</string>
+    <string name="mds_exchange_trade_record_filter_option1">Все</string>
+    <string name="mds_exchange_trade_record_filter_option2">Крупная сделка，> 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option3">Средняя сделка，500 to 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option4"><![CDATA[Небольшая сделка，< 500 EOS]]></string>
+    <string name="mds_exchange_trade_buy">Купить</string>
+    <string name="mds_exchange_trade_sell">Продать</string>
+    <string name="mds_exchange_trade_record_filter">Фильтр</string>
+    <string name="mds_exchange_trade_record_amount">Значение</string>
+    <string name="mds_exchange_trade_record_amount1">Значение(%s)</string>
+    <string name="mds_exchange_trade_record_account">Аккаунт</string>
+    <string name="mds_exchange_trade_total_amount">Значение %s %s</string>
+    <string name="mds_exchange_trade_record_history">История записи</string>
+    <string name="mds_exchange_trade_record_time">Время</string>
+    <string name="mds_exchange_trade_record_direction">Направление</string>
+    <string name="mds_exchange_trade_record_price">Цена(%s/%s)</string>
+    <string name="total_Candy">Общие Награды</string>
+    <string name="available_Candy">Доступные награды</string>
+    <string name="candy_tasks">Задания для наград</string>
+    <string name="empty_candy_task">Сейчас нет заданий</string>
+    <string name="eospark_exploer">Детали транзакции EOSpark</string>
+    <string name="about">О нас</string>
+    <string name="dapp_about_type">Категория</string>
+    <string name="dapp_about_mainnet">Mainnet</string>
+    <string name="dapp_about_developer">Разработчик</string>
+    <string name="dapp_about_share">Поделиться с друзьями</string>
+    <string name="btc_seekbar_fee">Разрешение для установки GAS</string>
+    <string name="btc_custom_fee">Настраеваемая комиссия за gas</string>
+
+    <string name="price_high">В:</string>
+    <string name="price_low">Н:</string>
+    <string name="price_open">O:</string>
+    <string name="price_close">З:</string>
+    <string name="eos_market_more">Больше</string>
+    <string name="eos_market_24h_h">24H В</string>
+    <string name="eos_market_24h_l">24H Н</string>
+    <string name="eos_market_24h_c">24H С</string>
+    <string name="eos_market_15_min">15 м</string>
+    <string name="eos_market_1_hours">1 ч</string>
+    <string name="eos_market_1_day">1 ч</string>
+    <string name="eos_market_1_m">1 м</string>
+    <string name="eos_market_5_m">5 м</string>
+    <string name="eos_market_30_m">30 м</string>
+    <string name="eos_market_1_week">1 н</string>
+    <string name="eos_market_1_mouth">1 M</string>
+    <string name="tips_btc_address"><Data> <![CDATA[Tips：<br/>• Тип адреса BTC может быть нормальным или segwit, <font color="#5ac8fa">о Segwit</font>；<br/>• каждый кошелек BTC может иметь много разных адресов, чтобы исключит повторения адреса и для защиты конфиденциальности；<br/>• Выбранный адрес будет использоваться по умолчанию]]> </Data></string>
+    <string name="dapps_contract_args_detail">Нажмите, чтобы увидеть подробности</string>
+    <string name="swft_fastchange">闪兑</string>
+    <string name="swft_inputAmount">Отправить</string>
+    <string name="swft_chooseReceiveWallet">Выберите кошелек получателя</string>
+    <string name="swft_change">Биржа</string>
+    <string name="swft_change_rate">Комиссия</string>
+    <string name="swft_receiveAmount">Получено </string>
+    <string name="swft_change_record">Записи обменов</string>
+    <string name="all">ВСЕ</string>
+    <string name="mds">MDS</string>
+    <string name="esn">ESN</string>
+    <string name="ont">ONT</string>
+    <string name="neo">NEO</string>
+    <string name="btc">BTC</string>
+    <string name="swft_chooseCoin">Выберите токен</string>
+    <string name="available_amount">Доступно  %s  %s</string>
+    <string name="swft_instant_rate">1  %s = %s  %s</string>
+    <string name="deposit">Отправить</string>
+    <string name="receive">Получить</string>
+    <string name="rate">Обменный курс</string>
+    <string name="fee">Комиссия</string>
+
+    <string name="choose_wallet">Выберите %s Кошелек</string>
+    <string name="exchange_title">%s Обменять %s</string>
+    <string name="double_params">%s %s</string>
+    <string name="swft_change_status">Статус обмена</string>
+    <string name="swft_change_detail">Детали</string>
+    <string name="swft_deposit">Отправить(%s)</string>
+    <string name="swft_receive">Получить(%s)</string>
+    <string name="swft_tooHigh">Сумма по максимуму может обменять %s</string>
+    <string name="swft_tooLow">Сумма по минимуму может обменять %s</string>
+
+    <string name="medishares_finger_pay">Отпечаток пальцев</string>
+    <string name="medishares_finger_pay_message">Включите для проверки платежей по отпечатку пальца.</string>
+
+    <string name="simplewallet_login_no_account">У вас\ нет %s аккаунта</string>
+    <string name="simplewallet_login_back_to_dapp">Обратно %s</string>
+    <string name="account_doesnt_exist">Учетная запись не существует,\ пожалуйста, импортируйте учетную запись.</string>
+    <string name="dapp_delete_Cache">Очистить Кеш</string>
+    <string name="dapp_clear_cache_success">Очистка Кеша завершена</string>
+    <string name="foru_params">%s %s = %s %s</string>
+
+    <string name="eos_account_select_create_way">Выберите Метод Создания</string>
+    <string name="eos_account_create_way_alipay">Купить пригласительный код</string>
+    <string name="eos_account_create_way_recommend">Рекомендация</string>
+    <string name="eos_account_create_way_exchange">Вывод или перевод</string>
+    <string name="eos_account_create_way_friends">Пригласить друзей для сканирования и оплаты через Math Wallet</string>
+    <string name="eos_account_create_backup_prompt">Ниже приведен закрытый ключ, пожалуйста, внимательно создайте его резервную копию , его не возможно востановить в случае потери.</string>
+    <string name="eos_account_create_backup_prompt2">После успешной транзакции необходимо импортировать приватный ключ для завершения создания учетной записи.</string>
+    <string name="eos_account_create_backup_private_title">Приватный ключ</string>
+    <string name="eos_account_create_by_exchange_prompt3">Открытый исходный код:https://github.com/dappub/signuoeoseos</string>
+    <string name="eos_account_create_by_exchange_prompt4">Вывод или перемещение через биржу должен быть не менее 1 EOS, 0,2 EOS для CPU и NET, а остальные EOS для RAM.</string>
+    <string name="eos_account_create_by_exchange_prompt5">Поддерживаемые биржи в даннй момент : OTCBTC, TC, Gate.io, Huobi, Binance and Bitfinex，другие биржи не рекомендуются.</string>
+    <string name="eos_account_create_by_exchange_prompt6">Ниже приведены счет получателя и примечание к транзакции, пожалуйста, скопируйте и заполните поле вывода с биржи или кошелька. Смарт-контракт будет создан на основе учетной записи.</string>
+    <string name="eos_account_create_by_exchange_prompt7">После успешного снятия средств или перевода импортируйте приватный ключ, резервная копия которого была создана на предыдущем шаге, чтобы завершить создание учетной записи.</string>
+    <string name="eos_account_create_by_exchange_account_title">Перевод На Счет</string>
+    <string name="eos_account_create_by_exchange_memo_title">Добавить Memo</string>
+    <string name="eos_account_create_by_exchange_prompt8">После успешной оплаты необходимо импортировать приватный ключ, резервная копия которого была создана на предыдущем шаге, чтобы завершить создание учетной записи.</string>
+    <string name="eos_account_create_by_exchange_copy_account">Копировать аккаунт</string>
+    <string name="eos_account_create_by_exchange_copy_memo">Копировать memo</string>
+    <string name="eos_account_create_by_friend_prompt9">После успешной оплаты необходимо импортировать приватный ключ, резервная копия которого была создана на предыдущем шаге, чтобы завершить создание учетной записи.
+</string>
+    <string name="eos_account_create_by_friend_share_title">Поделиться QR-кодом</string>
+    <string name="eos_account_create_by_friend_section_title">Информация Об Учетной Записи</string>
+    <string name="eos_account_create_by_friend_account_title">Аккаунт</string>
+    <string name="eos_account_create_by_friend_owner_title">Owner\nPublic Key</string>
+    <string name="eos_account_create_by_friend_active_title">Active\nPublic Key</string>
+    <string name="eos_account_create_by_friend_prompt10">Пригласить друзей, чтобы использовать Math Wallet для сканирования QR-код и оплаты %sEOS чтобы получить CPU и NET，и приобрести RAM.</string>
+    <string name="swft_crosschain">Cross-chain Биржа</string>
+    <string name="swft_wait_deposit_send">Токены для депозита</string>
+    <string name="swft_timeout">Таймаут</string>
+    <string name="swft_exchanging">Обмен</string>
+    <string name="swft_receive_complete">Завершен</string>
+    <string name="swft_wait_refund_send">Ошибка обмена，ожидание возврата токенов</string>
+    <string name="swft_refund_complete">Возвращены</string>
+    <string name="swft_logo">Работает на SWFT Blockchain </string>
+    <string name="swft_exchange_record">Записи обмена</string>
+    <string name="swft_notSupport">Эта торговая пара была приостановлена</string>
+    <string name="swft_order_id">Номер ордера</string>
+    <string name="swft_detail_question">Есть вопросы по ордеру ?</string>
+    <string name="swft_reconnect">Не удалось получить оценку, пожалуйста, нажмите еще раз</string>
+    <string name="trx_wallet">TRX кошелек</string>
+    <string name="create_trx_wallet_success_title">Новый аккаунт успешно создан</string>
+
+    <string name="recently_used">Недавно использованный</string>
+    <string name="trx_multiple_candidates">Несколько кандидатов</string>
+    <string name="trx_votes_reset">Сброс голосов</string>
+    <string name="trx_duration">Продолжительность</string>
+    <string name="mine_medishares_guild">Сообщество</string>
+    <string name="check_trxExplorer_transation">Детали транзакции на TronExplorer</string>
+    <string name="trx_bandWidth">BP</string>
+    <string name="trx_energy">Энергия</string>
+    <string name="trx_balance_avaiable">Доступные средства</string>
+    <string name="trx_balance_freeze">Замороженные</string>
+    <string name="trx_resource_freeze">Замороженные</string>
+    <string name="trx_resource_unfreeze">Размороженные</string>
+    <string name="trx_resource">Ресурс</string>
+    <string name="trx_hasUsed">Используется</string>
+    <string name="trx_limit">Предел</string>
+    <string name="trx_stake_unit">Замороженно %s %s TRX</string>
+    <string name="balance_avaiable_token">Доступные средства %s %s</string>
+    <string name="trx_freeze_hint">Введите сумму замораживания</string>
+    <string name="trx_freeze_tip">Заморозить не менее 3 дней</string>
+    <string name="trx_unfreeze_tips">%s должено быть замороженно по крайней мере на 3 дня и не может быть разморожен через 3 дня</string>
+    <string name="freeze">Заморозить-</string>
+    <string name="unfreeze">Разморозить</string>
+    <string name="location">Местоположение</string>
+    <string name="allow_access_to_your_location">Разрешить доступ к вашему местоположению ？</string>
+    <string name="dapps_upgrade_disclaimer">Ваш Math Wallet должен быть обновлен, спасибо за вашу поддержку.</string>
+    <string name="dapps_open_risk_disclaimer">Вы собираетесь перейти на стороннюю страницу DAPP. Ваше использование стороннего DAPP будет применяться к стороннему DAPP \ Пользовательское соглашение и Политика конфиденциальности, которые будут нести прямую и отдельную ответственность перед DAPP третьей стороной.</string>
+    <string name="dapps_risk_disclaimer">Использование вами DAPP третьей стороны будет регулироваться Соглашением с пользователем и Политикой конфиденциальности DAPP третьей стороны, которая несет прямую и отдельную ответственность перед DAPP третьей стороны.</string>
+    <string name="eos_account_create_success_pendding_propmt">Учетная запись была создана и отправлена в основную сеть. Пожалуйста, подождите подтверждения в сети (около 3 минут), а затем начните транзакцию.</string>
+    <string name="close_dapp_no_finger">Подтверждение не появляется перед закрытием DApp</string>
+    <string name="dapp_rankings">DApp Рейтнг</string>
+    <string name="dapps_24h_users">24Ч Пользователи</string>
+    <string name="dapps_24h_transactions">24Ч Транзакции</string>
+    <string name="dapps_24h_volume">24Ч Объем</string>
+    <string name="dapps_rank_date_source">Данные из：%s</string>
+    <string name="dapps_rank_data_source_empty">Данные из：нет</string>
+    <string name="trx_not_transfer">Токен недоступен для обмена</string>
+    <string name="vote">Голосовать</string>
+    <string name="exchange_transfer">Биржа-</string>
+
+    <string name="trx_buy">Количество</string>
+    <string name="trx_pre_cost">Ожидаемая стоимость</string>
+    <string name="trx">TRX</string>
+    <string name="transaction_rate_possible">%s ≈ %s</string>
+    <string name="trx_direction">Направление</string>
+    <string name="trx_transaction_amount">Количество</string>
+    <string name="trx_sell">Количество</string>
+    <string name="trx_pre_get">Ожидаемый доход</string>
+    <string name="eos_transfer_delay_set_placeholder">Введите новый публичный ключ или аккаунт EOS</string>
+
+    <string name="pickerview_cancel" translatable="false">Отмена</string>
+    <string name="pickerview_day" translatable="false">Д</string>
+    <string name="pickerview_hours" translatable="false">Ч</string>
+    <string name="pickerview_minutes" translatable="false">м</string>
+    <string name="pickerview_month" translatable="false">М</string>
+    <string name="pickerview_seconds" translatable="false">с</string>
+    <string name="pickerview_submit" translatable="false">Отправить</string>
+    <string name="pickerview_year" translatable="false">г</string>
+
+    <string name="eos_account_permission_text_placeholder">EВведите новый публичный ключ или аккаунт EOS</string>
+    <string name="telos_account_permission_text_placeholder">Введите новый публичный ключ или аккаунт TELOS</string>
+    <string name="bos_account_permission_text_placeholder">Введите новый публичный ключ или аккаунт BOS</string>
+    <string name="enu_account_permission_text_placeholder">Введите новый публичный ключ или аккаунт ENU</string>
+    <string name="eos_account_permission_text_invalid">Неверный публичный ключ или учетная запись EOS</string>
+    <string name="eos_threshold_totalweight">Общий вес не может быть меньше порогового значения.</string>
+    <string name="dapps_item_recently_title">Недавние</string>
+    <string name="dapps_item_new_online_title">Новый</string>
+    <string name="dapps_item_recommend_title">Бутик</string>
+    <string name="trx_market_5_min">5 м</string>
+    <string name="trx_market_30_m">30 м</string>
+    <string name="trx_market_4_h">4 Ч</string>
+    <string name="trx_buy_tips">Немного увеличить расходы, чтобы увеличить вероятность закрытия</string>
+    <string name="trx_sell_tips">Немного уменьшите ожидаемый доход, чтобы увеличить вероятность закрытия</string>
+    <string name="eos_transaction_choose_broswer">Перейдите в blockchain-браузер , чтобы проверить детали транзакции</string>
+    <string name="trx_buy_failed_tips">Нужно больше TRX для завершения торговли</string>
+    <string name="sign_message">Подписать сообщение</string>
+    <string name="debug">Отладка</string>
+    <string name="decode_error">Ошибка расшифровки</string>
+    <string name="encrypt_error">Ошибка шифрования</string>
+    <string name="update_password_error">Ошибка обновления пароля</string>
+    <string name="other_wallet">Другое</string>
+
+    <string name="hardware_wallet">硬件钱包</string>
+    <string name="hardware_Search">正在搜索设备...</string>
+    <string name="hardware_connection">连接</string>
+    <string name="hardware_connection_current">当前连接设备</string>
+    <string name="hardware_connection_other">其它设备</string>
+    <string name="hardware_Initialize">初始化设备</string>
+    <string name="hardware_setPin">设置 PIN 码</string>
+    <string name="hardware_setPin_hint">为了保护您的钱包安全，请先设置 PIN 码，PIN 码会用于钱包解锁、转账等操作，请妥善保管 PIN 码。</string>
+    <string name="hardware_setPin_input">输入 PIN 码</string>
+    <string name="hardware_setPin_input_again">再次输入 PIN 码</string>
+    <string name="hardware_setFinger">设置指纹</string>
+    <string name="hardware_setFinger_hint">设置指纹后，无需输入 PIN 码，通过指纹识别可用于钱包解锁、转账等操作。</string>
+    <string name="hardware_setFinger_no">暂不设置</string>
+    <string name="hardware_setFinger_start">开始录入指纹\n请将一支手指放入设备验证指纹处</string>
+    <string name="hardware_setFinger_goodFinger">录入完成\n请移开手指</string>
+    <string name="hardware_setFinger_continue">继续录入指纹\n请再次将同一支手指放入设备验证指纹处</string>
+    <string name="hardware_setFinger_complete">录入完成\n您的指纹已设置完成</string>
+    <string name="hardware_PinAndFinger">PIN 码与指纹</string>
+    <string name="hardware_backup_mnemonic_phrase">备份助记词</string>
+    <string name="hardware_Initialize_again">重新初始化设备</string>
+    <string name="hareware_initialize_alert">重新初始化设备将删除您所有相关联的钱包，请确认您是否已备份好私钥？</string>
+    <string name="hardware_delete">删除设备</string>
+    <string name="hardware_delete_alert">删除设备同时将会移除您已经添加的钱包，但将来您可以重新连接此设备并导入钱包。</string>
+    <string name="hardware_resetPin">重设 PIN 码</string>
+    <string name="hardware_resetFinger">重设指纹</string>
+    <string name="hardware_verify_finger">请在设备验证指纹以确认转账</string>
+    <string name="hardware_verify_pin">请在设备验证PIN码以确认转账</string>
+    <string name="hareware_choose">选择硬件钱包</string>
+    <string name="hardware_mywallet">我的钱包</string>
+    <string name="hardware_pin_diffrent">两次PIN码不一致</string>
+    <string name="hardware_account">账户</string>
+
+    <string name="dapp_search_hint">Search or enter DApp address</string>
+    <string name="open_link">Open link: </string>
+    <string name="dapp_search_open_otherwallet_message">Please switch to %s wallet to open the DAPP</string>
+    <string name="dapp_search_nothing">No Result</string>
+    <string name="eth_sigh_address">Address</string>
+    <string name="eth_sign_content">Content</string>
+
+    <string name="eos_account_permission_accounts_add">Add Account</string>
+    <string name="eos_account_permission_accounts_update">Update Account</string>
+    <string name="update_permission_eos">Update</string>
+    <string name="eos_account_permission_choose">Select </string>
+    <string name="eos_account_permission_weight_placeholder">Set Weight</string>
+    <string name="eos_account_permission_weight_title">Weight</string>
+    <string name="eos_account_permission_permission_title">Permission</string>
+    <string name="eos_account_permission_accounts_invalid">Invalid Account</string>
+    <string name="eos_account_permission_keys_add">Add Public Key</string>
+    <string name="eos_account_permission_keys_update">Update Public Key</string>
+    <string name="eos_account_permission_keys_invalid">Invalid Public Key</string>
+    <string name="eos_account_permission_waits_add">Add Wait</string>
+    <string name="eos_account_permission_waits_update">Update Wait</string>
+    <string name="eos_account_permission_waits_time_title">Waiting Time</string>
+    <string name="eos_account_permission_waits_time_placeholder">Set Waiting Time</string>
+    <string name="eos_account_permission_parent_title_placeholder">Parent %s · %s</string>
+    <string name="eos_account_permission_import_operation_warning">The current account has %s permission，cannot change %s permission</string>
+    <string name="eos_account_permission_parent_placeholder">Select Parent</string>
+    <string name="eos_account_permission_delete_warning">Owner and active permission cannot be deleted.</string>
+    <string name="eos_account_permission_keys_delete">Delete Public Key</string>
+    <string name="eos_account_permission_accounts_delete">Delete Account</string>
+    <string name="eos_account_permission_waits_delete">Delete Wait</string>
+    <string name="eos_account_permission_name_title">Permission Name</string>
+    <string name="eos_account_permission_name_placeholder">Set Permission Name</string>
+    <string name="eos_account_permission_parent_title">Parent</string>
+    <string name="eos_account_permission_threshold_placeholder">Set threshold</string>
+    <string name="eos_account_permission_waits_title">Wait</string>
+    <string name="eos_account_permission_no">none</string>
+    <string name="language_of_mathwallet_translation">Thanks to community volunteer\'s help and support for Math Wallet translation.Russian translator: Alexey Koroln</string>
+    <string name="trade">trade</string>
+    <string name="eos_permission_inconsistent">Please import the %s permission first.</string>
+</resources>

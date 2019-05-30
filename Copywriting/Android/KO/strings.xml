@@ -1,0 +1,1304 @@
+<resources>
+    <string name="app_name">Math Wallet</string>
+    <string name="wallet">지갑</string>
+    <string name="position">포지션</string>
+    <string name="dapp">응용</string>
+    <string name="profile">나</string>
+
+    <!--多钱包选择页面-->
+    <string name="wallet_create_or_import_prompt">지갑이 없으니 지갑을 새로 만들거나 기존의 지갑을 불러오세요.</string>
+    <string name="eth_wallet">ETH 지갑</string>
+    <string name="neo_wallet">NEO 지갑</string>
+    <string name="eos_wallet">EOS 지갑</string>
+    <string name="bos_wallet">BOS 지갑</string>
+    <string name="enu_wallet">ENU 지갑</string>
+    <string name="esn_wallet">ESN 지갑</string>
+    <string name="nas_wallet">NAS 지갑</string>
+    <string name="telos_wallet">TELOS 지갑</string>
+    <string name="eos_force_wallet">EOS FORCE 지갑</string>
+    <string name="eos_force_fee_wallet">EOS FORCE 지갑</string>
+    <string name="btc_wallet">BTC 지갑</string>
+    <string name="choose_wallet_type">지갑의 종류를 선택하세요</string>
+    <string name="create_eth_wallet_prompt">•암호화폐 자산 안전 보장, 암호화폐를 도난 당할 경우 최대 MDS 100,000개까지 배상해드립니다.\n•다중의 안전 검증을 지원할 수 있습니다.</string>
+    <string name="create_eth_wallet_other_support_prompt">•기타 지갑의 keystore, private key 및 mnemonic을 통해 Math Wallet으로 지갑을 불러올 수 있습니다.</string>
+    <string name="create_eth_wallet_support_prompt">•기타 지갑의 keystore, private key 및 mnemonic을 통해 Math Wallet으로 지갑을 불러올 수 있습니다.</string>
+    <string name="create_wallet_warming">•새로 만든 안전 지갑을 반드시 Math Wallet를 통해야만 도입할 수 있습니다.\n•새로 만든 안전 지갑은 계정 안전 보장에 가입할 수 있습니다.\n• 지문, 안면, 성문등 다중 안전 인증을 지원할 수 있습니다.</string>
+    <string name="switch_wallet">지갑 전환</string>
+
+    <string name="detect_no_face">얼굴이 감지되지 않습니다</string>
+    <string name="detect_face_in">얼굴을 틀에 넣어주세요</string>
+    <string name="detect_zoom_in">핸드폰을 조금 가까이 들어주세요</string>
+    <string name="detect_zoom_out">핸드폰을 조금 멀리 들어주세요</string>
+    <string name="detect_head_up">고개를 조금 들어주세요</string>
+    <string name="detect_head_down">고개를 조금 숙여주세요</string>
+    <string name="detect_head_left">오른쪽으로 고개를 조금 돌려주세요</string>
+    <string name="detect_head_right">왼쪽으로 고개를 조금 돌려주세요</string>
+    <string name="detect_occ_face">얼굴에 가려진 부분이 있습니다</string>
+    <string name="detect_low_light">조명이 너무 어둡습니다</string>
+    <string name="detect_keep">움직이지 마세요</string>
+    <string name="detect_standard">정면을 보여 주세요</string>
+    <string name="detect_timeout">시간 초과</string>
+    <string name="liveness_eye">눈을 깜박거리세요</string>
+    <string name="liveness_eye_left">눈을 깜박거리세요</string>
+    <string name="liveness_eye_right">눈을 깜박거리세요</string>
+    <string name="liveness_mouth">입을 벌리세요</string>
+    <string name="liveness_head_left">왼쪽으로 천천히 고개를 돌려주세요</string>
+    <string name="liveness_head_right">오른쪽으로 천천히 고개를 돌려주세요</string>
+    <string name="liveness_head_left_right">머리를 좌우로 흔들어주세요</string>
+    <string name="liveness_head_up">고개를 천천히 들어주세요</string>
+    <string name="liveness_head_down">고개를 천천히 숙여주세요</string>
+    <string name="liveness_good">좋습니다</string>
+
+    <!--导入钱包-->
+    <string name="wallet_import_keystore_title">Keystore를 통해 불러오기</string>
+    <string name="wallet_import_privatekey_title">Private key를 통해 불러오기</string>
+    <string name="import_privatekey">Private key 불러오기</string>
+    <string name="wallet_import_mnemonic_phrase_title">Mnemonic를 통해 불러오기</string>
+    <string name="account_is_existing">계정이 이미 존재합니다. 덮어쓰시겠습니까？</string>
+
+    <!--keystore도입-->
+    <string name="keystore">keystore</string>
+    <string name="wallet_import_keystore_text_placeholder">keystore 파일 내용을 붙여넣기</string>
+    <string name="wallet_import_keystore_password_title">keystore의 비밀번호</string>
+    <string name="wallet_import_keystore_password_placeholder">keystore의 비밀번호를 입력</string>
+    <string name="wallet_import_keystore_nickname_placeholder">지갑 명칭 설정</string>
+    <string name="copy_walleKeystore">Keystore 복사</string>
+    <string name="copy_wallePrivateKey">Private Key 복사</string>
+
+    <string name="keystore_backup_completed">Keystore 백업되었습니다</string>
+
+    <!--私钥导入-->
+    <string name="wallet_import_privatekey_privatekey_title"> Private Key</string>
+    <string name="wallet_import_privatekey_privatekey_placeholder"> Private key를 붙여넣기</string>
+    <string name="copy_privateKey"> Private key를 복사하기</string>
+
+    <!--助记词-->
+    <string name="wallet_mnemonic_title">Mnemonic</string>
+    <string name="wallet_import_mnemonic_phrase_placeholder">Mnemonic를 입력하고, 스페이스 바를 눌러 분할하세요</string>
+    <string name="wallet_import_mnemonic_phrase_path_title">경로</string>
+    <string name="eth_mnpath">m/44\'/60\'/0\'/0/0 Jaxx，Metamask (ETH)</string>
+    <string name="eth_mnpath2">m/44\'/60\'/0\'/0 Ledger (ETH)</string>
+    <string name="eth_mnpath3">m/44\'/60\'/1\'/0/0자체 정의 경로</string>
+
+    <!--创建钱包-->
+    <string name="create_wallet_success_title">지갑 생성 완료</string>
+    <string name="input_walletname">지갑 명칭 입력</string>
+    <string name="password_save_warning_title">지갑의 비밀번호 확인</string>
+    <string name="password_save_warning_message">지갑의 비밀번호를 찾아 드릴 수 없으니 반드시 확인하고 잘 보관해 주시기 바랍니다!</string>
+    <string name="wallet_password_placeholder">비밀번호 설치, 최소 8개자로 작성해주세요</string>
+    <string name="wallet_repeat_password">지갑의 비밀번호를 다시 입력해주세요</string>
+    <string name="wallet_repeat_password_placeholder">지갑의 비밀번호를 다시 입력해주세요</string>
+    <string name="conditions_prompt_normal">자세히 읽고 동의합니다</string>
+    <string name="conditions_prompt_active">《서비스 및 프라이버시 조항》</string>
+    <string name="password_strength_low">약</string>
+    <string name="password_strength_high">강</string>
+    <string name="create_wallet_success_backup_prompt_only">다음은 지갑의 Keystore파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다</string>
+    <string name="create_wallet_success_backup_prompt">다음은 지갑의 Keystore파일입니다. 복사하고 안전한 곳에 보관하십시오.</string>
+    <string name="create_neo_wallet_success_backup_prompt">다음은 NEO 지갑의 private key(WIF) 파일입니다. 복사하고 안전한 곳에 보관하십시오.</string>
+    <string name="Investors">투자 기구</string>
+    <string name="fenbushi_capital">Fenbushi Capital</string>
+    <string name="Danhua_capital">Danhua Capital</string>
+    <string name="disclaimer_warning_title">면책 성명</string>
+    <string name="create_wallet_success_copy_prompt">우선 Keystore 파일을 복사 및 백업하십시오</string>
+    <string name="create_wallet_success_copy_privateKey_prompt">우선 WIF 파일을 복사 및 백업하십시오</string>
+    <string name="create_wallet_success_copy_eos_privateKey_prompt">우선 private key 파일을 복사 및 백업하십시오</string>
+    <string name="disclaimer_warning_message">저희는 Keystore 및 비밀번호 분실로 인한 자산 손실에 대해 책임을 지지 않습니다！</string>
+    <string name="disclaimer_privatekey_warning_message">저희는 private key 및 비밀번호 분실로 인한 자산 손실에 대해 책임을 지지 않습니다！</string>
+    <string name="wallet_is_already_existing">지갑이 이미 존재합니다</string>
+    <string name="delete_wallet_caution">지갑을 삭제하시겠습니까?</string>
+    <string name="input_walletpassword">지갑 비밀번호 입력</string>
+    <string name="the_account_name_is_taken">계정 명칭이 중복되면 안 됩니다</string>
+    <string name="the_name_is_taken">지갑 명칭이 중복되면 안 됩니다</string>
+    <string name="password_is_too_weak">비밀번호가 약합니다</string>
+    <string name="nodes_of_community">노드 커뮤니티</string>
+
+    <!--管理钱包-->
+    <string name="select_wallet">지갑 선택</string>
+    <string name="select_eth_wallet">ETH 지갑 선택</string>
+    <string name="select_eos_wallet">EOS 지갑 선택</string>
+    <string name="select_neo_wallet">NEO 지갑 선택</string>
+    <string name="select_ont_wallet">ONT 지갑 선택</string>
+    <string name="select_btc_wallet">BTC 지갑 선택</string>
+    <string name="select_esn_wallet">ESN 지갑 선택</string>
+    <string name="manage_wallet">지갑 관리</string>
+    <string name="create_wallet">지갑을 만들기</string>
+    <string name="create_maizi_wallet">Math 안전 지갑 만들기</string>
+    <string name="eos_owner">Owner</string>
+    <string name="eos_active">Active</string>
+    <string name="import_wallet">기존 지갑 불러오기</string>
+    <string name="ethereum_point">Ethereum</string>
+    <string name="neo_point">NEO</string>
+    <string name="manage_wallet_address">지갑 주소</string>
+    <string name="manage_wallet_name">지갑 명칭</string>
+    <string name="manage_wallet_password">지갑 비밀번호</string>
+    <string name="manage_wallet_backup_keystore">keystore 백업</string>
+    <string name="manage_wallet_backup_privatekey">private key 백업</string>
+    <string name="manage_wallet_backup_mnemonic_phrase">mnemonic 백업</string>
+    <string name="remove_wallet">지갑 삭제</string>
+    <string name="wallet_address">주소：</string>
+    <string name="save_wallet_failed">지갑 저장 실패</string>
+    <string name="rename_wallet_failed">지갑 명칭 변경 실패</string>
+    <string name="delete_wallet_failed">지갑 삭제 실패</string>
+
+    <!--修改钱包名称-->
+    <string name="wallet_nickname_update">지갑 명칭 변경</string>
+    <string name="wallet_nickname_update_completed">지갑 명칭 변경 성공</string>
+    <string name="wallet_password_update">지갑 비밀번호 변경</string>
+    <string name="wallet_password_update_failed">지갑 비밀번호 변경 실패</string>
+    <string name="wallet_password_update_completed">지갑 비밀번호 변경 성공</string>
+    <string name="wallet_password_old_password_title">현재 비밀번호</string>
+    <string name="wallet_password_old_password_placeholder">현재 비밀번호 입력</string>
+    <string name="wallet_password_new_password_title">새 비밀번호</string>
+    <string name="wallet_password_new_password_placeholder">새 비밀번호 다시 입력하십시오, 최소 8개자로 작성해주세요</string>
+    <string name="wallet_password_repeat_password_title">새 비밀번호 다시 입력하십시오</string>
+    <string name="wallet_password_repeat_password_placeholder">새 비밀번호 다시 입력하십시오</string>
+
+    <!--备份私钥-->
+    <string name="wallet_backup_privatekey_prompt">다음은 지갑의 private key 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다</string>
+
+    <!--备份助记词-->
+    <string name="wallet_backup_mnemonic_phrase_write_down">mnemonic 백업 완료</string>
+    <string name="wallet_backup_mnemonic_phrase_completed">이체 확인</string>
+    <string name="wallet_backup_mnemonic_phrase_write_down_prompt">다음은 지갑의 mnemonic 파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다</string>
+    <string name="wallet_backup_mnemonic_phrase_prompt"> Mnemonic가 정확한지 확인하기 위해 순서대로 클릭하십시오. 잃어버리시면 지갑을 복구할 수 없습니다</string>
+
+    <!--转账菜单-->
+    <string name="transaction_menu_contacts">저장된 연락처 주소로 이체</string>
+    <string name="transaction_menu_account_address">지갑 주소로 이체</string>
+    <string name="transaction_menu_scan_qrcode">QR코드 스캔</string>
+    <string name="transaction_recently_records">최근 이체 기록</string>
+    <string name="contact_address_incorrect">이 연락인의 지갑 주소가 틀렸으니 다른 방식을 선택하십시오</string>
+
+    <!--交易-->
+    <string name="exchange">거래</string>
+    <string name="coming_soon">곧 출시 </string>
+    <string name="developing">거래가 없습니다</string>
+    <string name="slow">느리다 </string>
+    <string name="fast">빠르다</string>
+    <string name="veryslow">극히 느리다</string>
+    <string name="normal">정상</string>
+    <string name="veryfast">극히 빠르다</string>
+    <string name="transfer_overtime">이체 시간 초과 보장 계약</string>
+    <string name="transfer_overtime_detail">패킹 시간이 1시간 초과될 경우 5개 MDS를 배상해드립니다</string>
+    <string name="free">무료</string>
+    <string name="transaction_to_address_placeholder">지갑 주소 입력</string>
+    <string name="transaction_to_address_checking_security">계정의 안전성을 점검 중</string>
+    <string name="transaction_to_value_placeholder">이체 금액 입력</string>
+    <string name="recharge_money">이체 금액 %s ~ %s</string>
+    <string name="transaction_to_advance_setting">고급 설치</string>
+    <string name="transaction_to_advance_setting_gas_limit">자체 정의&#160;Gas&#160;Limit</string>
+    <string name="transaction_to_advance_setting_gas_price">자체 정의&#160;Gas&#160;Price</string>
+    <string name="transaction_to_advance_setting_hex_data">16비트 데이터</string>
+    <string name="transaction_confirm_send">이체 확인</string>
+    <string name="transaction_add_remark_hint">비고 추가</string>
+    <string name="pasted">붙이기 완료</string>
+    <string name="authenticate_immediately">즉시 인증</string>
+    <string name="token_tranfer">%s 이체</string>
+    <string name="gas_price_is_low_8">Gas price 가 너무 낮습니다, 최소 8 gwei로 설정하세요</string>
+    <string name="gas_price_is_up_100">Gas price 가 너무 높습니다, 최대 100 gwei로 설정하세요</string>
+    <string name="gas_price_is_null">Gas price 를 비워 둘 수 없습니다</string>
+    <string name="gas_limit_is_null">Gas Limit 를 비워 둘 수 없습니다</string>
+    <string name="insufficient_balance">잔액이 부족합니다</string>
+    <string name="insufficient_eth_balance">ETH 잔액이 부족합니다</string>
+    <string name="insufficient_eos_balance">EOS 잔액이 부족합니다</string>
+    <string name="insufficient_nas_balance">NAS 잔액이 부족합니다</string>
+    <string name="gas_should_be_more_than_25200">Gas Limit 최소 25200</string>
+    <string name="gas_should_be_more_than_60000">Gas Limit 최대 60000</string>
+    <string name="gas_should_be_more_than">Gas Limit 최소%s</string>
+
+    <string name="today">오늘&#160;</string>
+    <string name="yestoday">어제&#160;</string>
+    <string name="transfer">이체-</string>
+    <string name="collection">수납-</string>
+    <string name="current_asset">현재 자산 %s %s</string>
+    <string name="gas_cost">Gas fee %s ETH %s</string>
+
+    <string name="esn_gas_cost">Gas fee %s ESN %s</string>
+    <string name="nas_gas_cost">Gas fee %s NAS %s</string>
+    <string name="invalid_data">16비트 데이터가 틀렸습니다</string>
+    <string name="address_cant_be_yourself">수취인 주소를 자신의 주소로 지정할 수 없습니다</string>
+
+    <string name="please_enter_ammount">이체 금액을 기입하세요</string>
+    <string name="open_face_module_to_keep_safe">회원님의 계정 안전을 보호하기 위해 안면 인식을 시작하겠습니다</string>
+    <string name="recharge_money_is_low">충전 금액이 최소%s</string>
+    <string name="recharge_money_is_high">충전 금액이 최고%s</string>
+    <string name="please_create_eos_wallet">새 EOS 지갑을 만드세요</string>
+
+    <!--交易完成-->
+    <string name="transaction_complete_status_title">거래 상태</string>
+    <string name="transaction_complete_to_address_title">수납 주소</string>
+    <string name="transaction_complete_remark_title">비고</string>
+    <string name="transaction_complete_remark_add">비고 추가</string>
+
+    <!--确认转账信息-->
+    <string name="transaction_confirm_title">이체 내역 확인</string>
+
+    <!--交易详情-->
+    <string name="transaction_detail_title">거래 내역</string>
+    <string name="transaction_detail_block_height_title">블록</string>
+    <string name="transaction_detail_tx_hash_title">거래 번호</string>
+    <string name="transaction_detail_tx_time_title">거래 시간</string>
+    <string name="transaction_detail_tx_fee_title">Gas fee</string>
+    <string name="transaction_detail_from_address_title">송금</string>
+    <string name="eos_mapping">매핑</string>
+    <string name="transaction_detail_re_transfer">다시 이체</string>
+    <string name="overtime_pay">시간 초과 배상</string>
+
+    <!--资产-->
+    <string name="home_total_asset_title">총자산（≈%s）</string>
+    <string name="home_add_new_asset">자산 추가</string>
+    <string name="neo_claim_failer">%s 회수 실패</string>
+    <string name="neo_claim_success">%s 회수 성공!</string>
+    <string name="auto_search">자동 검색</string>
+
+    <!--我-->
+    <string name="mine_medishares_account">Math 계정</string>
+    <string name="mine_medishares_transcations">거래 기록</string>
+    <string name="mine_medishares_contacts">주소 북</string>
+    <string name="mine_medishares_wechat_group">공식 wechat 채팅방에 가입</string>
+    <string name="mine_medishares_recommend">초대</string>
+    <string name="mine_medishares_suggestion">피드백</string>
+    <string name="mine_medishares_feekback">피드백</string>
+    <string name="mine_medishares_about">관련</string>
+    <string name="mine_medishares_setting">설치</string>
+    <string name="mine_medishares_candy">캔디 월렛</string>
+    <string name="mds_app_download">Math App Download</string>
+    <string name="token_price">초대 장려 조회</string>
+
+    <!--注册或登录-->
+    <string name="register_acccount_title">계정 만들기&#160;Math 계정</string>
+    <string name="register_acccount_with_email">이메일 주소로 계정 만들기</string>
+    <string name="register_acccount_with_mobile">전화번호로 계정 만들기</string>
+    <string name="register_account_switch_email">혹은 전화번호로 계정 만들기</string>
+    <string name="register_account_switch_mobile">혹은 이메일 주소로 계정 만들기</string>
+    <string name="login_acccount_title">Math 계정 로그인</string>
+    <string name="login_acccount_with_email">이메일 주소로 로그인</string>
+    <string name="login_acccount_with_mobile">전화번호로 로그인</string>
+    <string name="login_account_switch_email">혹은 전화번호로 로그인</string>
+    <string name="login_account_switch_mobile">혹은 이메일 주소로 로그인</string>
+    <string name="verify_code_unreceived">아직 못 받았습니까？</string>
+    <string name="check_your_spam_box">이메일을 아직 받지 못했다면 스팸 메일함에 있는지 확인해주세요</string>
+    <string name="verify_code_send_again">인증번호를 다시 발송</string>
+    <string name="sign_in">회원가입</string>
+    <string name="login">로그인</string>
+    <string name="edit_email_error">이메일 주소가 맞지 않습니다</string>
+    <string name="verify_code_send_again_timeout">%d\'s 후 인증번호를 다시 발송</string>
+    <string name="edit_verification_code">인증번호 입력</string>
+    <string name="please_input_email_true">정확한 이메일 주소를 입력하세요</string>
+    <string name="please_input_phone_true">정확한 전화번호를 입력하세요</string>
+    <string name="verify_phone_number">전화번호로 인증</string>
+
+    <!--选择国家和地区-->
+    <string name="country_code_title">국가 및 지역을 선택하세요</string>
+
+    <!--MediShares账户-实名-->
+    <string name="medishares_account_page_security_title">안전</string>
+    <string name="medishares_account_page_security_subtitle">IPFS와 암호화 기술로 회원님의 인증 정보를 보장해드립니다</string>
+    <string name="medishares_account_page_insurance_title">보장</string>
+    <string name="medishares_account_page_insurance_subtitle">실명 인증 완료 후, 스마트 계약 보장에 가입할 수 있습니다</string>
+    <string name="medishares_account_page_convenient_title">편리하고 신속함</string>
+    <string name="medishares_account_page_convenient_subtitle">실명 인증 통과 후, 친구분들은 연동된 전화번호를 통해 당신의 계좌로 편리하게 이체할 수 있습니다</string>
+    <string name="bind_kyc_status_default">실명 인증</string>
+    <string name="bind_kyc_status_process">회원님의 실명 인증 정보가 제출되었습니다. 최대한 빨리 심사하여 피드백을 드리겠습니다</string>
+    <string name="bind_kyc_status_success">실명 인증 완료(%s)</string>
+    <string name="bind_kyc_page_subtitle">아래 내용을 입력하여 신분 인증을 하십시오</string>
+    <string name="bind_kyc_page_title">신분 인증</string>
+    <string name="bind_kyc_submit">심사를 제출합니다</string>
+    <string name="bind_kyc_name_placeholder">회원님의 성함을 기입해 주십시오</string>
+    <string name="bind_kyc_identity_photo_prompt">신분증 정면(또는 여권 사진)을 찍어주세요</string>
+    <string name="make_sure_your_entire_head_and_certificate">신분증을 또렷하게 찍어주세요</string>
+    <string name="identity_verification_failed">검증 실패, 실명 인증을 다시 제출하세요</string>
+    <string name="enter_idcard">신분증 번호를 기입해 주십시오</string>
+    <string name="bind_kyc_complete_title">제출 완료</string>
+    <string name="identity_verification">실명 인증：%s</string>
+    <string name="please_choose_cardtype">신분증 종류를 선택하세요</string>
+
+    <!--MediShares账户-信息-->
+    <string name="user_detail_title">계정 정보</string>
+    <string name="user_add_email_address">이메일 주소 추가</string>
+    <string name="user_add_mobile_number">전화번호 추가</string>
+    <string name="user_idcard">신분증</string>
+    <string name="user_passport">여권</string>
+    <string name="user_logout">로그아웃</string>
+    <string name="user_name_title">성함</string>
+    <string name="user_credential_type_title">신분증 종류</string>
+    <string name="user_email_title">이메일</string>
+    <string name="user_mobile_title">전화번호</string>
+    <string name="user_update_success">변경 성공</string>
+    <string name="user_photo_title">프로필 사진</string>
+    <string name="sure_exit_account">현재 로그인된 계정을 로그아웃하시겠습니까?</string>
+    <string name="user_driverlicense">운전 면허증</string>
+
+    <!--MediShares账户-添加邮箱或更改邮箱-->
+    <string name="user_update_email_checked">인증 통과</string>
+    <string name="user_add_email_subtitle">이메일 주소를 추가하시면, 이메일을 통해서도 로그인하실 수 있습니다</string>
+    <string name="user_update_email_subtitle">이메일 주소 변경 후, 새 이메일 주소를 사용하여 로그인하십시오</string>
+    <string name="user_update_email_verify">이메일 인증</string>
+    <string name="user_update_email_verify_placeholder"> &#160;6 자리 인증번호를 이메일을 통해 보내드렸습니다</string>
+    <string name="user_update_mobile_sms_placeholder"> &#160;6 자리 인증번호를 문자를 통해 보내드렸습니다</string>
+    <string name="user_update_email_placeholder">이메일 주소 입력</string>
+    <string name="user_add_mobile_subtitle">전화번호를 추가하시면, 전화번호를 통해서도 로그인하실 수 있습니다</string>
+    <string name="user_update_email_address">이메일 주소 변경</string>
+    <string name="user_update_mobile_number">전화번호 변경</string>
+    <string name="enter_new_email">새 이메일 주소 입력</string>
+    <string name="enter_new_phone">새 전화번호 입력</string>
+
+    <!--MediShares账户-绑定钱包地址-->
+    <string name="user_update_wallet_address">지갑 주소 변경</string>
+    <string name="user_update_wallet">지갑 변경</string>
+    <string name="user_unbind_wallet_address">연동 해제</string>
+    <string name="bind_account_page_title">연동되면 친구분들이 당신의 지갑을 볼 수 있습니다</string>
+    <string name="bind_eth_account_page_subtitle">&#160;ETH&#160;지갑 주소를 선택하여 연동시킵니다</string>
+    <string name="bind_eos_account_page_subtitle">&#160;EOS&#160;지갑 주소를 선택하여 연동시킵니다</string>
+    <string name="bind_neo_account_page_subtitle">&#160;NEO&#160;지갑 주소를 선택하여 연동시킵니다</string>
+    <string name="bind_account_confirm">연동 확인</string>
+    <string name="bind_account_complete_message">회원님의&#160;Math 계정이 성공적으로&#160;ETH&#160;지갑 주소와 연동되었습니다</string>
+    <string name="bind_kyc_complete_message">회원님의 실명 인증 정보가 제출되었습니다. 최대한 빨리 심사하여 피드백을 드리겠습니다</string>
+    <string name="binding_success">연동 완료</string>
+    <string name="binding_failure">연동 실패</string>
+    <string name="please_select_wallet">지갑 주소를 선택하여 연동시킵니다</string>
+    <string name="unbind_bindaddress">연동을 해제하시겠습니까？</string>
+    <string name="add_wallet_address">지갑 주소 추가</string>
+    <string name="bind_now">지금 연동</string>
+
+    <!--联系人列表-->
+    <string name="someone_you_might_know">알 수도 있는 연락인</string>
+    <string name="manual_add_contact_title">수동으로 추가</string>
+    <string name="qrcode_add_contact_title">QR코드를 스캔하여 추가</string>
+    <string name="contact_name_placeholder">연락인 성함을 입력</string>
+    <string name="contact_account_eth_address_title">ETH&#160;지갑 주소</string>
+    <string name="contact_account_esn_address_title">ESN&#160;지갑 주소</string>
+    <string name="contact_account_eos_address_title">EOS&#160;계정</string>
+    <string name="contact_account_bos_address_title">BOS&#160;계정</string>
+    <string name="contact_account_enu_address_title">ENU&#160;계정</string>
+    <string name="contact_account_telos_address_title">TELOS&#160;계정</string>
+    <string name="contact_account_neo_address_title">NEO&#160;지갑 주소</string>
+    <string name="contact_account_eosforce_address_title">EOS FORCE&#160;계정</string>
+    <string name="contact_account_btc_address_title">BTC&#160;지갑 주소</string>
+    <string name="contact_account_trx_address_title">TRX&#160;지갑 주소</string>
+    <string name="contact_account_nas_address_title">NAS&#160;지갑 주소</string>
+    <string name="contact_account_eth_address_placeholder">&#160;ETH&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_eos_address_placeholder">&#160;EOS&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_bos_address_placeholder">&#160;BOS&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_enu_address_placeholder">&#160;ENU&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_esn_address_placeholder">&#160;ESN&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_telos_address_placeholder">&#160;TELOS&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_neo_address_placeholder">&#160;NEO&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_eosforce_address_placeholder">&#160;EOS FORCE&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_ont_address_placeholder">&#160;ONT&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_btc_address_placeholder">&#160;BTC&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_trx_address_placeholder">&#160;TRX&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+    <string name="contact_account_nas_address_placeholder">&#160;NAS&#160;지갑 주소를 입력 혹은 붙여 주기</string>
+
+    <string name="select_contact">연락인을 선택</string>
+    <string name="my_wallet">나의 지갑</string>
+
+    <!--添加联系人-->
+    <string name="contact_add_title">연락인 추가</string>
+    <string name="contact_detail_title">연락인 정보</string>
+    <string name="sava_contacts_failed">연락인 저장 실패</string>
+    <string name="update_contacts_failed">연락처 업데이트 실패</string>
+    <string name="already_added_eth_contact">ETH 주소에서 동일한 연락인을 추가했습니다</string>
+    <string name="already_added_eos_contact">EOS 주소에서 동일한 연락인을 추가했습니다</string>
+    <string name="already_added_neo_contact">NEO 주소에서 동일한 연락인을 추가했습니다</string>
+    <string name="please_input_name">성함을 입력하세요</string>
+
+    <!--联系人信息-->
+    <string name="already_add">추가됨</string>
+    <string name="contact_edit_title">연락인 편집</string>
+    <string name="contact_edit_remove">연락인 삭제</string>
+    <string name="contact_edit_remove_failed">연락인 삭제 실패</string>
+    <string name="contact_edit_remove_waring_prompt">이 연락인을 삭제하시겠습니까？</string>
+
+    <!--关于-->
+    <string name="about_version_code">버전 %s</string>
+    <string name="about_version_description">Math Wallet은 가장 안전하고 강력한 다중체인 모바일 지갑으로서 EOS、BTC、ETH 생태계를 완벽하게 지원합니다. 또한 탈중앙화 기반으로 체인-체인 간의 거래를 지원하며, 다중체인 DApp 생태계를 완벽하게 구축하였습니다.</string>
+    <string name="website_title">Website:&#160;</string>
+    <string name="github_title">GitHub:&#160;</string>
+    <string name="twitter_title">Twitter:&#160;</string>
+    <string name="telegram_title">Telegram:&#160;</string>
+    <string name="medium_title">Blog:&#160;</string>
+    <string name="Kakao_title">Kakao:&#160;</string>
+    <string name="website_content">https://mathwallet.org</string>
+    <string name="github_content">https://github.com/MediShares</string>
+    <string name="twitter_content">https://twitter.com/MediShares</string>
+    <string name="telegram_content">https://t.me/medishares</string>
+    <string name="medium_content">http://blog.mathwallet.org</string>
+    <string name="medishares_org_made_with_in_singapore">Made with ❤️ in Singapore</string>
+    <string name="kakao_content">https://open.kakao.com/o/g5TSeeM</string>
+
+    <!--关注微信公众号-->
+    <string name="medishares_wechat_description">저희 공식 Wechat 채팅방에 가입하도록 초청드립니다, 우선 공식 Wechat를 팔로우해주세요：MediShares03</string>
+    <string name="medishares_telegram_description">저희 텔레그램 그룹에 가입할 것을 진심으로 환영합니다. 지금 가입하기：https://t.me/MediShares_korea</string>
+    <string name="medishares_kakao_description">저희 KaKao 그룹에 가입할 것을 진심으로 환영합니다. 지금 가입하기：https://open.kakao.com/o/g5TSeeM</string>
+    <string name="medishares_wechat_public">MDSjiangzuo</string>
+    <string name="medishares_wechat_public_copy">Wechat 계정 복사</string>
+    <string name="joinwx_notinstall_wx">핸드폰에는 wechat이 설치되어 있지 않습니다. 우선 wechat를 다운로드하세요</string>
+    <string name="joinwx_notinstall_tele">핸드폰에는 Telegram이 설치되어 있지 않습니다. 우선Telegram를 다운로드하세요</string>
+    <string name="joinwx_notinstall_kakao">KaKao 가 설치되어 있지 않거나, 현재 버전을 지원하지 않습니다</string>
+
+    <!--设置（语言、货币单位）-->
+    <string name="medishares_setting_language">언어</string>
+    <string name="medishares_setting_currency">화폐 단위</string>
+    <string name="medishares_setting_section_legal_tender">법정</string>
+    <string name="medishares_setting_section_virtual_currency">암호화폐</string>
+    <string name="medishares_setting_unlock_touchid">지문으로 열기</string>
+
+    <!--意见反馈-->
+    <string name="medishares_suggestion_text_title">회원님의 의견</string>
+    <string name="medishares_suggestion_email_title">이메일 주소</string>
+    <string name="medishares_suggestion_text_placeholder">회원님의 의견을 입력해주십시오. 귀한 의견에 감사드립니다</string>
+    <string name="medishares_suggestion_email_placeholder">회원님의 이메일 주소를 기입해주세요, 추후 연락을 드리도록 하겠습니다</string>
+    <string name="feedback_submitted">제출 완료</string>
+
+    <!--Unlock-->
+    <string name="unlock_touch_id_enable">지문으로 열기</string>
+    <string name="unlock_password_enable">지갑 비밀번호로 열기</string>
+    <string name="unlock_touch_id_prompt">\'지문으로 열기\'를 사용하시겠습니까</string>
+    <string name="unlock_password_input_placeholder">지갑 비밀번호를 사용하시겠습니까</string>
+    <string name="unlock_enable_touch_id">\'지문으로 열기\'를 사용하시겠습니까</string>
+    <string name="unlock_walletpassword">지갑 비밀번호를 사용하시겠습니까</string>
+    <string name="unable_to_recognize_fingerprint">지문이 틀렸습니다，%d번 기회가 남았습니다</string>
+    <string name="fingerprint_suspended">오류가 많아 계정이 잠겼습니다. 잠시 후 다시 시도해 주십시오</string>
+    <string name="device_locked">계정이 잠겼습니다. 잠시 후 다시 시도해 주십시오</string>
+    <string name="Mds_touchId">\'MDS\'의 터치 컨트롤 ID</string>
+    <string name="place_fingerprint_to_recognize">지문 스위치를 터치하여 지문 인증을 진행</string>
+
+    <!--领糖果-->
+    <string name="candy_recently_collect">최근 수령 기록</string>
+    <string name="candy_collect_record">최근 수령 기록</string>
+    <string name="candy_recharge_record">충전 기록</string>
+    <string name="candy_withdrawl_collect">코인 인출 기록</string>
+    <string name="candy_withdrawl">캔디 인출-</string>
+    <string name="candy_collected">수령했습니다</string>
+    <string name="candy_collect">지금 수령하기</string>
+    <string name="candy_collect_unenable">수령 불가</string>
+    <string name="user_credential_number_title">신분증 번호</string>
+    <string name="candy_record_state_release">발급했습니다</string>
+    <string name="candy_record_state_checking">심사 대기 중</string>
+    <string name="candy_record_state_checked_success">심사 통과</string>
+    <string name="candy_record_state_checked_fail">심사 미통과</string>
+    <string name="candy_record_state_cancellation">폐기되었습니다</string>
+    <string name="withdrawal">코인 인출</string>
+    <string name="my_candy">나의 캔디</string>
+    <string name="choose_withdrawal_candy">코인 인출 지갑을 선택</string>
+    <string name="edit_withdrawal_balance">인출할 금액을 기입</string>
+    <string name="least_10_mds">최소 %s개 %s 인출</string>
+    <string name="all_withdrawal">전체 코인 인출</string>
+    <string name="service_charge">수수료</string>
+    <string name="actual_balance">실제 금액</string>
+    <string name="no_litte_than_fee">최소 %s개 %s 인출</string>
+    <string name="no_little_than_fee">코인 인출액은 수수료보다 낮으면 안됩니다</string>
+    <string name="candy_withdrawl_tips">•&#160;최근 이더리움이 막힌 상태기 때문에 회원님의 MDS 입금 시간이 다소 늦어질 수 있지만 늦더라도 반드시 발급해드립니다. 걱정하지 마시고 기다리세요, 회원님의 이해와 지지에 감사드립니다!</string>
+
+    <!--其他-->
+    <string name="again_press_to_exit">다시 한번 누르시면 현재 페이지에서 나가실 수 있습니다</string>
+    <string name="search">검색</string>
+    <string name="add">추가</string>
+    <string name="paste">붙임</string>
+    <string name="confirm">확인</string>
+    <string name="cancle">취소</string>
+    <string name="copy">복사</string>
+    <string name="done">완성</string>
+    <string name="save">저장</string>
+    <string name="edit">편집</string>
+    <string name="submit">제출</string>
+    <string name="copied">복사됨</string>
+    <string name="next">다음</string>
+    <string name="prompt">도움말</string>
+    <string name="use">사용</string>
+    <string name="know">알았음</string>
+    <string name="success">성공</string>
+
+    <!--相册-->
+    <string name="alum">앨범</string>
+    <string name="album_all_image">모든 사진</string>
+    <string name="album_check">선택</string>
+    <string name="album_check_limit">최대 1$d장 사진을 선택할 수 있습니다</string>
+    <string name="album_check_little">사진을 선택하지 않았습니다</string>
+    <string name="album_dialog_permission_failed">권한 획득 실패</string>
+    <string name="album_dialog_sure">확인</string>
+    <string name="album_menu_finish">완성</string>
+    <string name="album_permission_camera_failed_hint">카메라 권한을 획득 실패했습니다, 설정 후 다시 사용하시기 바랍니다</string>
+    <string name="album_permission_storage_failed_hint">앨범 권한을 획득 실패했습니다, 설정 후 다시 사용하시기 바랍니다</string>
+    <string name="album_title_activity_gallery">사진</string>
+    <string name="gallery_menu_finish">완성</string>
+
+    <!--MediShares账户-添加手机号或更改手机号-->
+    <string name="user_update_mobile_placeholder">전화번호 입력</string>
+    <string name="user_update_mobile_subtitle">전화번호 변경 후, 새 전화번호를 사용하여 로그인하십시오</string>
+
+    <!--二维码 & 扫描二维码-->
+    <string name="copy_wallet_address">주소 복사</string>
+    <string name="account_address_qr_title">지갑 주소 QR 코드</string>
+    <string name="scan_qr_failed">QR코드 인식 실패</string>
+    <string name="wrong_eth_qr_code">이 QR코드는 ETH주소가 아닙니다</string>
+    <string name="wrong_esn_qr_code">이 QR코드는 ESN주소가 아닙니다</string>
+    <string name="wrong_eos_qr_code">이 QR코드는 EOS주소가 아닙니다</string>
+    <string name="wrong_enu_qr_code">이 QR코드는 ENU주소가 아닙니다</string>
+    <string name="wrong_bos_qr_code">이 QR코드는 BOS주소가 아닙니다</string>
+    <string name="wrong_neo_qr_code">이 QR코드는 NEO주소가 아닙니다</string>
+    <string name="wrong_ont_qr_code">이 QR코드는 ONT주소가 아닙니다</string>
+    <string name="wrong_btc_qr_code">이 QR코드는 BTC주소가 아닙니다</string>
+    <string name="wrong_eos_force_qr_code">이 QR코드는 EOS FORCE 주소가 아닙니다</string>
+    <string name="wrong_trx_qr_code">이 QR코드는 TRX주소가 아닙니다</string>
+    <string name="wrong_nas_qr_code">이 QR코드는 NAS주소가 아닙니다</string>
+
+    <!--交易记录-->
+    <string name="recent_transaction_records">최근 거래 기록</string>
+    <string name="tranfer">출금</string>
+    <string name="eos_map">EOS 매핑</string>
+    <string name="eos_map_success">매핑 완료</string>
+    <string name="refresh_map">다시 매핑</string>
+    <string name="currency_type">화폐 종류</string>
+    <string name="receipt">입금</string>
+    <string name="transfer_status_fail">거래 실패</string>
+    <string name="transfer_status_success">거래 성공</string>
+    <string name="wait_to_processing">패킹 중...</string>
+    <string name="unlimited">제한 없음</string>
+    <string name="_2f_percent">%.2f%%</string>
+    <string name="load_more">더 보기…</string>
+    <string name="load_more_empty_data">정보가 없습니다…</string>
+    <string name="check_etherscan_transation">Etherscan 거래 내역을 조회</string>
+    <string name="check_transaction_details">거래 내역 조회</string>
+    <string name="doublepay_warnning">동일한 거래가 패킹 중이오니 이중 결제 위험에 주의하시기 바랍니다</string>
+
+    <!--页面无数据-->
+    <string name="empty_data_prompt">데이터가 없습니다</string>
+    <string name="empty_data_publicity">공시 정보가 없습니다</string>
+    <string name="empty_data_transaction">거래 기록이 없습니다</string>
+    <string name="empty_data_trasfer">이체 기록이 없습니다</string>
+    <string name="empty_data_contacts">연락처가 없습니다</string>
+    <string name="empty_data_contacts_know">아시는 분이 없습니다</string>
+    <string name="empty_data_candy">수령 기록이 없습니다</string>
+    <string name="empty_withdraw_data_candy">출금 기록 없음</string>
+    <string name="empty_rechange_data_candy">충전 기록 없음</string>
+    <string name="empty_data_search">검색 결과가 없습니다</string>
+
+    <!--error-->
+    <string name="mnemonic_phrase_invalid">무효 mnemonic</string>
+    <string name="nparams_invalid">파라미터가 커서 도입 실패</string>
+    <string name="private_key_invalid">무효 private key </string>
+    <string name="mnemonic_path_error">mnemonic 경로 격식 오류</string>
+    <string name="password_error">비밀번호가 틀렸습니다</string>
+    <string name="keystore_json_version_unsupported">이 Keystore 버전을 지원하지 않습니다</string>
+    <string name="Invalid_keystore">무효 keystore</string>
+    <string name="Invalid_crypto">무효 crypto</string>
+    <string name="Invalid_cipheriv">무효 cipheriv</string>
+    <string name="Invalid_ciphertext">무효 ciphertext</string>
+    <string name="Invalid_iv">무효 iv</string>
+    <string name="Invalid_wallet_type">Math Wallet이 제공하는 Keystore를 사용하세요</string>
+    <string name="incorrect_length_of_mn">mnemonic의 자릿수 오류</string>
+    <string name="privatekey_error">private key 오류 </string>
+    <string name="Invalid_Algorithm">유효하지 않은 알고리즘</string>
+    <string name="invalid_parameter">파라미터 오류</string>
+    <string name="confirm_packaging_schedule">%d/12 확인 중</string>
+    <string name="please_check_network_connection">인터넷 연결을 체크하세요</string>
+    <string name="parse_error">오류 해석</string>
+    <string name="classtype_conversion_error">유형 전환 시 오류 발생</string>
+    <string name="connection_failed">연결 실패</string>
+    <string name="ssl_certificate_error">Certificate 인증 실패</string>
+    <string name="connect_timeout">연결 시간 초과</string>
+    <string name="unkonw_host_name">이 도메인을 해석할 수 없습니다</string>
+    <string name="unable_find_version">이 버전 정보를 찾을 수 없습니다</string>
+    <string name="password_cannot_be_empty">비밀번호는 비어 있으면 안 됩니다</string>
+    <string name="code_cannot_be_empty">인증 번호는 비어 있으면 안 됩니다</string>
+    <string name="please_enter_the_correct_eth_address">정확한 ETH 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_esn_address">정확한 ESN 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_eos_address">정확한 EOS 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_telos_address">정확한 TELOS 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_bos_address">정확한 BOS 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_enu_address">정확한 ENU 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_neo_address">정확한 NEO 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_btc_address">정확한 BTC 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_trx_address">정확한 TRX 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_nas_address">정확한 NAS 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_eos_force_address">정확한 EOS FORCE 주소를 입력하세요</string>
+    <string name="please_enter_the_correct_ont_address">정확한 ONT 주소를 입력하세요</string>
+    <string name="address_cannot_be_empty">주소가 비어 있으면 안 됩니다</string>
+    <string name="address_unmatched_with_private_key">주소 및 private key가 맞지 않습니다</string>
+    <string name="eth_wallet_address_incorrect">ETH 지갑 주소가 틀렸습니다</string>
+    <string name="search_contend_cannot_be_empty">검색 내용을 입력</string>
+
+    <!--权限-->
+    <string name="request_permission_camera">카메라 권한 신청</string>
+    <string name="request_permission_qr_warming">카메라 권한이 거절되어 QR코드를 스캔할 수 없습니다. 권한을 열어주세요</string>
+    <string name="request_permission_camera_warming">카메라 권한이 거절되어 사진을 찍을 수 없습니다. 권한을 열어주세요</string>
+    <string name="request_permission_contact">연락처 연결 권한 신청</string>
+    <string name="request_permission_phone">통화 권한 신청</string>
+    <string name="request_permission_contact_warming">연락처 연결 권한이 거절되어 연락인을 찾을 수 없습니다. 권한을 열어주세요</string>
+    <string name="request_permission_telephone_warming">통화 권한이 거절되어 통화할 수 없습니다. 권한을 열어주세요</string>
+    <string name="request_permission_sd">sd카드 읽을 권한</string>
+    <string name="request_permission_sd_warming">sd카드 읽을 권한이 거절되어 업데이트를 할 수 없습니다. 권한을 열어주세요</string>
+
+    <string name="units">UNITS</string>
+    <string name="gwei">GWEI</string>
+    <string name="eth">ETH</string>
+    <string name="eos">EOS</string>
+    <string name="cn_86">+86</string>
+    <string name="china">중국</string>
+    <string name="cost_money">-%s %s</string>
+    <string name="collect_money">+%s %s</string>
+    <string name="Eth">%s ETH</string>
+    <string name="show_unit">≈ %s%s</string>
+
+    <!--版本更新-->
+    <string name="update_reminding">최신 버전 업데이트 알림</string>
+    <string name="download_service_lock">다운로드 서비스를 사용할 수 없으니 기용하십시오</string>
+    <string name="no_sdcard">SD카드를 사용할 수 없어 업데이트 할 수 없습니다</string>
+    <string name="install_fail">다운로드 실패</string>
+    <string name="download_success_open">다운로드 완료 후, 클릭하시고 열어주세요</string>
+    <string name="start_downloading">다운로드 중입니다. 잠시만 기다려 주세요</string>
+    <string name="please_load_over_wifi">Wi-Fi 연결하고 다운로드해주세요</string>
+    <string name="load_over_4g">Wi-Fi가 연결되지 않았습니다. 계속 다운로드하시겠습니까? </string>
+    <string name="update">버전 업데이트</string>
+    <string name="this_is_the_lastest_version">이미 최신 버전입니다</string>
+
+    <!--DApp-->
+    <string name="guarantee_contract">보장 계약</string>
+    <string name="electronic_certificates">전자 증빙</string>
+    <string name="user_is_expired">로그인 시간이 만료되었으니 다시 로그인하십시오</string>
+    <string name="join_guarantee">보장 가입</string>
+    <string name="please_join_with_mds_wallet">일반 ETH 지갑은 이 계약에 가입할 수 없습니다. Math 안전 지갑을 만들어주세요.</string>
+
+    <!--time-->
+    <string name="mins_ago">%d분 전</string>
+    <string name="hours_ago">%d시간 전</string>
+    <string name="days_ago">%d 일 전</string>
+    <string name="just_now">방금</string>
+    <string name="months_ago">%d개월 전</string>
+
+    <!--节点设置-->
+    <string name="set_point">노드 설치</string>
+    <string name="add_custom_point">자체 정의 노드 추가</string>
+    <string name="input_point_address">유효한 노드 주소를 입력하십시오</string>
+    <string name="point_mainnet">•현재 네트가 $mainnet입니다</string>
+    <string name="not_success_point_address">유효한 노드 주소가 아닙니다</string>
+    <string name="already_add_point">이 노드가 이미 제출되었으니 중복 추가하지 마십시오</string>
+    <string name="submit_new_token">새 Token를 제출하세요</string>
+
+    <!--// Neo-->
+    <string name="create_neo_wallet">NEO 지갑 만들기</string>
+    <string name="getTransaction_error">거래 기록 조회 실패</string>
+    <string name="neo_wallet_unclaim_amount">&#160;%1$s&#160;GAS 회수</string>
+    <string name="claimed_gas_successfully">GAS 회수가 성공되면 5분 후에 수취하십시오</string>
+    <string name="claimed_gas_time_notEnough">지난번 회수 시간부터 5분 미만이므로 잠시 후 재회수하십시오</string>
+    <string name="claimed_gas_notEnough">회수 가능한 GAS가 없습니다</string>
+
+    <!--EncryptedText-->
+    <string name="encryptedtext">EncryptedText</string>
+    <string name="wallet_import_encryptedtext_text_placeholder">EncryptedText&#160;파일내용을 붙임</string>
+    <string name="wallet_import_encryptedtext_password_title">EncryptedText&#160;비밀번호</string>
+    <string name="wallet_import_encryptedtext_password_placeholder">EncryptedText 비밀번호 입력</string>
+    <string name="wallet_import_encryptedtext_title"> &#160;EncryptedText&#160;통해 도입</string>
+    <string name="manage_neo_wallet_password">지갑 비밀번호</string>
+    <string name="create_neo_wallet_success_backup_encrypted_prompt">다음은 지갑의 encryptedtext 입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. 이 파일은 Math Wallet를 통해서만 불러올 수 있습니다</string>
+    <string name="neo_encryptedtext_backup_completed"> encryptedtext  백업 완료</string>
+    <string name="neo_disclaimer_warning_message">저희는 encryptedtext 및 비밀번호 분실으로 인한 자산 손실에 대해 책임을 지지 않습니다！</string>
+    <string name="create_neo_wallet_success_copy_prompt">우선 Keystore 파일을 복사 및 백업하십시오</string>
+    <string name="check_neoscan_transation">NeoScan 거래 내역 조회</string>
+    <string name="check_nasscan_transation">NasScan 거래 내역 조회</string>
+    <string name="neo_gas_notenough">최소한 0.0000000001개 GAS가 있어야 Token을 발송할 수 있습니다</string>
+
+    <string name="input_point_address_notvalid">링크입니다</string>
+    <string name="please_input_validens">정확한 ENS를 입력하세요！</string>
+    <string name="copy_link">링크 복제</string>
+    <string name="refresh">새로고침</string>
+    <string name="tranfer_checkcontract_tips">Gas 비를 기준치 혹은 기준치 이상으로 올려주십시오</string>
+    <string name="share_link">링크 공유</string>
+
+    <!--dapp交易-->
+    <string name="unable_to_parse_personal_message">메시지 해석 불가</string>
+    <string name="invalid_address">주소 해석 불가</string>
+    <string name="invalid_message_length">메시지 길이 오류</string>
+    <string name="invalid_messae_data">메시지 유형 오류</string>
+    <string name="this_webpage_is_requesting_your_signature">웹 사이트에 거래 사인을 요청</string>
+    <string name="not_able_to_publish">거래 오류 발생</string>
+    <string name="eos_status_tips">현재 ERC20의 EOS가 동결 상태이니 이체할 수 없습니다</string>
+    <string name="verify_code_or">&#160;혹은&#160;</string>
+    <string name="verify_code_voice_code">음성 인증 번호</string>
+
+    <!-- 持仓-->
+    <string name="position_total_assets">총 자산</string>
+    <string name="position_medishares_wallet">Math Wallet</string>
+    <string name="position_rank_list">순위 차트</string>
+    <string name="position_holding_assets">보유 자산（≈%s）</string>
+    <string name="position_one_day">일</string>
+    <string name="position_one_week">주</string>
+    <string name="position_one_month">월</string>
+    <string name="position_asset_persen">자산·보유 비중</string>
+    <string name="position_amount_price">수량·가치</string>
+    <string name="position_sync">%s 의 자산 보유 내역이 업데이트 중 </string>
+    <string name="position_sync_fail">%s 자산 보유 내역 획득 실패 </string>
+    <string name="position_rankList_day">일</string>
+    <string name="position_rankList_week">주</string>
+    <string name="position_rankList_month">월</string>
+    <string name="position_rankList_headerSlogan">보유 자산 증가폭 순위</string>
+    <string name="position_rankList_update">업데이트</string>
+    <string name="position_rankList_rankNick">석차·닉네임</string>
+    <string name="position_rankList_growMoney">증가 금액</string>
+    <string name="position_rankList_growPersent">증가 백분율</string>
+    <string name="position_rankList_joinRace">레이스 참여</string>
+    <string name="position_ranklist_anonymousId">익명 사용자</string>
+    <string name="position_joinRace_nickName">닉네임</string>
+    <string name="position_joinRace_SetNickName">회원님의 닉네임을 설정하세요</string>
+    <string name="position_joinRace_anonymous">익명</string>
+    <string name="position_joinRace_RaceManifesto">회원님의 자산 보유에 대한 건의를 드립니다</string>
+    <string name="position_joinRace_setRaceManifesto">레이스 참여 선언 추가</string>
+    <string name="position_joinRace_joinRace">레이스 참여</string>
+    <string name="position_joinRace_updatePosition">보유 자산 업데이트</string>
+    <string name="position_joinRace_quitRace">레이스에서 탈퇴</string>
+    <string name="position_position_detail">보유 자산 내역</string>
+    <string name="position_bind_exchangeId">거래소의 계정과 연동</string>
+    <string name="position_exchange_hasBind">연동된 거래소</string>
+    <string name="position_share_save_success">보존 성공</string>
+    <string name="position_exchange_support">지원 가능한 거래소</string>
+    <string name="position_exchange_unbind">연동 해제</string>
+    <string name="position_exchange_bind">즉시 연동</string>
+    <string name="position_Amount_bind">연동</string>
+    <string name="position_Amount_amount">계정</string>
+    <string name="position_Amount_Slogan">거래소 계정의 API 수권 정보를 입력</string>
+    <string name="position_Amount_Description">• API Key등 정보가 회원님의 설비에 저장될 것이며 제3자 설비나 플랫폼에게 발송되지 않습니다；\n• API Key등 정보를 잘 보관해 주시고, 누구에게도 알려 주지 마십시오；\n• 개인적인 이유로 API Key 등의 정보 유출 및 오용하는 데에 따른 손실은 저희가 책임을 지지 않습니다；</string>
+    <string name="position_Amount_tech">• 《거래소 API Key 획득 방법》을 살펴봅니다</string>
+    <string name="position_share_description">가장 안전한 암호화폐 자산 지갑</string>
+    <string name="position_position_record">거래 기록</string>
+    <string name="position_exchange_unbind_message">연동이 해제된 후, 자산 보유 데이터가 이 설비에서 삭제될 것입니다. 다음에 이 계정 정보를 방문하시려면 다시 연동하셔야 합니다 </string>
+    <string name="position_exited">로그아웃 성공 </string>
+    <string name="position_share_wechat">wechat 친구에게 공유</string>
+    <string name="position_share_friends">wechat 모멘트에서 공유</string>
+    <string name="position_save">앨범에서 저장</string>
+
+    <!--创建 EOS 账户-->
+    <string name="create_eos_account">EOS 계정 만들기</string>
+    <string name="create_bos_account">BOS 계정 만들기</string>
+    <string name="create_enu_account">ENU 계정 만들기</string>
+    <string name="create_telos_account">TELOS 계정 만들기</string>
+    <string name="import_eos_account">EOS 계정 도입</string>
+    <string name="import_bos_account">BOS 계정 도입</string>
+    <string name="import_enu_account">ENU 계정 도입</string>
+    <string name="import_telos_account">TELOS 계정 도입</string>
+    <string name="choose_eos_account">EOS 계정 선택</string>
+    <string name="choose_enu_account">ENU 계정 선택</string>
+    <string name="choose_telos_account">TELOS 계정 선택</string>
+    <string name="create_eos_force_account">EOS FORCE 계정 만들기</string>
+    <string name="import_eos_force_account">EOS FORCE 계정 도입</string>
+    <string name="choose_eos_force_account">EOS FORCE 계정 선택</string>
+    <string name="eos_account_input_placeholder">EOS 계정 설치</string>
+    <string name="eos_account">EOS 계정</string>
+    <string name="bos_account">BOS 계정</string>
+    <string name="enu_account">ENU 계정</string>
+    <string name="telos_account">TELOS 계정</string>
+    <string name="eos_force">EOS FORCE</string>
+    <string name="eos_force_account">EOS FORCE 계정</string>
+    <string name="eos_account_input_warning">•총 12개 문자\n• 숫자"1–5"、소문자 "a-z"에 한함</string>
+    <string name="eos_account_node">노드 커뮤니티</string>
+    <string name="eos_account_node_select_placeholder">EOS 커뮤니티를 선택</string>
+    <string name="password">비밀번호</string>
+    <string name="repeat_password">새 비밀번호를 다시 입력하십시오</string>
+    <string name="create_eos_wallet_success_title">계정 생성 완료</string>
+    <string name="create_bos_wallet_success_title">계정 생성 완료</string>
+    <string name="create_enu_wallet_success_title">계정 생성 완료</string>
+    <string name="create_telos_wallet_success_title">계정 생성 완료</string>
+    <string name="create_eosforce_wallet_success_title">계정 생성 완료</string>
+    <string name="eos_account_password_repeat_input_placeholder">비밀번호 다시 입력</string>
+    <string name="eos_account_create_warning_exist">EOS 계정이 이미 존재합니다</string>
+    <string name="bos_account_create_warning_exist">BOS 계정이 이미 존재합니다</string>
+    <string name="eos_account_create_warning_fail">EOS 계정 생성 실패</string>
+    <string name="restore_private_key_success">private key가 백업되었습니다</string>
+    <string name="create_eos_wallet_success_backup_prompt">다음은 계정의 private key파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다.</string>
+
+    <string name="modify_account_password">지갑 비밀번호 변경</string>
+    <string name="account_show">계정：%s</string>
+    <string name="manage_account">계정 관리</string>
+    <string name="account_name">계정 명</string>
+    <string name="account_passord">계정 비밀번호</string>
+    <string name="remove_account">계정 삭제</string>
+    <string name="remove_key">Key 삭제</string>
+    <string name="manage_key">Key 백업</string>
+    <string name="copy_account_address">계정 복사</string>
+    <string name="eos_account_qrcode">EOS 계정 코드</string>
+    <string name="bos_account_qrcode">BOS 계정 코드</string>
+    <string name="enu_account_qrcode">ENU 계정 코드</string>
+    <string name="telos_account_qrcode">TELOS 계정 코드</string>
+    <string name="eos_force_account_qrcode">EOS FORCE 계정 코드</string>
+    <string name="not_query_to_the_eos_account">EOS 계정을 조회하지 못하니 먼저 계정을 만드세요</string>
+    <string name="not_query_to_the_enu_account">ENU 계정을 조회하지 못하니 먼저 계정을 만드세요</string>
+    <string name="not_query_to_the_bos_account">BOS 계정을 조회하지 못하니 먼저 계정을 만드세요</string>
+    <string name="not_query_to_the_telos_account">TELOS 계정을 조회하지 못하니 먼저 계정을 만드세요</string>
+    <string name="not_query_to_the_eos_force_account">EOS FORCE 계정을 조회하지 못하니 먼저 계정을 만드세요</string>
+
+    <string name="account_name_format_error">유효하지 않은 계정명！</string>
+    <string name="how_to_get_invite_code">어떻게 초대 코드를 얻나요？</string>
+    <string name="invitation_code">초대 코드</string>
+    <string name="eos_account_code_input_placeholder">EOS 계정의 초대 코드를 입력하십시오</string>
+    <string name="bos_account_code_input_placeholder">BOS 계정의 초대 코드를 입력하십시오</string>
+    <string name="enu_account_code_input_placeholder">ENU 계정의 초대 코드를 입력하십시오</string>
+    <string name="telos_account_code_input_placeholder">TELOS 계정의 초대 코드를 입력하십시오</string>
+    <string name="eos_account_input_warming_placeholder">12개 문자， 숫자\'1~5\'、자모\'a~z\'포함</string>
+    <string name="eos_force_account_input_warming_placeholder">1-12개 문자， 숫자\'1~5\'、자모\'a~z\'포함</string>
+    <string name="eos_account_password">비밀번호</string>
+    <string name="eos_accountname_placeholder">대금 계정을 입력</string>
+    <string name="most_256_charter">최대 256개 문자</string>
+    <string name="meno_most_256_charter">최대 256개 문자를 추가</string>
+    <string name="add_note">"비고 추가</string>
+    <string name="send_to_eosaccount">계정 복사</string>
+    <string name="send_to_bosaccount">계정 복사</string>
+    <string name="send_to_enuaccount">계정 복사</string>
+    <string name="send_to_telosaccount">계정 복사</string>
+    <string name="send_to_eos_force_account">계정 복사</string>
+    <string name="send_eosaccount">송금</string>
+    <string name="receiver_eosaccount">수납 주소</string>
+
+    <string name="eos_account_create_by_friends_title">"친구 도움으로 EOS 계정을 생성하기</string>
+    <string name="eos_force_account_create_by_friends_title">"친구 도움으로 EOS FORCE 계정을 생성하기</string>
+    <string name="enu_account_create_by_friends_title">친구 도움으로 ENU 계정을 생성하기</string>
+    <string name="telos_account_create_by_friends_title">친구 도움으로 TELOS 계정을 생성하기</string>
+    <string name="bos_account_create_by_friends_title">친구 도움으로 BOS 계정을 생성하기</string>
+    <string name="eos_account_create_by_friends_publickey_title">Public Key</string>
+    <string name="eos_account_create_by_friends_publickey_prompt">public key를 복제해 회원님의 친구에게 발송하여 EOS계정을 만드세요</string>
+    <string name="account_create_by_friends_publickey_prompt">public key를 복제해 회원님의 친구에게 발송하여 %s 계정을 만드세요</string>
+    <string name="eos_account_create_by_friends_privatekey_title">Private Key</string>
+    <string name="eos_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 EOS계정을 불러올 수 있습니다</string>
+    <string name="eos_force_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 EOS FORCE계정을 불러올 수 있습니다</string>
+    <string name="enu_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 ENU 계정을 불러올 수 있습니다</string>
+    <string name="bos_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 BOS 계정을 불러올 수 있습니다</string>
+    <string name="telos_account_create_by_friends_privatekey_prompt">private key를 잘 보관하시고, 누군에게도(친구를 포함)보내주지 마세요. 회원님은 친구의 도움을 통해 계정을 생성한 후, private key를 이용해 TELOS 계정을 불러올 수 있습니다</string>
+    <string name="eos_main_net">EOS 메인 넷</string>
+    <string name="eos_force_fee_cost">Fee 0.01 EOSC</string>
+    <string name="eos_not_eos_force_warming">주의：EOSForce와 EOS는 같은 메인체인이 아니라 서로 이체할 수 없습니다</string>
+    <string name="eos_not_bos_warming">주의：BOS 와 EOS 는 같은 메인체인이 아니라 서로 이체할 수 없습니다</string>
+    <string name="eos_not_enu_warming">주의：ENU 와 EOS 는 같은 메인체인이 아니라 서로 이체할 수 없습니다</string>
+    <string name="eos_not_telos_warming">주의：TELOS 와 EOS 는 같은 메인체인이 아니라 서로 이체할 수 없습니다</string>
+    <string name="ont_wallet">ONT 지갑</string>
+    <string name="create_ont_wallet_success_backup_prompt">다음은 계정의 private key파일입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다.</string>
+    <string name="wallet_import_wif_phrase_title">WIF를 통해 불러오기</string>
+    <string name="wallet_import_wif_wif_title">WIF</string>
+    <string name="wallet_import_wif_wif_placeholder">WIF 를 붙이기</string>
+    <string name="contact_account_ont_address_title">ONT&#160;지갑 주소</string>
+    <string name="ong_wallet_unclaim_amount">Claim&#160;%1$s&#160;ONG</string>
+    <string name="ont_gas_notenough">최소한 0.01개 ONG가 있어야 Token을 발송할 수 있습니다</string>
+    <string name="manage_wallet_backup_wif">WIF 백업</string>
+    <string name="eos_ram">RAM</string>
+    <string name="eos_net">Net</string>
+    <string name="eos_ram_used">이미 사용됨</string>
+    <string name="eos_ram_quota">한도</string>
+    <string name="eos_buy_ram">RAM 매수</string>
+    <string name="eos_sell_ram">RAM 매도</string>
+    <string name="eos_resource_ram_buy_placeholder">매수 수량 입력</string>
+    <string name="eos_resource_ram_sell_placeholder">매도 수량 입력</string>
+    <string name="eos_resource_ram_buy">매수</string>
+    <string name="eos_resource_ram_sell">매도</string>
+    <string name="eos_resource_ram_price_trend">EOS RAM Exchange</string>
+    <string name="eos_resource_eos_balance">%s EOS 사용 가능</string>
+    <string name="bos_resource_eos_balance">%s BOS 사용 가능</string>
+    <string name="enu_resource_eos_balance">%s ENU 사용 가능</string>
+    <string name="telos_resource_eos_balance">%s TLOS 사용 가능</string>
+    <string name="eos_resource_ram_sell_kb_balance">%s KB 사용 가능</string>
+    <string name="eos_resource_ram_price_trade">RAM 가격: %s EOS/KB</string>
+    <string name="bos_resource_ram_price_trade">RAM 가격: %s BOS/KB</string>
+    <string name="enu_resource_ram_price_trade">RAM 가격: %s ENU/KB</string>
+    <string name="telos_resource_ram_price_trade">RAM 가격: %s TLOS/KB</string>
+    <string name="eos_resource_ram_available_value">사용 가능한 RAM ≈ %s EOS</string>
+    <string name="bos_resource_ram_available_value">사용 가능한 RAM ≈ %s BOS</string>
+    <string name="enu_resource_ram_available_value">사용 가능한 RAM ≈ %s ENU</string>
+    <string name="telos_resource_ram_available_value">사용 가능한 RAM ≈ %s TLOS</string>
+    <string name="eos_resource_ram_input_value_zero">금액이 0로 불가</string>
+    <string name="eos_resource_stake">저당</string>
+    <string name="eos_resource_refund">되찾기</string>
+    <string name="eos_resource_net_stake">넷을 저당</string>
+    <string name="eos_resource_net_refund">넷을 되찾기</string>
+    <string name="eos_resource_cpu_stake">CPU 저당</string>
+    <string name="eos_resource_cpu_refund">CPU 되찾기</string>
+    <string name="eos_resource_used_title">이미 사용됨</string>
+    <string name="eos_resource_limit_title">상한</string>
+    <string name="eos_balance_liquid">잔액</string>
+    <string name="eos_balance_staked">저당</string>
+    <string name="eos_balance_refunding">되찾기</string>
+    <string name="eos_resource_net_stake_placeholder">저당 수량을 입력</string>
+    <string name="eos_resource_net_refund_placeholder">되찾을 수량을 입력</string>
+    <string name="eos_resource_cpu_stake_placeholder">저당 수량을 입력</string>
+    <string name="eos_resource_cpu_refund_placeholder">되찾을 수량을 입력</string>
+    <string name="eos_resource_net_staked_total">저당된 넷 %s</string>
+    <string name="eos_resource_cpu_staked_total">저당된 CPU %s</string>
+    <string name="eos_resource_net_refund_balance_low">저당된 넷 수량을 초과되면 안됩니다</string>
+    <string name="eos_resource_cpu_refund_balance_low">저당된 cpu 수량을 초과되면 안됩니다</string>
+    <string name="btc_create_address">새 주소 생성</string>
+    <string name="btc_fee_unit">sat/B</string>
+    <string name="exchange_must_edit_meno">거래소향 충전 시 반드시 memo를 입력하십시오</string>
+    <string name="account_not_exist">이 계정이 존재하지 않습니다</string>
+    <string name="transaction_expired">거래가 만료되었으니 다시 시도하십시오</string>
+    <string name="ram_is_not_enough">이 계정의 RAM이 부족하여 작업이 중단되었습니다. 우선 RAM을 구입하십시오.</string>
+    <string name="net_is_not_enough">이 계정의 net이 부족하여 작업이 중단되었습니다. 수동으로 저당하거나 친구의 도움을 요청하십시오.</string>
+    <string name="cpu_is_not_enough">이 계정의 net이 부족하여 작업이 중단되었습니다. 수동으로 저당하거나 친구의 도움을 요청하십시오..</string>
+    <string name="transfer_must_greater_0">이체 금액은 0보다 커야 합니다</string>
+    <string name="custom_node">자체 정의%s노드</string>
+    <string name="claim_approved">배상 신청 완료</string>
+    <string name="tips_owner_active">Tips： \n• Owner permission: Owner owns the account, manages account permissions, manages Active and other roles;\n • Active permissions: Active has other permissions such as transfer, voting, etc.\n• Weight threshold: The weight threshold is the minimum weight requirement for using permission;\n• Weight: The weight standard of public key. The higher the number, the higher the weight;\n• Permission change should starts from small to large, such as Active first and then Owner;\n• When changing permissions, please ensure that the new public key or account name is accurate;\n• Before changing permissions, please make sure the assets has been properly managed.</string>
+    <string name="manager_permission">Permission 관리</string>
+    <string name="backup_privatekey">Private Key 백업</string>
+    <string name="delete_auth">권한 추가</string>
+    <string name="permission_threshold">Threshold %d</string>
+    <string name="threshold">Threshold</string>
+    <string name="submit_update_auth">변경 요청을 제출</string>
+    <string name="weight">Weight %d</string>
+    <string name="weight_is_not_1">현재는 Threshold 치가 1인 권한 변경을 지원합니다</string>
+    <string name="permission">%s%s 권한</string>
+    <string name="update_permission">변경 %s</string>
+    <string name="add_permission">권한 추가</string>
+    <string name="update_permission_title">권한 갱신</string>
+    <string name="add_auto">추가 %s</string>
+    <string name="reInport_owner_auth">Owner 권한인 PrivateKey가 변경되었으니 새 PrivateKey 를 다시 도입하십시오</string>
+    <string name="fee_of_updateauth">권한 변경 수수료 0.1000 EOSC</string>
+    <string name="check_ontExplorer_transation">OntExplorer  거래 내역 조회</string>
+    <string name="ont_cost">Gas %s ONG&#160;%s</string>
+    <string name="wallet_import_wif_title">WIF</string>
+    <string name="copy_wif">WIF 를 복사하기</string>
+    <string name="restore_wif_success">Restore WIF Successfully</string>
+    <string name="map">Map</string>
+    <string name="map_to_value_placeholder">Enter Amount</string>
+    <string name="ont_map">ONT 매핑</string>
+    <string name="neo_asset">현재 자산 %1s ONT</string>
+    <string name="neo_map_tips">• The main network was launched on June 30, 2018. The mapping began on July 9, 2018 (UTC) and will end on October 1, 2018 (UTC). When all NEP-5 ONTs are mapped, only could map integer amount. Large amount ONT mapping.\n Since NEO and ONT use the same public/private key pair system, your NEO wallet activeAddress, private key, WIF Is the corresponding ONT wallet activeAddress, private key, WIF.\n Please restore your private key and WIF of NEO wallet and ONT wallet .</string>
+    <string name="wallet_import_privatekey_wif_placeholder">WIF 를 붙이기</string>
+    <string name="ong_withdraw_tips">ONG를 추출 시 수수료가 0.01 개 ONG입니다</string>
+
+    <string name="whitelist_wallet">기업 지갑</string>
+    <string name="create_ent_whitelist_wallet">기업 지갑 만들기</string>
+    <string name="whitelist">화이트 리스트</string>
+    <string name="loading_whitelist">오른쪽 리프레시를 클릭하여 화이트 리스트를 획득</string>
+    <string name="empty_whitelist">화이트 리스트 연락인이 없습니다 </string>
+    <string name="about_whitelist_wallet_tv">• 기업 지갑은 Token Fund등 조직을 위해 만든 맞춤형 지갑입니다,자세히 보기</string>
+    <string name="whitelist_invite_code_hint">초대 코드를 입력</string>
+    <string name="not_in_whitelist">현재의 주소는 화이트 리스트 중의 사용자가 아닙니다</string>
+    <string name="transaction_notification">송금 알림</string>
+    <string name="newsletter">속보</string>
+    <string name="news_flash">속보</string>
+    <string name="news_news">뉴스</string>
+    <string name="strategy">공략</string>
+    <string name="math_news">Math 속보</string>
+    <string name="wechat">Wechat</string>
+    <string name="wechat_friends">모멘트</string>
+    <string name="download">다운로드</string>
+    <string name="save_pic">사진을 저장하기 </string>
+    <string name="newsletter_share_text1">등록 후 10개 MDS를 받으실 수 있으며, 친구를 초대하면 추가로 10개 MDS를 받으실 수 있습니다</string>
+    <string name="newsletter_share_text2">당신의 블록체인 애플리케이션 입구</string>
+    <string name="btc_address_type">주소 유형</string>
+    <string name="btc_segWit_type">SegWit</string>
+    <string name="btc_cost">Gas %s  %s  %s</string>
+
+    <string name="red_name_input">행운을 빕니다!</string>
+    <string name="red_open_desc">홍바오 하나 보내드렸습니다</string>
+    <string name="red_alert_remain">홍바오 다 수령했습니다</string>
+    <string name="red_alert_expire">무효 홍바오</string>
+
+    <string name="disclaimer">면책 성명</string>
+    <string name="choose_btc_address_type">주소 유형 선택</string>
+    <string name="error_change_output">Error determining change address</string>
+    <string name="input">Input</string>
+    <string name="output">Output</string>
+    <string name="time">시간</string>
+    <string name="transaction_detail_tx_hash">거래 번호</string>
+    <string name="check_blockChainExplorer_transation">BLOCKCHAIN</string>
+    <string name="transfer_wait_confirm">확인 중</string>
+    <string name="btc_normal_type">일반</string>
+
+    <string name="newsletter_search_history">검색 기록</string>
+    <string name="newsletter_search_top">실시 검색</string>
+    <string name="newsletter_search_empty">검색 결과가 없으니 키워드를 바꿔 보세요</string>
+
+    <string name="createing_eos_wallet_success_title">EOS 계정 생성 중</string>
+    <string name="locked">동결</string>
+    <string name="dapps_contract">Contracts-Actions</string>
+    <string name="dapps_contract_args">Fields</string>
+    <string name="dapps_trasnfer_to">Remitted</string>
+    <string name="dapps_transfer_meno">Memo</string>
+    <string name="dapps_contract_fee">Fee</string>
+    <string name="scan">Scan</string>
+    <string name="eos_simplewallet_login">%s 로그인</string>
+    <string name="eos_simple_login_prompt">계정 \"%s\" 로 \"%s\",로그인할 겁니다，확인하세요 ？</string>
+    <string name="simplewallet_confirm">로그인 확인</string>
+    <string name="please_change_eoswallet">EOS 지갑으로 전환 후 다시 시도하세요</string>
+
+    <string name="mds_exchange_trade_buy_name">%s 매수</string>
+    <string name="mds_exchange_trade_sell_name">%s 매도</string>
+    <string name="mds_exchange_trade_avaiable_amount">%s %s 사용 가능</string>
+    <string name="mds_exchange_trade_record_filter_option1">전체</string>
+    <string name="mds_exchange_trade_record_filter_option2">Large deal，> 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option3">Medium deal，500 to 2000 EOS</string>
+    <string name="mds_exchange_trade_record_filter_option4"><![CDATA[Small deal，< 500 EOS]]></string>
+    <string name="mds_exchange_trade_buy">매수</string>
+    <string name="mds_exchange_trade_sell">매도</string>
+    <string name="mds_exchange_trade_record_filter">Filter</string>
+    <string name="mds_exchange_trade_record_amount">수량</string>
+    <string name="mds_exchange_trade_record_amount1">수량(%s)</string>
+    <string name="mds_exchange_trade_record_account">계정</string>
+    <string name="mds_exchange_trade_total_amount">%s %s 거래액</string>
+    <string name="mds_exchange_trade_record_history">역사적 기록</string>
+    <string name="mds_exchange_trade_record_time">시간</string>
+    <string name="mds_exchange_trade_record_direction">방향</string>
+    <string name="mds_exchange_trade_record_price">가격(%s/%s)</string>
+    <string name="total_Candy">누적 캔디</string>
+    <string name="available_Candy">인출 가능한 캔디</string>
+    <string name="candy_tasks">캔디 미션</string>
+    <string name="empty_candy_task">캔디 미션이 없습니다</string>
+    <string name="eospark_exploer">EOSpark에서 거래내역 조회</string>
+    <string name="about">관련</string>
+    <string name="dapp_about_type">종류</string>
+    <string name="dapp_about_mainnet">메인넷</string>
+    <string name="dapp_about_developer">개발자</string>
+    <string name="dapp_about_share">친구에게 공유하기</string>
+    <string name="btc_seekbar_fee">슬라이드 하여 가스비 설정</string>
+    <string name="btc_custom_fee">가스비 설정하기</string>
+
+    <string name="price_high">H:</string>
+    <string name="price_low">L:</string>
+    <string name="price_open">O:</string>
+    <string name="price_close">C:</string>
+    <string name="eos_market_more">more</string>
+    <string name="eos_market_24h_h">24H H</string>
+    <string name="eos_market_24h_l">24H L</string>
+    <string name="eos_market_24h_c">24H V</string>
+    <string name="eos_market_15_min">15 m</string>
+    <string name="eos_market_1_hours">1 h</string>
+    <string name="eos_market_1_day">1 d</string>
+    <string name="eos_market_1_m">1 m</string>
+    <string name="eos_market_5_m">5 m</string>
+    <string name="eos_market_30_m">30 m</string>
+    <string name="eos_market_1_week">1 w</string>
+    <string name="eos_market_1_mouth">1 M</string>
+    <string name="tips_btc_address"><Data> <![CDATA[Tips：<br/>•주소 유형은 일반 혹은 Segwit로 구분할 수 있습니다. <font color="#5ac8fa">about Segwit</font>；<br/>•비트코인 지갑은 여러 개의 주소를 생성하여 주소의 중용을 피하며 개인 정보를 보호할 수 있습니다；<br/>•선택된 주소는 묵인된 입금지가 될 것입니다；]]> </Data></string>
+    <string name="dapps_contract_args_detail">자세히 보기</string>
+    <string name="swft_fastchange">闪兑</string>
+    <string name="swft_inputAmount">출금 금액</string>
+    <string name="swft_chooseReceiveWallet">입금 지갑을 선택</string>
+    <string name="swft_change">환전</string>
+    <string name="swft_change_rate">实时汇率</string>
+    <string name="swft_receiveAmount">입금 금액</string>
+    <string name="swft_change_record">환전 기록</string>
+    <string name="all">전체</string>
+    <string name="mds">MDS</string>
+    <string name="esn">ESN</string>
+    <string name="ont">ONT</string>
+    <string name="neo">NEO</string>
+    <string name="btc">BTC</string>
+    <string name="swft_chooseCoin">코인을 선택</string>
+    <string name="available_amount">사용 가능  %s  %s</string>
+    <string name="swft_instant_rate">1  %s = %s  %s</string>
+    <string name="deposit">전출</string>
+    <string name="receive">접수</string>
+    <string name="rate">환율</string>
+    <string name="fee">수수료</string>
+
+    <string name="choose_wallet">%s 지갑을 선택</string>
+    <string name="exchange_title">%s 대 %s</string>
+    <string name="double_params">%s %s</string>
+    <string name="swft_change_status">이체 상태</string>
+    <string name="swft_change_detail">환전 내역</string>
+    <string name="swft_deposit">전출(%s)</string>
+    <string name="swft_receive">접수(%s)</string>
+    <string name="swft_tooHigh">최대 환전 가능치 %s 초과</string>
+    <string name="swft_tooLow">최소 환전 가능치 %s 미만</string>
+
+    <string name="medishares_finger_pay">지문으로 지불</string>
+    <string name="medishares_finger_pay_message">오픈 후 지문 확인을 통해 빠른 결제 가능.</string>
+
+    <string name="simplewallet_login_no_account">아직 %s 계정이 없습니다</string>
+    <string name="simplewallet_login_back_to_dapp">%s 로 돌아가기</string>
+    <string name="account_doesnt_exist">이 계정은 존재하지 않으니 계정을 불러오세요</string>
+    <string name="dapp_delete_Cache">캐시 삭제</string>
+    <string name="dapp_clear_cache_success">캐시 삭제 성공</string>
+    <string name="foru_params">%s %s = %s %s</string>
+
+    <string name="eos_account_select_create_way">생성 방식을 선택하다</string>
+    <string name="eos_account_create_way_alipay">초대 코드를 구매하기</string>
+    <string name="eos_account_create_way_recommend">추천</string>
+    <string name="eos_account_create_way_exchange">거래소 출금 혹은 지갑 이체</string>
+    <string name="eos_account_create_way_friends">친구를 초대해 Math Wallet으로 QR코드를 스캔하여 지불하기</string>
+    <string name="eos_account_create_backup_prompt">다음은 신 계정의 private key입니다. 복사하고 안전한 곳에 보관하십시오. 잃어버리시면 지갑을 복구할 수 없습니다. </string>
+    <string name="eos_account_create_backup_prompt2">이체 완료 후, 이 private key를 도입함으로써 계정 생성을 완성해야 합니다.</string>
+    <string name="eos_account_create_backup_private_title">계정 private key</string>
+    <string name="eos_account_create_by_exchange_prompt3">스마트 계약 주소:https://github.com/dappub/signuoeoseos</string>
+    <string name="eos_account_create_by_exchange_prompt4">거래소 출금 혹은 이체를 통해 계약 주소로 최소 1 EOS를 이체합니다. 0.2 EOS가 CPU와 넷을 저당되며, 나머지는 RAM을 구매하기.</string>
+    <string name="eos_account_create_by_exchange_prompt5">현재 지원하는 거래소가 OTCBTC, Gate.io, Bitfinex 이며, 다른 거래소를 사용하지 말 것을 건의합니다. </string>
+    <string name="eos_account_create_by_exchange_prompt6">다음은 입금계정 및 이체 비고입니다. 복사하고 거래소나 지갑에 기입해 주십시오.</string>
+    <string name="eos_account_create_by_exchange_prompt7">인출이나 이체가 성공되면, 백업된 private key를 Math Wallet으로 도입하시면 바로 계정을 생성할 수 있습니다.</string>
+    <string name="eos_account_create_by_exchange_account_title">계정으로 이체</string>
+    <string name="eos_account_create_by_exchange_memo_title">비고 추가</string>
+    <string name="eos_account_create_by_exchange_prompt8">이 방식은 Dappub팀이 배치한 스마트 계약을 사용합니다. 사용자가 잘 못한 조작으로 인해 자산 손실에 대해 저희가 책임을 지지 않습니다.</string>
+    <string name="eos_account_create_by_exchange_copy_account">복사 계정</string>
+    <string name="eos_account_create_by_exchange_copy_memo">복사 memo</string>
+    <string name="eos_account_create_by_friend_prompt9"> 결제가 완료되면, 미리 백업된private key를 도입하여 계정을 생성하기.</string>
+    <string name="eos_account_create_by_friend_share_title">QR코드를 공유하기</string>
+    <string name="eos_account_create_by_friend_section_title">계정 정보</string>
+    <string name="eos_account_create_by_friend_account_title">계정</string>
+    <string name="eos_account_create_by_friend_owner_title">Owner\nPublic key</string>
+    <string name="eos_account_create_by_friend_active_title">Active\nPublic key</string>
+    <string name="eos_account_create_by_friend_prompt10"> 친구는 Math Wallet을 이용해 이 QR코드를 스캔해 약 %s EOS를 지불하여 CPU와 넷을 저당잡히고 RAM을 구매하기.</string>
+    <string name="swft_crosschain">체인-체인 환전</string>
+    <string name="swft_wait_deposit_send">입금 대기</string>
+    <string name="swft_timeout">시간 초과</string>
+    <string name="swft_exchanging">환전 중</string>
+    <string name="swft_receive_complete">성공</string>
+    <string name="swft_wait_refund_send">환전 실패, 환불 대기</string>
+    <string name="swft_refund_complete">환볼 완료</string>
+    <string name="swft_logo">Powered by SWFT Blockchain </string>
+    <string name="swft_exchange_record">환전 기록</string>
+    <string name="swft_notSupport">이 거래가 잠시 중지되었습니다</string>
+    <string name="swft_order_id">오더 번호</string>
+    <string name="swft_detail_question">이 오더에 대해 의문이 있습니까 ？</string>
+    <string name="swft_reconnect">환율 접속 실패, 클릭하시고 다시 불러오세요</string>
+    <string name="trx_wallet">TRX 지갑</string>
+    <string name="create_trx_wallet_success_title">TRX 계정 생성 중</string>
+
+    <string name="recently_used">최근조회</string>
+    <string name="trx_multiple_candidates">Multiple Candidates</string>
+    <string name="trx_votes_reset">Votes Reset</string>
+    <string name="trx_duration">Duration</string>
+    <string name="mine_medishares_guild">공회</string>
+    <string name="location">위치</string>
+    <string name="allow_access_to_your_location">위치정보의 사용을 통의합니까 ?</string>
+    <string name="dapps_upgrade_disclaimer">회원님의 지갑 버전이 너무 낮아서 이 응용은 사용할 수 없습니다. 먼저 지갑을 업그레이드하시기 바랍니다. 감사합니다!</string>
+    <string name="dapps_open_risk_disclaimer">Math Wallet은 귀하가 제3자의 Dapp 페이지에 방문하시고 사용하시는 과정에서 제3자의 Dapp의 《사용자 협의》 및 《프라이버시 정책》을 주의하실 것을 당부드립니다. Dapp을 이용하면서 발생 가능한 위험과 그 결과에 따른 모든 책임은 Dapp을 제공하는 제3자가 지고 있습니다.</string>
+    <string name="dapps_risk_disclaimer">제3자의 Dapp의 《사용자 협의》 및 《프라이버시 정책》을 주의하시기 바랍니다. Dapp을 이용하면서 발생 가능한 위험과 그 결과에 따른 모든 책임은 Dapp을 제공하는 제3자가 지고 있습니다.</string>
+    <string name="close_dapp_no_finger">댑을 끄기 전에 추가 확인을 하지 않습니다</string>
+    <string name="eos_account_create_success_pendding_propmt">계정이 이미 생성되어 메인넷에 제출되었으니, 메인넷에서 확인한 후(약 3분) 거래하시기 바랍니다.</string>
+    <string name="dapp_rankings">DApp 랭킹</string>
+    <string name="dapps_24h_users">24H 사용자</string>
+    <string name="dapps_24h_transactions">24H 거래수</string>
+    <string name="dapps_24h_volume">24H 거래액</string>
+    <string name="dapps_rank_date_source">데이터 출처：%s</string>
+    <string name="dapps_rank_data_source_empty">데이터 출처: 없음</string>
+    <string name="check_trxExplorer_transation">TronExplorer  거래 내역 조회</string>
+    <string name="trx_bandWidth">BP</string>
+    <string name="trx_energy">Energy</string>
+    <string name="trx_balance_avaiable">Available</string>
+    <string name="trx_balance_freeze">동결</string>
+    <string name="trx_resource_freeze">동결</string>
+    <string name="trx_resource_unfreeze">동결 해제</string>
+    <string name="trx_resource">Resource</string>
+    <string name="trx_hasUsed">Used</string>
+    <string name="trx_limit">Limit</string>
+    <string name="trx_stake_unit">동결된%s %s TRX</string>
+    <string name="balance_avaiable_token">Available %s %s</string>
+    <string name="trx_freeze_hint">동결 수량 입력</string>
+    <string name="trx_freeze_tip">동결 시간은 최소 3일</string>
+    <string name="trx_unfreeze_tips">%s동결 시간이 3일보다 적으니 해동할 수 없습니다</string>
+    <string name="freeze">동결-</string>
+    <string name="unfreeze">동결 해제</string>
+    <string name="trx_not_transfer">해당 토큰은 아직 거래할 수 없습니다</string>
+    <string name="vote">투표</string>
+    <string name="exchange_transfer">거래-</string>
+
+    <string name="trx_buy">매수</string>
+    <string name="trx_pre_cost">예상 비용</string>
+    <string name="trx">TRX</string>
+    <string name="transaction_rate_possible">%s ≈ %s</string>
+    <string name="trx_direction">방향</string>
+    <string name="trx_transaction_amount">거래액</string>
+    <string name="trx_sell">매도</string>
+    <string name="trx_pre_get">예상 수익</string>
+    <string name="eos_transfer_delay_set_placeholder">거래 시간 설정</string>
+
+    <string name="pickerview_cancel" translatable="false">취소</string>
+    <string name="pickerview_day" translatable="false">일</string>
+    <string name="pickerview_hours" translatable="false">시</string>
+    <string name="pickerview_minutes" translatable="false">분</string>
+    <string name="pickerview_month" translatable="false">월</string>
+    <string name="pickerview_seconds" translatable="false">초</string>
+    <string name="pickerview_submit" translatable="false">확정</string>
+    <string name="pickerview_year" translatable="false">년</string>
+
+    <string name="eos_account_permission_text_placeholder">새로운 EOS 퍼블릭키 혹은 계정을 입력하세요</string>
+    <string name="telos_account_permission_text_placeholder">새로운 TELOS 퍼블릭키 혹은 계정을 입력하세요</string>
+    <string name="bos_account_permission_text_placeholder">새로운 BOS 퍼블릭키 혹은 계정을 입력하세요</string>
+    <string name="enu_account_permission_text_placeholder">새로운 ENU 퍼블릭키 혹은 계정을 입력하세요</string>
+    <string name="eos_account_permission_text_invalid">무효한 EOS 퍼블릭 키 혹은 계정입니다</string>
+    <string name="eos_threshold_totalweight">The total weight cannot be less than the threshold.</string>
+    <string name="dapps_item_recently_title">최근 사용</string>
+    <string name="dapps_item_new_online_title">신제품</string>
+    <string name="dapps_item_recommend_title">추천</string>
+    <string name="trx_market_5_min">5 m</string>
+    <string name="trx_market_30_m">30 m</string>
+    <string name="trx_market_4_h">4 H</string>
+    <string name="trx_buy_tips">예상 비용을 조금 올리면 거래 확률을 높일 수 있습니다</string>
+    <string name="trx_sell_tips">예상 수익을 조금 낮추면 거래 확률을 높일 수 있습니다</string>
+    <string name="eos_transaction_choose_broswer">블록체인 브라우저에서 거래 내역 조회</string>
+    <string name="trx_buy_failed_tips">거래를 완료하려면 TRX가 더 필요함</string>
+    <string name="sign_message">메시지 사인</string>
+    <string name="debug">Debug</string>
+    <string name="decode_error">Decode Error</string>
+    <string name="encrypt_error">Encrypt Error</string>
+    <string name="update_password_error">Update Password Error</string>
+    <string name="other_wallet">기타</string>
+
+    <string name="hardware_wallet">하드월렛</string>
+    <string name="hardware_Search">설비를 불러오는 중...</string>
+    <string name="hardware_connection">접속</string>
+    <string name="hardware_connection_current">현재 연결 설비</string>
+    <string name="hardware_connection_other">기타 설비</string>
+    <string name="hardware_Initialize">설비 초기화</string>
+    <string name="hardware_setPin">PIN 코드 설치</string>
+    <string name="hardware_setPin_hint">지갑의 안전을 위해서 먼저 PIN 코드를 설치하십시오. PIN 코드는 지갑 잠금해제, 이체 등에 사용되니 PIN 코드를 잘 보관해 주십시오.</string>
+    <string name="hardware_setPin_input">PIN 코드를 입력</string>
+    <string name="hardware_setPin_input_again">PIN 코드를 다시 입력</string>
+    <string name="hardware_setFinger">지문 설치</string>
+    <string name="hardware_setFinger_hint">지문을 설치한 후 PIN 코드 없이 지문인식을 통해 지갑 잠금해제, 이체 등을 할 수 있습니다.</string>
+    <string name="hardware_setFinger_no">설치하지 않습니다</string>
+    <string name="hardware_setFinger_start">지문을 등록하기 시작합니다\n장비에 손가락을 넣어 지문을 등록하세요</string>
+    <string name="hardware_setFinger_goodFinger">등록 완료\n손가락을 떼십시오</string>
+    <string name="hardware_setFinger_continue">지문 등록 계속하기\n장비에 같은 손가락을 넣어 지문을 등록하세요</string>
+    <string name="hardware_setFinger_complete">등록 완료\n지문 등록이 완료되었습니다</string>
+    <string name="hardware_PinAndFinger">PIN 코드와 지문</string>
+    <string name="hardware_backup_mnemonic_phrase">mnemonic 백업</string>
+    <string name="hardware_Initialize_again">설비 초기화</string>
+    <string name="hareware_initialize_alert">설비 초기화에 연동된 모든 지갑을 삭제할 것입니다. Private key를 잘 보관하셨습니까?</string>
+    <string name="hardware_delete">설비 삭제</string>
+    <string name="hardware_delete_alert">설비를 삭제하시면 추가된 지갑이 제거될 것입니다. 앞으로는 이 설비를 다시 연동하여 지갑을 불러올 수 있습니다.</string>
+    <string name="hardware_resetPin">PIN 코드 다시 설치</string>
+    <string name="hardware_resetFinger">지문을 다시 설치</string>
+    <string name="hardware_verify_finger">설비에서 지문을 인증하여 이체를 확인하세요</string>
+    <string name="hardware_verify_pin">설비에서 PIN 코드를 인증하여 이체를 확인하세요</string>
+    <string name="hareware_choose">하드월렛 선택</string>
+    <string name="hardware_mywallet">나의 지갑</string>
+    <string name="hardware_pin_diffrent">PIN 코드가 일치하지 않습니다</string>
+    <string name="hardware_account">계정</string>
+
+    <string name="dapp_search_hint">DApp 주소를 입력 혹은 검색하기</string>
+    <string name="open_link">링크 열기: </string>
+    <string name="dapp_search_open_otherwallet_message">%s지갑으로 전환하여 해당 DAPP을 접속하기</string>
+    <string name="dapp_search_nothing">검색 결과가 없습니다</string>
+    <string name="eth_sigh_address">사인 주소</string>
+    <string name="eth_sign_content">사인 내용</string>
+
+    <string name="eos_account_permission_accounts_add">계정 추가</string>
+    <string name="eos_account_permission_accounts_update">계정 업데이트</string>
+    <string name="update_permission_eos">업데이트</string>
+    <string name="eos_account_permission_choose">권한 선택</string>
+    <string name="eos_account_permission_weight_placeholder">weight 설치</string>
+    <string name="eos_account_permission_weight_title">weight</string>
+    <string name="eos_account_permission_permission_title">권한</string>
+    <string name="eos_account_permission_accounts_invalid">무효 계정</string>
+    <string name="eos_account_permission_keys_add">Public Key 추가</string>
+    <string name="eos_account_permission_keys_update">Public Key 업데이트</string>
+    <string name="eos_account_permission_keys_invalid">무효 Public Key</string>
+    <string name="eos_account_permission_waits_add">대기 추가</string>
+    <string name="eos_account_permission_waits_update">대기 업데이트</string>
+    <string name="eos_account_permission_waits_time_title">대기 시간</string>
+    <string name="eos_account_permission_waits_time_placeholder">대기 시간 설치</string>
+    <string name="eos_account_permission_parent_title_placeholder">parent 권한 선택 %s · %s</string>
+    <string name="eos_account_permission_import_operation_warning">The current account has %s permission，cannot change %s permission</string>
+    <string name="eos_account_permission_parent_placeholder">parent 권한 선택</string>
+    <string name="eos_account_permission_delete_warning">owner 와 active 권한은 변경할 수 없으며 가타 권한은 변경할 수 있습니다.</string>
+    <string name="eos_account_permission_keys_delete">Public Key 삭제</string>
+    <string name="eos_account_permission_accounts_delete">계정 삭제</string>
+    <string name="eos_account_permission_waits_delete">대기 삭제</string>
+    <string name="eos_account_permission_name_title">권한 명칭</string>
+    <string name="eos_account_permission_name_placeholder">권한 명칭 설치</string>
+    <string name="eos_account_permission_parent_title">parent 권한 선택</string>
+    <string name="eos_account_permission_threshold_placeholder">threshold 설치</string>
+    <string name="eos_account_permission_waits_title">대기</string>
+    <string name="eos_account_permission_no">없음</string>
+    <string name="language_of_mathwallet_translation">Math Wallet 커뮤니티 지원 번역자 여러분의 도움에 진심으로 감사드립니다. 러시아어 번역자: Alexey Koroln</string>
+    <string name="trade">거래</string>
+    <string name="eos_permission_inconsistent">이 계정의 %s 권한을 도입한 후 다시 조작하세요.</string>
+</resources>
